@@ -1,0 +1,52 @@
+.parallax {
+    background-image: url(../imgs/office_banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px 0;
+    position: relative;
+    &::before {
+    background: #422f33c9;
+    left: 0;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: block;
+    content: "";
+    }
+    .parlex_itm {
+        position: relative;
+        padding: 40px;
+        transition: all 0.5s;
+        &:hover {
+            padding: 40px;
+            background-color: #ff214f;
+            .ffa_icon {
+                color: #000;
+            }
+            .parl_prag {
+                color: #fff;
+            }
+
+        }
+        .ffa_icon {
+            transition: all 0.5s;
+            font-size: 40px;
+            color: #b7b7b7;;
+        }
+        .parl_prag {
+            transition: all 0.5s;
+            max-width: 143px;
+            margin: 0 auto;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 23px;
+            color: #b7b7b7;
+        
+        }
+        
+    }
+}

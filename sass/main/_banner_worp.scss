@@ -1,0 +1,33 @@
+.banner_worp {
+    .banner {
+         margin: 222px 0 172px 0;
+        .ban_hed {
+            font-size: 50px;
+            font-weight: 600;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+        }
+        .ban_pra {
+            font-size: 10px;
+            color: #444444c4;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+        .dhhsg {
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+            font-weight: 500;
+            text-transform: uppercase;
+            border-radius: 3px;
+            background-color: rgb(255, 33, 79);
+            transition: all 0.5s;
+            &:hover {
+                background-color: #000;
+
+            }
+        }
+    }
+    
+}
