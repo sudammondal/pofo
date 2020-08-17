@@ -151,12 +151,16 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
+  margin-bottom: 35px;
 }
 .wow_fadeIn .wow_hed {
   font-size: 34px;
   font-weight: 600;
   color: #000;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
+}
+.wow_fadeIn .wow_pra {
+  margin-bottom: 35px;
 }
 .wow_fadeIn .about {
   padding: 8px 30px;
@@ -268,4 +272,69 @@ body {
 .information .text-center {
   text-align: center !important;
   margin: 0 auto;
+}
+
+.dicover {
+  margin: 130px 0;
+}
+.dicover .wow_tpra {
+  color: #ff214f;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+.dicover .wow_hed {
+  font-size: 34px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 35px;
+}
+.dicover .wow_pra {
+  margin-bottom: 35px;
+}
+.dicover .about {
+  padding: 8px 30px;
+  border: 2px solid #000;
+  border-radius: 0;
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+.dicover .about:hover {
+  background-color: transparent;
+  color: #000;
+}
+.dicover .iconBanner {
+  margin-top: 49px;
+}
+.dicover .iconBanner .iconPart {
+  border: 1px solid transparent;
+  text-align: center;
+  margin-bottom: 0;
+  transition: all 0.7s;
+}
+.dicover .iconBanner .iconPart:hover {
+  border: 1px solid red;
+  box-shadow: darkgreen;
+}
+.dicover .iconBanner .iconPart .imgdiv {
+  margin: 28px;
+}
+.dicover .iconBanner .iconPart .hed_text_icon {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  font-weight: 600;
+  color: #000;
+}
+.dicover .iconBanner .iconPart .pra_text_icon {
+  font-size: 14px;
+  word-spacing: 0px;
+  padding-bottom: 10px;
+  max-width: 335px;
 }
