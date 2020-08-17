@@ -9,11 +9,14 @@
     .mainContiner {
         .navbar {
             padding: 0;
-            .kubGra {
+            .logo {
                 font-size: 30px;
                 color: #000;
                 font-weight: 600;
                 text-transform: uppercase;
+                span {
+                    color: red;
+                }
             }
             .collapse{
                 .ullist {
