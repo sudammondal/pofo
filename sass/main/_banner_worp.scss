@@ -1,17 +1,19 @@
 .banner_worp {
+    min-height: 800px;
+    background-color: #ddd;
     .banner {
-         margin: 222px 0 172px 0;
+         margin: 350px 0 380px 0;
         .ban_hed {
-            font-size: 50px;
+            font-size: 67px;
             font-weight: 600;
             text-transform: capitalize;
             margin-bottom: 20px;
         }
         .ban_pra {
-            font-size: 10px;
+            font-size: 16px;
             color: #444444c4;
             font-weight: 600;
-            margin-bottom: 25px;
+            margin-bottom: 50px;
         }
         .dhhsg {
             padding: 15px 25px;
