@@ -31,11 +31,14 @@ body {
 .header .mainContiner .navbar {
   padding: 0;
 }
-.header .mainContiner .navbar .kubGra {
+.header .mainContiner .navbar .logo {
   font-size: 30px;
   color: #000;
   font-weight: 600;
   text-transform: uppercase;
+}
+.header .mainContiner .navbar .logo span {
+  color: red;
 }
 .header .mainContiner .navbar .collapse .ullist {
   margin: 0 auto;
