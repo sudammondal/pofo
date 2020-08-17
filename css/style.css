@@ -335,22 +335,31 @@ body {
   max-width: 244px;
 }
 
-.counting_worp .project_countig {
-  margin-top: 80px;
-}
-.counting_worp .project_countig .costom_class {
-  padding: 26px 30px 5px 34px;
+.counting_worp {
+  background: #f3f3f3a3;
+  margin: 130px 0;
 }
 .counting_worp .project_countig .costom_class .counting_worp {
   text-align: center;
   font-size: 20px;
-  font-family: "Poppins", sans-serif;
+  padding: 40px;
+  border: 4px solid transparent;
+  outline: 1px solid #ededed;
 }
 .counting_worp .project_countig .costom_class .counting_worp .count_er {
-  color: #2693fc;
-  font-weight: 700;
+  font-size: 27px;
+  font-weight: 600;
+  color: #000;
 }
-.counting_worp .project_countig .costom_class:hover {
-  background: #f6fbff;
-  box-shadow: 4px 4px 10px #8888884a;
+.counting_worp .project_countig .costom_class .counting_worp .countex {
+  font-size: 14px;
+  color: #757575;
+}
+.counting_worp .project_countig .costom_class .counting_worp:hover {
+  border: 4px solid red;
+}
+.counting_worp .project_countig .costom_class .counting_worp .iconCount {
+  font-size: 40px;
+  color: #757575;
+  margin-bottom: 10px;
 }
