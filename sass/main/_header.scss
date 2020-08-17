@@ -15,7 +15,10 @@
                 font-weight: 600;
                 text-transform: uppercase;
                 span {
-                    color: red; 
+                    color: red;
+                    font-size: 40px;
+                    margin-left: -5px;
+                 
                 }
             }
             .collapse{
@@ -69,8 +72,11 @@
             .navbar {
                 .logo {
                     color: #fff;
+                    span {
+                        color: #fff;
+                    }
                 }
-                .collapse{
+                .collapse {
                     .ullist {
                         margin:  0 auto;
                         .nav-item {
