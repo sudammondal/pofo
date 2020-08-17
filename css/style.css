@@ -65,6 +65,7 @@ body {
 }
 .header .mainContiner .navbar .collapse .lastC .iCon {
   margin-left: 10px;
+  text-decoration: none;
 }
 .header .mainContiner .navbar .collapse .lastC .iCon .FTGQ {
   color: #000;
