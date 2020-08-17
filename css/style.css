@@ -334,3 +334,23 @@ body {
   padding-bottom: 10px;
   max-width: 244px;
 }
+
+.counting_worp .project_countig {
+  margin-top: 80px;
+}
+.counting_worp .project_countig .costom_class {
+  padding: 26px 30px 5px 34px;
+}
+.counting_worp .project_countig .costom_class .counting_worp {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.counting_worp .project_countig .costom_class .counting_worp .count_er {
+  color: #2693fc;
+  font-weight: 700;
+}
+.counting_worp .project_countig .costom_class:hover {
+  background: #f6fbff;
+  box-shadow: 4px 4px 10px #8888884a;
+}
