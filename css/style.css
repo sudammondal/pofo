@@ -360,6 +360,9 @@ body {
   font-weight: 600;
   color: #000;
 }
+.counting_worp .project_countig .costom_class .counting_worp .count_er .counter {
+  font-family: "Alata", sans-serif;
+}
 .counting_worp .project_countig .costom_class .counting_worp .countex {
   font-size: 14px;
   color: #757575;
@@ -405,6 +408,7 @@ body {
   color: red;
   font-size: 20px;
   margin-right: 5px;
+  font-family: "Alata", sans-serif;
 }
 .Unique .castomPading p {
   font-size: 14px;
