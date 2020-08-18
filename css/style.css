@@ -277,6 +277,9 @@ body {
 .dicover {
   margin: 130px 0;
 }
+.dicover .disover {
+  max-width: 478px;
+}
 .dicover .disover .wow_tpra {
   color: #ff214f;
   font-size: 14px;
@@ -285,7 +288,7 @@ body {
   margin-bottom: 35px;
 }
 .dicover .disover .wow_hed {
-  font-size: 34px;
+  font-size: 36px;
   font-weight: 600;
   color: #000;
   margin-bottom: 35px;
