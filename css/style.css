@@ -489,7 +489,6 @@ body {
   position: relative;
 }
 .shortcodes .shortBanerCenter .position-relative .iconplay {
-  transition: all 0.5s;
   position: absolute;
   top: 45%;
   left: 45%;
@@ -499,7 +498,8 @@ body {
 }
 .shortcodes .shortBanerCenter .position-relative .iconplay .imgWidth {
   width: 75px;
+  transition: all 0.5s;
 }
-.shortcodes .shortBanerCenter .position-relative .iconplay:hover {
+.shortcodes .shortBanerCenter .position-relative .iconplay .imgWidth:hover {
   transform: scale(1.1);
 }

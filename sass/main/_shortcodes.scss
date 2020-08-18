@@ -83,7 +83,6 @@
             height: 100%;
             position: relative;
             .iconplay {
-                transition: all 0.5s;
                 position: absolute;
                 top: 45%;
                 left: 45%;
@@ -91,11 +90,14 @@
                 align-items: center;
                 text-align: center;
                 .imgWidth {
-                    width: 75px;
+                    width: 75px; 
+                    transition: all 0.5s;
+                    &:hover {
+                        transform: scale(1.1);
+                    
+                    }
                 }
-                &:hover {
-                    transform: scale(1.1);
-                }
+                
             }
             
         }
