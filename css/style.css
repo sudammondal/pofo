@@ -255,6 +255,7 @@ body {
 .information {
   background-color: #000;
   padding-top: 100px;
+  overflow: hidden;
 }
 .information .info_hed {
   font-family: "Montserrat", sans-serif;
@@ -268,6 +269,9 @@ body {
   font-size: 14px;
   color: #ddd;
   margin-bottom: 90px;
+}
+.information .imges {
+  margin-bottom: -100px;
 }
 .information .text-center {
   text-align: center !important;
