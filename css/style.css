@@ -511,3 +511,28 @@ body {
 .shortcodes .shortBanerCenter .position-relative .iconplay .imgWidth:hover {
   transform: scale(1.1);
 }
+
+.iconItems .addcastom {
+  margin: 130px 0;
+}
+.iconItems .addcastom .iconMAin {
+  display: inline-flex;
+}
+.iconItems .addcastom .iconMAin .icon {
+  font-size: 40px;
+  margin: 5px 15px 0 0;
+}
+.iconItems .addcastom .iconMAin .icon .iconimgss {
+  width: 45px;
+}
+.iconItems .addcastom .iconMAin .icon_text .texti {
+  font-size: 12px;
+  color: red;
+}
+.iconItems .addcastom .iconMAin .icon_text .texti2 {
+  font-weight: 600;
+}
+.iconItems .addcastom .iconprag {
+  font-size: 14px;
+  color: #444;
+}
