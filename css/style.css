@@ -277,23 +277,23 @@ body {
 .dicover {
   margin: 130px 0;
 }
-.dicover .wow_tpra {
+.dicover .disover .wow_tpra {
   color: #ff214f;
   font-size: 14px;
   text-transform: capitalize;
   font-weight: 600;
   margin-bottom: 35px;
 }
-.dicover .wow_hed {
+.dicover .disover .wow_hed {
   font-size: 34px;
   font-weight: 600;
   color: #000;
   margin-bottom: 35px;
 }
-.dicover .wow_pra {
+.dicover .disover .wow_pra {
   margin-bottom: 35px;
 }
-.dicover .about {
+.dicover .disover .about {
   padding: 8px 30px;
   border: 2px solid #000;
   border-radius: 0;
@@ -304,7 +304,7 @@ body {
   font-weight: 500;
   transition: all 0.5s;
 }
-.dicover .about:hover {
+.dicover .disover .about:hover {
   background-color: transparent;
   color: #000;
 }
