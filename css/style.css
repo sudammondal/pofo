@@ -562,17 +562,39 @@ body {
   border-radius: 0;
   background-color: #fff;
 }
-.cardTitlese_worp .cardGrup .mainCard .cardimg {
+.cardTitlese_worp .cardGrup .mainCard a {
+  position: relative;
+  text-decoration: none;
+}
+.cardTitlese_worp .cardGrup .mainCard a .cardimg {
   border-radius: 0;
+}
+.cardTitlese_worp .cardGrup .mainCard a .bloghovericon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.cardTitlese_worp .cardGrup .mainCard a .bloghovericon .weightplus {
+  font-size: 60px;
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  left: 47%;
+  transition: all 0.5s;
 }
 .cardTitlese_worp .cardGrup .mainCard .cardBody {
   padding: 30px;
 }
 .cardTitlese_worp .cardGrup .mainCard .cardBody .cardTitle {
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
   color: #000;
-  font-weight: 100;
+  font-weight: 400;
   transition: all 0.5s;
 }
 .cardTitlese_worp .cardGrup .mainCard .cardBody .cardTitle:hover {
@@ -592,4 +614,17 @@ body {
   font-weight: 400;
   font-size: 12px;
   font-family: "Quicksand", sans-serif;
+}
+.cardTitlese_worp .cardGrup:hover .mainCard a .bloghovericon {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+.cardTitlese_worp .cardGrup:hover .mainCard a .bloghovericon .weightplus {
+  transition: all 0.5s;
+  top: 42%;
+  left: 47%;
 }
