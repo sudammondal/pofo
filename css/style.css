@@ -584,7 +584,7 @@ body {
   color: #fff;
   position: absolute;
   top: 30%;
-  left: 47%;
+  left: 46%;
   transition: all 0.5s;
 }
 .cardTitlese_worp .cardGrup .mainCard .cardBody {
@@ -626,5 +626,5 @@ body {
 .cardTitlese_worp .cardGrup:hover .mainCard a .bloghovericon .weightplus {
   transition: all 0.5s;
   top: 42%;
-  left: 47%;
+  left: 46%;
 }
