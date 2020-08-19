@@ -1,10 +1,59 @@
 .cardTitle {
+    background-color: #f7f7f7;
+    padding: 130px 0;
     .marginauto {
+        max-width: 488px;
+        margin: 0 auto 57px auto;
         .cardPr {
-
+            font-size: 14px;
+            font-weight: 500;
+            color: #444;
         }
         .cardHed {
-            
+            font-size: 32px;
+            line-height: 40px;
+            font-weight: 600;
+            color: #000;
+        }
+    }
+    .cardGrup {
+        .mainCard {
+            border: 0;
+            border-radius: 0;
+            background-color: #fff;
+            .cardimg {
+                border-radius: 0;
+            }
+            .cardBody {
+                padding: 30px;
+                .cardTitle {
+                    font-size: 18px;
+                    text-decoration: none;
+                    color: #000;
+                    font-weight: 100;
+                   
+                    &:hover {
+                        color: red;
+                    }
+                }
+                .cardpara { 
+                    margin: 15px 0;
+                    color: #444;
+
+                }
+                .separatorline {
+                    width: 100%;
+                    background: #dbdbdb;
+                    height: 1px;
+                    margin: 30px 0;
+                }
+                .card-text {
+                    .text-muted {
+                        font-weight: 400;
+                        font-size: 12px;
+                    }
+                }
+            }
         }
     }
 }

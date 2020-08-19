@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 16px;
   line-height: 25px;
 }
@@ -535,4 +535,58 @@ body {
 .iconItems .addcastom .iconprag {
   font-size: 14px;
   color: #444;
+}
+
+.cardTitle {
+  background-color: #f7f7f7;
+  padding: 130px 0;
+}
+.cardTitle .marginauto {
+  max-width: 488px;
+  margin: 0 auto 57px auto;
+}
+.cardTitle .marginauto .cardPr {
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+}
+.cardTitle .marginauto .cardHed {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  color: #000;
+}
+.cardTitle .cardGrup .mainCard {
+  border: 0;
+  border-radius: 0;
+  background-color: #fff;
+}
+.cardTitle .cardGrup .mainCard .cardimg {
+  border-radius: 0;
+}
+.cardTitle .cardGrup .mainCard .cardBody {
+  padding: 30px;
+}
+.cardTitle .cardGrup .mainCard .cardBody .cardTitle {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 100;
+}
+.cardTitle .cardGrup .mainCard .cardBody .cardTitle:hover {
+  color: red;
+}
+.cardTitle .cardGrup .mainCard .cardBody .cardpara {
+  margin: 15px 0;
+  color: #444;
+}
+.cardTitle .cardGrup .mainCard .cardBody .separatorline {
+  width: 100%;
+  background: #dbdbdb;
+  height: 1px;
+  margin: 30px 0;
+}
+.cardTitle .cardGrup .mainCard .cardBody .card-text .text-muted {
+  font-weight: 400;
+  font-size: 12px;
 }
