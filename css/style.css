@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 25px;
 }
@@ -546,12 +546,12 @@ body {
   margin: 0 auto;
 }
 .cardTitlese_worp .marginauto .cardPr {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   color: #939393;
 }
 .cardTitlese_worp .marginauto .cardHed {
-  font-size: 32px;
+  font-size: 30px;
   line-height: 40px;
   font-weight: 600;
   color: #232323;
@@ -591,4 +591,5 @@ body {
 .cardTitlese_worp .cardGrup .mainCard .cardBody .card-text .text-muted {
   font-weight: 400;
   font-size: 12px;
+  font-family: "Quicksand", sans-serif;
 }
