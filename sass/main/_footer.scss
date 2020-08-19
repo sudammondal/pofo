@@ -1,0 +1,89 @@
+.footer {
+    background-color: rgb(141, 49, 49);
+    .footPra {
+        padding: 50px 0;
+        p {
+            font-size: 16px;
+            color: #444;
+        }
+        .imgfter {
+
+        }
+        .disflx {
+            display: flex;
+            span {
+                font-size: 16px;
+                color: #444;
+                margin-right: 10px;
+            }
+            .ftrlink {
+                list-style: none;
+                display: flex;
+                float: right;
+                .linkFooter{
+                    margin: 0 5px;
+                    .fico {
+                        font-size: 16px;
+                        color: red;
+                        padding: 0 5px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+        
+    }
+    .aplien_item {
+        margin: 60px 0;
+        .h_info {
+            color: #fff;
+            font-size: 16px;
+            margin-bottom: 22px;
+            text-transform: uppercase;
+        }
+        .h_logo {
+            margin-bottom: 35px;
+        }
+        .p_aplin {
+            color: #aeaeb8;
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+        .icon_pra {
+            margin: 10px 0 0px 5px;
+            color: #a58c8c;
+            .ins_tgrm {
+                color: #fff;
+            }
+        }
+
+        .resent_posr {
+            .latestpost{
+                .media {
+                    margin-top: 10px;
+                    figure {
+                        margin: 8px 0 20px 0;
+                        .imgalink {
+                            margin: 10px 20px 10px 0;
+                            img {
+                                width: 58px;
+                                height: 38px;
+                            }
+                        }
+                    }
+                    .media-body {
+                        font-size: 12px;
+                        .dblock,
+                        .clearfix {
+                            text-decoration: none;
+                            color: red;
+
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+
+}
