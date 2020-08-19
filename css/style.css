@@ -537,56 +537,58 @@ body {
   color: #444;
 }
 
-.cardTitle {
+.cardTitlese_worp {
   background-color: #f7f7f7;
   padding: 130px 0;
 }
-.cardTitle .marginauto {
+.cardTitlese_worp .marginauto {
   max-width: 488px;
-  margin: 0 auto 57px auto;
+  margin: 0 auto;
 }
-.cardTitle .marginauto .cardPr {
+.cardTitlese_worp .marginauto .cardPr {
   font-size: 14px;
   font-weight: 500;
-  color: #444;
+  color: #939393;
 }
-.cardTitle .marginauto .cardHed {
+.cardTitlese_worp .marginauto .cardHed {
   font-size: 32px;
   line-height: 40px;
   font-weight: 600;
-  color: #000;
+  color: #232323;
+  margin-bottom: 57px;
 }
-.cardTitle .cardGrup .mainCard {
+.cardTitlese_worp .cardGrup .mainCard {
   border: 0;
   border-radius: 0;
   background-color: #fff;
 }
-.cardTitle .cardGrup .mainCard .cardimg {
+.cardTitlese_worp .cardGrup .mainCard .cardimg {
   border-radius: 0;
 }
-.cardTitle .cardGrup .mainCard .cardBody {
+.cardTitlese_worp .cardGrup .mainCard .cardBody {
   padding: 30px;
 }
-.cardTitle .cardGrup .mainCard .cardBody .cardTitle {
+.cardTitlese_worp .cardGrup .mainCard .cardBody .cardTitle {
   font-size: 18px;
   text-decoration: none;
   color: #000;
   font-weight: 100;
+  transition: all 0.5s;
 }
-.cardTitle .cardGrup .mainCard .cardBody .cardTitle:hover {
-  color: red;
+.cardTitlese_worp .cardGrup .mainCard .cardBody .cardTitle:hover {
+  color: #ff214f;
 }
-.cardTitle .cardGrup .mainCard .cardBody .cardpara {
+.cardTitlese_worp .cardGrup .mainCard .cardBody .cardpara {
   margin: 15px 0;
-  color: #444;
+  color: #939393;
 }
-.cardTitle .cardGrup .mainCard .cardBody .separatorline {
+.cardTitlese_worp .cardGrup .mainCard .cardBody .separatorline {
   width: 100%;
   background: #dbdbdb;
   height: 1px;
   margin: 30px 0;
 }
-.cardTitle .cardGrup .mainCard .cardBody .card-text .text-muted {
+.cardTitlese_worp .cardGrup .mainCard .cardBody .card-text .text-muted {
   font-weight: 400;
   font-size: 12px;
 }

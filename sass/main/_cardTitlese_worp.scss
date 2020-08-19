@@ -1,19 +1,20 @@
-.cardTitle {
+.cardTitlese_worp {
     background-color: #f7f7f7;
     padding: 130px 0;
     .marginauto {
         max-width: 488px;
-        margin: 0 auto 57px auto;
+        margin: 0 auto;
         .cardPr {
             font-size: 14px;
             font-weight: 500;
-            color: #444;
+            color: #939393;
         }
         .cardHed {
             font-size: 32px;
             line-height: 40px;
             font-weight: 600;
-            color: #000;
+            color: #232323;
+            margin-bottom: 57px;
         }
     }
     .cardGrup {
@@ -31,14 +32,14 @@
                     text-decoration: none;
                     color: #000;
                     font-weight: 100;
-                   
+                    transition: all 0.5s;
                     &:hover {
-                        color: red;
+                        color: #ff214f;
                     }
                 }
                 .cardpara { 
                     margin: 15px 0;
-                    color: #444;
+                    color: #939393;
 
                 }
                 .separatorline {
