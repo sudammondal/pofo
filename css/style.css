@@ -126,53 +126,53 @@ body {
   left: -265px;
   width: 650px;
 }
-.banner_worp .imgcamara2 {
+.banner_worp .imgTree {
   position: absolute;
-  top: -57px;
-  right: 22px;
-  width: 315px;
+  top: -106px;
+  right: 29px;
+  width: 550px;
 }
-.banner_worp .imgcamara3 {
+.banner_worp .imgNotbook {
   position: absolute;
-  bottom: -230px;
-  left: -190px;
-  width: 515px;
+  bottom: -476px;
+  left: -370px;
+  width: 900px;
 }
-.banner_worp .imgcamara4 {
+.banner_worp .imgPad {
   position: absolute;
-  bottom: -93px;
-  right: -206px;
-  width: 455px;
+  bottom: -145px;
+  right: -340px;
+  width: 730px;
 }
 .banner_worp .padePen {
   position: absolute;
-  bottom: 10px;
-  right: 167px;
-  width: 178px;
+  bottom: 26px;
+  right: 252px;
+  width: 300px;
 }
 .banner_worp .markerPancil {
   position: absolute;
-  bottom: 77px;
-  left: 91px;
-  width: 124px;
+  bottom: 80px;
+  left: 117px;
+  width: 200px;
 }
 .banner_worp .redPancil {
   position: absolute;
-  bottom: -60px;
-  left: 118px;
-  width: 187px;
+  bottom: -162px;
+  left: 183px;
+  width: 300px;
 }
 .banner_worp .stapPin {
   position: absolute;
-  bottom: 177px;
-  left: 247px;
-  width: 31px;
+  bottom: 228px;
+  left: 397px;
+  width: 50px;
 }
 .banner_worp .stapPin2 {
   position: absolute;
-  bottom: 196px;
-  left: 216px;
-  width: 31px;
+  bottom: 259px;
+  left: 345px;
+  width: 50px;
   transform: rotate(-50deg);
 }
 .banner_worp .banner {
