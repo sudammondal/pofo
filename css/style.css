@@ -7,7 +7,6 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 25px;
 }
@@ -112,11 +111,10 @@ body {
 
 /*end header*/
 .banner_worp {
-  min-height: 800px;
-  background-color: #e0e0e0;
+  background: #e0e0e0;
 }
 .banner_worp .banner {
-  margin: 350px 0 380px 0;
+  padding: 350px 0 380px 0;
 }
 .banner_worp .banner .ban_hed {
   font-size: 67px;
@@ -706,4 +704,8 @@ body {
 .footer .aplien_item .resent_posr .latestpost .media .media-body .clearfix {
   text-decoration: none;
   color: red;
+}
+
+img.instaimage {
+  width: 77px;
 }
