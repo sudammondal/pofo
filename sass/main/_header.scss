@@ -13,7 +13,7 @@
             .logo {
                 font-size: 30px;
                 color: #000;
-                font-weight: 800;
+                font-weight: 700;
                 text-transform: uppercase;
                 span {
                     color: red;
@@ -36,6 +36,7 @@
                             padding: 15px 0;
                             color: #232323;
                             font-weight: 600;
+                            cursor: pointer;
                             
                         }
                         &.active,
