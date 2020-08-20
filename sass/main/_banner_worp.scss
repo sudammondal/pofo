@@ -1,5 +1,63 @@
 .banner_worp {
     background: rgb(224, 224, 224);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    .imgcamara {
+        position: absolute;
+        top: -56px;
+        left: -154px;
+        width: 372px;
+    }
+    .imgcamara2 {
+        position: absolute;
+        top: -57px;
+        right: 22px;
+        width: 315px;
+    }
+    .imgcamara3 {
+        position: absolute;
+        bottom:  -230px;
+        left:  -190px;
+        width: 515px;
+    }
+    .imgcamara4 {
+        position: absolute;
+        bottom: -93px;
+        right: -206px;
+        width: 455px;
+    }
+    .padePen {
+        position: absolute;
+        bottom: 10px;
+        right: 167px;
+        width: 178px;
+    }
+    .markerPancil {
+        position: absolute;
+        bottom: 77px;
+        left: 91px;
+        width: 124px;
+    }
+    .redPancil {
+        position: absolute;
+        bottom: -60px;
+        left: 118px;
+        width: 187px;
+    }
+    .stapPin {
+        position: absolute;
+        bottom: 177px;
+        left: 247px;
+        width: 31px;
+    }
+    .stapPin2 {
+        position: absolute;
+        bottom: 196px;
+        left: 216px;
+        width: 31px;
+    }
     .banner {
         padding: 350px 0 380px 0;
         .ban_hed {
