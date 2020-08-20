@@ -57,7 +57,7 @@ body {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   padding: 15px 0;
-  color: #000;
+  color: #232323;
   font-weight: 600;
 }
 .header .mainContiner .navbar .collapse .ullist .nav-item .nav-link:hover {
@@ -122,9 +122,9 @@ body {
 }
 .banner_worp .imgcamara {
   position: absolute;
-  top: -56px;
-  left: -154px;
-  width: 372px;
+  top: -110px;
+  left: -265px;
+  width: 650px;
 }
 .banner_worp .imgcamara2 {
   position: absolute;
