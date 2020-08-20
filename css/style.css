@@ -176,22 +176,26 @@ body {
   width: 50px;
   transform: rotate(-50deg);
 }
-.banner_worp .banner {
-  padding: 350px 0 380px 0;
+.banner_worp .banner_inner {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.banner_worp .banner .ban_hed {
+.banner_worp .banner_inner .banner .ban_hed {
   font-size: 67px;
   font-weight: 600;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
-.banner_worp .banner .ban_pra {
+.banner_worp .banner_inner .banner .ban_pra {
   font-size: 16px;
   color: #444444c4;
   font-weight: 600;
   margin-bottom: 50px;
 }
-.banner_worp .banner .dhhsg {
+.banner_worp .banner_inner .banner .dhhsg {
   padding: 15px 25px;
   text-decoration: none;
   font-size: 16px;
@@ -202,7 +206,7 @@ body {
   background-color: #ff214f;
   transition: all 0.5s;
 }
-.banner_worp .banner .dhhsg:hover {
+.banner_worp .banner_inner .banner .dhhsg:hover {
   background-color: #000;
 }
 
