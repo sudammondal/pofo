@@ -36,9 +36,13 @@
                             padding: 15px 0;
                             color: #232323;
                             font-weight: 600;
-                            &:hover {
-                                color: #777575;
-                            }
+                            
+                        }
+                        &.active,
+                        &:hover {
+                           .nav-link {
+                            color: rgba(0,0,0,0.6);
+                           }
                         }
                         
                     }  
@@ -84,8 +88,11 @@
                         .nav-item {
                             .nav-link {
                                 color: #fff;
-                                &:hover {
-                                    color: #ddd;
+                            }
+                            &.active,
+                            &:hover {
+                                .nav-link {
+                                    color: #bdb6b6;
                                 }
                             }
                             
