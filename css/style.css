@@ -490,23 +490,24 @@ body {
       border-bottom: 1px solid #ff214f;
       text-decoration: none; }
     .shortcodes .shortBaner .sortManu .sort_hed {
-      font-size: 37px;
+      font-size: 30px;
       font-weight: 500;
       color: #fff;
-      margin: 30px 0 35px 0;
-      max-width: 257px;
-      line-height: 1; }
+      margin: 20px 0 20px 0;
+      max-width: 249px; }
     .shortcodes .shortBaner .sortManu .sort_pra {
-      margin-bottom: 35px;
+      margin-bottom: 25px;
       color: #fff;
-      max-width: 257px; }
+      font-size: 14px;
+      max-width: 254px;
+      line-height: 1.5; }
     .shortcodes .shortBaner .sortManu .sortCuard {
-      padding: 8px 30px;
+      padding: 5px 25px;
       border: 2px solid #fff;
       border-radius: 0;
       background-color: #fff;
       color: #000;
-      font-size: 10px;
+      font-size: 12px;
       text-transform: uppercase;
       font-weight: 500;
       -webkit-transition: all 0.5s;
