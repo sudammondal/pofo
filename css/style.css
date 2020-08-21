@@ -711,7 +711,7 @@ body {
       margin-bottom: 35px; }
     .footer .aplien_item .p_aplin {
       color: #6f6f6f;
-      margin-bottom: 10px;
+      margin-bottom: 30px;
       font-size: 12px; }
     .footer .aplien_item .icon_pra {
       margin: 10px 0 0px 5px;
@@ -744,6 +744,47 @@ body {
             color: #ff214f; }
       .footer .aplien_item .resent_posr .latestpost .media:last-child {
         border-bottom: 1px solid transparent; }
+    .footer .aplien_item form .from_manu .imput_button {
+      border: 1px solid #363636;
+      position: relative;
+      padding: 0px;
+      min-height: 40px;
+      border-radius: 1px; }
+      .footer .aplien_item form .from_manu .imput_button .input_email {
+        border: 0;
+        background: none;
+        padding: 0 0 0 15px;
+        position: absolute;
+        top: 15%;
+        left: 0;
+        outline: 0;
+        color: #6f6f6f;
+        background: none;
+        font-size: 14px; }
+      .footer .aplien_item form .from_manu .imput_button .buton {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 0;
+        border-left: 1px solid #6f6f6f7a;
+        background: transparent;
+        color: #6f6f6f;
+        -webkit-box-shadow: none;
+        box-shadow: none; }
+    .footer .aplien_item .instagramfollow .instgramManu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      width: 100%; }
+      .footer .aplien_item .instagramfollow .instgramManu .instgramItem {
+        display: inline-block;
+        padding: 5px; }
+        .footer .aplien_item .instagramfollow .instgramManu .instgramItem figure {
+          margin: 0; }
+          .footer .aplien_item .instagramfollow .instgramManu .instgramItem figure a .instaimage {
+            width: 77px; }
   .footer .footer_coprit {
     position: relative; }
     .footer .footer_coprit .up_iconFixd {
@@ -771,6 +812,3 @@ body {
       .footer .footer_coprit .up_icon a {
         text-decoration: none;
         color: #000; }
-
-img.instaimage {
-  width: 77px; }

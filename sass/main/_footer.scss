@@ -48,7 +48,7 @@
         }
         .p_aplin {
             color: #6f6f6f;
-            margin-bottom: 10px;
+            margin-bottom: 30px;
             font-size: 12px;
         }
         .icon_pra {
@@ -100,8 +100,75 @@
                 }
             }
         }
+
+        form {
+            .from_manu {
+                .imput_button {
+                    border: 1px solid #363636;
+                    position: relative;
+                    padding: 0px;
+                    min-height: 40px;
+                    border-radius: 1px;
+                    .input_email {
+                        border: 0;
+                        background: none;
+                        padding: 0 0 0 15px;
+                        position: absolute;
+                        top: 15%;
+                        left: 0;
+                        outline: 0;
+                        color: #6f6f6f;
+                        background: none;
+                        font-size: 14px;
+
+                    }
+                    .buton {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        border-radius: 0;
+                        border-left: 1px solid #6f6f6f7a;
+                        background: transparent;
+                        color: #6f6f6f;
+                        box-shadow: none;
+
+                    }
+                }
+
+            }
+        }
+
+        .instagramfollow {
+            .instgramManu {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                width: 100%;
+                .instgramItem {
+                    display: inline-block;
+                    padding: 5px;
+                    figure {
+                        margin: 0;
+                        a {
+                            .instaimage {
+                                width: 77px;
+
+                            }
+                            .instacounts {
+                                .tiinstagram {
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
         
     }
+    
     .footer_coprit {
         .up_iconFixd {
             transition: all 0.5s;
@@ -132,9 +199,4 @@
             }
         }
     }
-
-
-}
-img.instaimage {
-    width: 77px;
 }
