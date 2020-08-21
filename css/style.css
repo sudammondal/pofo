@@ -572,12 +572,14 @@ body {
       margin-left: 10px; }
       .iconItems .addcastom .iconMAin .icon_text .texti {
         font-size: 12px;
-        color: red; }
+        color: #6f6f6f; }
       .iconItems .addcastom .iconMAin .icon_text .texti2 {
-        font-weight: 600; }
+        font-weight: 600;
+        color: #232323; }
   .iconItems .addcastom .iconprag {
     font-size: 14px;
-    color: #444; }
+    max-width: 367px;
+    color: #6f6f6f; }
 
 .cardTitlese_worp {
   background-color: #f7f7f7;
@@ -588,6 +590,7 @@ body {
     .cardTitlese_worp .marginauto .cardPr {
       font-size: 12px;
       font-weight: 500;
+      margin: 0;
       color: #939393; }
     .cardTitlese_worp .marginauto .cardHed {
       font-size: 30px;
@@ -638,7 +641,8 @@ body {
           color: #ff214f; }
       .cardTitlese_worp .cardGrup .mainCard .cardBody .cardpara {
         margin: 15px 0;
-        color: #939393; }
+        color: #939393;
+        font-size: 14px; }
       .cardTitlese_worp .cardGrup .mainCard .cardBody .separatorline {
         width: 100%;
         background: #dbdbdb;
