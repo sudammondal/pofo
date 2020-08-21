@@ -667,7 +667,8 @@ body {
       left: 46%; }
 
 .footer {
-  background-color: #1c1c1c; }
+  background-color: #1c1c1c;
+  padding-bottom: 40px; }
   .footer .footPra {
     padding: 50px 0; }
     .footer .footPra p {
@@ -701,7 +702,7 @@ body {
             .footer .footPra .disflx .ftrlink .linkFooter .fico:hover {
               color: #ff214f; }
   .footer .aplien_item {
-    margin: 60px 0; }
+    margin: 40px 0; }
     .footer .aplien_item .h_info {
       color: #939393;
       font-size: 14px;
@@ -711,7 +712,7 @@ body {
       margin-bottom: 35px; }
     .footer .aplien_item .p_aplin {
       color: #6f6f6f;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
       font-size: 12px; }
     .footer .aplien_item .icon_pra {
       margin: 10px 0 0px 5px;
@@ -724,7 +725,7 @@ body {
       border-bottom: 1px solid #363636;
       color: #6f6f6f; }
       .footer .aplien_item .resent_posr .latestpost .media figure {
-        margin: 8px 0 20px 0; }
+        margin: 8px 0 15px 0; }
         .footer .aplien_item .resent_posr .latestpost .media figure .imgalink {
           margin: 10px 20px 10px 0; }
           .footer .aplien_item .resent_posr .latestpost .media figure .imgalink img {
@@ -785,30 +786,32 @@ body {
           margin: 0; }
           .footer .aplien_item .instagramfollow .instgramManu .instgramItem figure a .instaimage {
             width: 77px; }
-  .footer .footer_coprit {
-    position: relative; }
-    .footer .footer_coprit .up_iconFixd {
-      -webkit-transition: all 0.5s;
-      -o-transition: all 0.5s;
-      transition: all 0.5s;
-      position: fixed;
-      bottom: 30px;
-      right: 10px;
-      padding: 10px 15px;
-      color: #000;
-      background-color: #e0e0e0;
-      border-radius: 50%; }
-    .footer .footer_coprit .copyrit {
-      padding: 20px 0;
-      color: #6d6d6d;
-      font-size: 13px;
-      margin: 0; }
-      .footer .footer_coprit .copyrit .c_txt {
-        color: #87bd4a; }
-    .footer .footer_coprit .up_icon {
-      -webkit-transition: all 0.5s;
-      -o-transition: all 0.5s;
-      transition: all 0.5s; }
-      .footer .footer_coprit .up_icon a {
-        text-decoration: none;
-        color: #000; }
+  .footer .border_top {
+    border-top: 1px solid #363636; }
+    .footer .border_top .footer_coprit {
+      position: relative; }
+      .footer .border_top .footer_coprit .up_iconFixd {
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        padding: 5px 10px;
+        color: #000;
+        background-color: #e0e0e0;
+        border-radius: 50%; }
+      .footer .border_top .footer_coprit .copyrit {
+        padding: 25px 0;
+        color: #6d6d6d;
+        font-size: 13px;
+        margin: 0; }
+      .footer .border_top .footer_coprit .copyrit_flot {
+        float: right; }
+      .footer .border_top .footer_coprit .up_icon {
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+        .footer .border_top .footer_coprit .up_icon a {
+          text-decoration: none;
+          color: #000; }

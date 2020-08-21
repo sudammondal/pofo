@@ -1,5 +1,6 @@
 .footer {
     background-color: #1c1c1c;
+    padding-bottom: 40px;
     .footPra {
         padding: 50px 0;
         p {
@@ -36,7 +37,7 @@
         
     }
     .aplien_item {
-        margin: 60px 0;
+        margin: 40px 0;
         .h_info {
             color: #939393;
             font-size: 14px;
@@ -48,7 +49,7 @@
         }
         .p_aplin {
             color: #6f6f6f;
-            margin-bottom: 30px;
+            margin-bottom: 25px;
             font-size: 12px;
         }
         .icon_pra {
@@ -67,7 +68,7 @@
                     border-bottom: 1px solid #363636;
                     color: #6f6f6f;
                     figure {
-                        margin: 8px 0 20px 0;
+                        margin: 8px 0 15px 0;
                         .imgalink {
                             margin: 10px 20px 10px 0;
                             img {
@@ -154,12 +155,6 @@
                         a {
                             .instaimage {
                                 width: 77px;
-
-                            }
-                            .instacounts {
-                                .tiinstagram {
-
-                                }
                             }
                         }
                     }
@@ -168,35 +163,38 @@
         }
         
     }
-    
-    .footer_coprit {
-        .up_iconFixd {
-            transition: all 0.5s;
-            position: fixed;
-            bottom: 30px;
-            right: 10px;
-            padding: 10px 15px;
-            color: #000;
-            background-color: #e0e0e0;
-            border-radius: 50%;
-        }
- 
-        position: relative;
-        .copyrit {
-            padding: 20px 0;
-            color: #6d6d6d;
-            font-size: 13px;
-            margin: 0;
-            .c_txt {
-                color: #87bd4a;
-            }
-        }
-        .up_icon {
-            transition: all 0.5s;
-            a {
-                text-decoration: none;
+    .border_top {
+        border-top: 1px solid #363636;
+        .footer_coprit {
+            .up_iconFixd {
+                transition: all 0.5s;
+                position: fixed;
+                bottom: 30px;
+                right: 30px;
+                padding: 5px 10px;
                 color: #000;
+                background-color: #e0e0e0;
+                border-radius: 50%;
+            }
+    
+            position: relative;
+            .copyrit {
+                padding: 25px 0;
+                color: #6d6d6d;
+                font-size: 13px;
+                margin: 0;
+            }
+            .copyrit_flot {
+                float: right;
+            }
+            .up_icon {
+                transition: all 0.5s;
+                a {
+                    text-decoration: none;
+                    color: #000;
+                }
             }
         }
     }
+    
 }
