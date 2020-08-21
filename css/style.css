@@ -352,8 +352,12 @@ body {
       font-family: 'Montserrat', sans-serif; }
     .dicover .disover .wow_pra {
       margin-bottom: 30px;
-      font-size: 14px;
-      padding-right: 15px; }
+      font-size: 15px;
+      padding-right: 26px;
+      font-family: 'Roboto', sans-serif;
+      color: #6f6f6f;
+      font-weight: 400;
+      line-height: 24px; }
     .dicover .disover .about {
       padding: 8px 30px;
       border: 2px solid #000;
@@ -370,7 +374,7 @@ body {
         background-color: transparent;
         color: #000; }
   .dicover .iconBanner {
-    margin-top: 49px; }
+    margin-bottom: 49px; }
     .dicover .iconBanner .iconPart {
       margin-bottom: 0;
       -webkit-transition: all 0.7s;
@@ -388,9 +392,12 @@ body {
         color: #000; }
       .dicover .iconBanner .iconPart .pra_text_icon {
         font-size: 14px;
-        word-spacing: 0px;
-        padding-bottom: 10px;
-        max-width: 244px; }
+        max-width: 244px;
+        margin-bottom: 30px;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        color: #6f6f6f;
+        line-height: 24px; }
 
 .counting_worp {
   background: #f3f3f3a3;
