@@ -85,6 +85,37 @@
         }
         
     }
+    .footer_coprit {
+        .up_iconFixd {
+            transition: all 0.5s;
+            position: fixed;
+            bottom: 30px;
+            right: 10px;
+            padding: 10px 15px;
+            color: #000;
+            background-color: #e0e0e0;
+            border-radius: 50%;
+        }
+ 
+        position: relative;
+        .copyrit {
+            padding: 20px 0;
+            color: #6d6d6d;
+            font-size: 13px;
+            margin: 0;
+            .c_txt {
+                color: #87bd4a;
+            }
+        }
+        .up_icon {
+            transition: all 0.5s;
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+
 
 }
 img.instaimage {

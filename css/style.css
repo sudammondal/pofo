@@ -704,6 +704,36 @@ body {
         .footer .aplien_item .resent_posr .latestpost .media .media-body .clearfix {
           text-decoration: none;
           color: red; }
+  .footer .footer_coprit {
+    position: relative; }
+    .footer .footer_coprit .up_iconFixd {
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      position: fixed;
+      bottom: 30px;
+      right: 10px;
+      padding: 10px 15px;
+      color: #000;
+      background-color: #e0e0e0;
+      border-radius: 50%; }
+    .footer .footer_coprit .copyrit {
+      padding: 20px 0;
+      color: #6d6d6d;
+      font-size: 13px;
+      margin: 0; }
+      .footer .footer_coprit .copyrit .c_txt {
+        color: #87bd4a; }
+    .footer .footer_coprit .up_icon {
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      .footer .footer_coprit .up_icon a {
+        text-decoration: none;
+        color: #000; }
 
 img.instaimage {
   width: 77px; }
+
+.footer_bottom {
+  background-color: #1c1c1c; }
