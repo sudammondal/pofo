@@ -691,9 +691,15 @@ body {
           margin: 0 5px; }
           .footer .footPra .disflx .ftrlink .linkFooter .fico {
             font-size: 16px;
-            color: #6f6f6f;
+            color: #fff;
             padding: 0 5px;
-            font-weight: 600; }
+            font-weight: 600;
+            text-decoration: none;
+            -webkit-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s; }
+            .footer .footPra .disflx .ftrlink .linkFooter .fico:hover {
+              color: #ff214f; }
   .footer .aplien_item {
     margin: 60px 0; }
     .footer .aplien_item .h_info {
