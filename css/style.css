@@ -149,6 +149,7 @@ body {
     -ms-transform: rotate(-50deg);
     transform: rotate(-50deg); }
   .banner_worp .banner_inner {
+    text-align: center;
     width: 100%;
     height: 100vh;
     display: -webkit-box;
@@ -262,6 +263,7 @@ body {
     background: #1c1c1c;
     opacity: 0.75; }
   .parallax .parlex_itm {
+    text-align: center;
     position: relative;
     padding: 40px 0;
     -webkit-transition: all 0.5s;
@@ -534,6 +536,7 @@ body {
     content: "";
     background-color: #ff214f; }
   .shortcodes .shortBanerCenter .position-relative {
+    text-align: center;
     width: 100%;
     height: 100%;
     position: relative; }
@@ -670,7 +673,8 @@ body {
   background-color: #1c1c1c;
   padding-bottom: 40px; }
   .footer .footPra {
-    padding: 50px 0; }
+    padding: 50px 0;
+    text-align: center; }
     .footer .footPra p {
       font-size: 16px;
       color: #6f6f6f; }
