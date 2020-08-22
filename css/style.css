@@ -165,14 +165,16 @@ body {
       width: 100%; }
       .banner_worp .banner_inner .banner .ban_hed {
         font-size: 60px;
-        font-weight: 600;
+        font-weight: 700;
         text-transform: capitalize;
-        margin-bottom: 20px; }
+        margin-bottom: 16px;
+        font-family: 'Montserrat', sans-serif; }
       .banner_worp .banner_inner .banner .ban_pra {
         font-size: 14px;
-        color: #444444c4;
+        color: #6f6f6f;
         font-weight: 600;
-        margin-bottom: 35px; }
+        margin-bottom: 35px;
+        font-family: 'Montserrat', sans-serif; }
       .banner_worp .banner_inner .banner .downloade_now {
         padding: 13px 23px;
         text-decoration: none;
