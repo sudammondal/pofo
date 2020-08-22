@@ -522,7 +522,7 @@ body {
         color: #fff; }
 
 .shortcodes .shortBaner2 {
-  background-image: url(../../imgs/parallax-bg10.jpg);
+  background-image: url(../imgs/parallax-bg10.jpg);
   background-size: cover;
   overflow: hidden;
   background-position: center;
@@ -530,7 +530,7 @@ body {
   position: relative; }
 
 .shortcodes .shortBanerCenter {
-  background-image: url(../../imgs/digital-marketing.jpg);
+  background-image: url(../imgs/digital-marketing.jpg);
   background-size: cover;
   overflow: hidden;
   background-position: center;
