@@ -1,6 +1,6 @@
 .shortcodes {
     .shortBaner {
-        background-image: url(../imgs/blog2_9.png);
+        background-image: url(../imgs/parallax-bg9.jpg);
         background-size: cover;
         overflow: hidden;
         background-position: center;
@@ -59,8 +59,17 @@
             }
         }
     }   
+    .shortBaner2 {
+        background-image: url(../../imgs/parallax-bg10.jpg);
+        background-size: cover;
+        overflow: hidden;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+     
+    }   
     .shortBanerCenter {
-        background-image: url(../imgs/blog2_9.png);
+        background-image: url(../../imgs/digital-marketing.jpg);
         background-size: cover;
         overflow: hidden;
         background-position: center;
