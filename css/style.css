@@ -323,6 +323,10 @@ body {
     font-size: 40px;
     line-height: 46px;
     margin: 25px 0; }
+  .information .text_center {
+    text-align: center;
+    max-width: 864px;
+    margin: 0 auto; }
   .information .info_pra {
     margin-bottom: 90px;
     font-family: 'Roboto', sans-serif;
@@ -333,9 +337,6 @@ body {
   .information .imges {
     margin-bottom: -100px;
     text-align: center; }
-  .information .text-center {
-    text-align: center !important;
-    margin: 0 auto; }
 
 .dicover {
   margin: 130px 0; }
