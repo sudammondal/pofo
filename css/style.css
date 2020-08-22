@@ -575,26 +575,102 @@ body {
           -ms-transform: scale(1.1);
           transform: scale(1.1); }
 
-.amazing_projects .amazingHeader {
-  text-align: center; }
-  .amazing_projects .amazingHeader .projects_head {
-    max-width: 300px;
-    margin: 0 auto; }
-    .amazing_projects .amazingHeader .projects_head .amazing_pra {
-      font-size: 12px;
-      line-height: 20px;
-      color: #939393;
-      margin-bottom: 5px;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 500;
-      text-transform: uppercase;
-      text-align: center; }
-    .amazing_projects .amazingHeader .projects_head .amazing_head {
-      color: #232323;
-      font-weight: 600;
-      font-size: 32px;
-      line-height: 40px;
-      font-family: 'Montserrat', sans-serif; }
+.amazing_projects {
+  background: #ddd;
+  padding: 60px; }
+  .amazing_projects .amazingHeader {
+    text-align: center; }
+    .amazing_projects .amazingHeader .projects_head {
+      max-width: 300px;
+      margin: 0 auto 25px auto; }
+      .amazing_projects .amazingHeader .projects_head .amazing_pra {
+        font-size: 12px;
+        line-height: 20px;
+        color: #939393;
+        margin-bottom: 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center; }
+      .amazing_projects .amazingHeader .projects_head .amazing_head {
+        color: #232323;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        font-family: 'Montserrat', sans-serif; }
+  .amazing_projects .ctmROW {
+    padding: 0; }
+  .amazing_projects .hover_link {
+    text-decoration: none; }
+    .amazing_projects .hover_link .custom_col {
+      position: relative;
+      margin: 5px;
+      overflow: hidden; }
+      .amazing_projects .hover_link .custom_col .img-fluid {
+        width: 100%; }
+      .amazing_projects .hover_link .custom_col .hover_con {
+        padding: 0;
+        position: absolute;
+        top: 25px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        opacity: 0;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        visibility: hidden; }
+        .amazing_projects .hover_link .custom_col .hover_con .hover_inner {
+          width: 100%; }
+          .amazing_projects .hover_link .custom_col .hover_con .hover_inner .textcentr {
+            color: #fff;
+            margin: 90px 0;
+            text-align: center; }
+            .amazing_projects .hover_link .custom_col .hover_con .hover_inner .textcentr .textItem .hover_hed {
+              color: red;
+              font-size: 20px;
+              text-transform: uppercase;
+              margin-bottom: 5px; }
+            .amazing_projects .hover_link .custom_col .hover_con .hover_inner .textcentr .textItem .hover_pra {
+              color: red;
+              font-size: 12px;
+              text-transform: uppercase; }
+            .amazing_projects .hover_link .custom_col .hover_con .hover_inner .textcentr .textItem .hover_hed2 {
+              color: #fff;
+              font-size: 14px;
+              text-transform: uppercase;
+              margin-bottom: 5px; }
+            .amazing_projects .hover_link .custom_col .hover_con .hover_inner .textcentr .textItem .hover_pra2 {
+              color: #fff;
+              font-size: 10px;
+              text-transform: uppercase; }
+      .amazing_projects .hover_link .custom_col::before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-image: -webkit-gradient(linear, right top, left top, from(#44a1abfa), to(#005aff));
+        background-image: -webkit-linear-gradient(right, #44a1abfa, #005aff);
+        background-image: -o-linear-gradient(right, #44a1abfa, #005aff);
+        background-image: linear-gradient(-90deg, #44a1abfa, #005aff);
+        opacity: 0;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        top: 0;
+        left: 0; }
+      .amazing_projects .hover_link .custom_col:hover::before {
+        opacity: 0.7; }
+      .amazing_projects .hover_link .custom_col:hover .hover_con {
+        opacity: 1;
+        top: 0;
+        visibility: visible; }
 
 .iconItems .addcastom {
   margin: 130px 0; }
