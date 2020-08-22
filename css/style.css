@@ -575,6 +575,27 @@ body {
           -ms-transform: scale(1.1);
           transform: scale(1.1); }
 
+.amazing_projects .amazingHeader {
+  text-align: center; }
+  .amazing_projects .amazingHeader .projects_head {
+    max-width: 300px;
+    margin: 0 auto; }
+    .amazing_projects .amazingHeader .projects_head .amazing_pra {
+      font-size: 12px;
+      line-height: 20px;
+      color: #939393;
+      margin-bottom: 5px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      text-transform: uppercase;
+      text-align: center; }
+    .amazing_projects .amazingHeader .projects_head .amazing_head {
+      color: #232323;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 40px;
+      font-family: 'Montserrat', sans-serif; }
+
 .iconItems .addcastom {
   margin: 130px 0; }
   .iconItems .addcastom .iconMAin {
