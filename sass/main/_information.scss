@@ -1,7 +1,11 @@
 .information {
-    background-color: #212121;
+    background-image: url(../imgs/homepage-option15-bg.jpg);
+    position: relative !important;
+    background-size: cover !important;
+    overflow: hidden !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
     padding-top: 100px;
-    overflow: hidden;
     .info_hed {
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;

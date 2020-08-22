@@ -1,0 +1,70 @@
+.img_inner {
+    background: #ddd;
+    padding: 60px;
+    .ctmROW {
+        padding: 0;
+    }
+    .hover_link { 
+        text-decoration: none;
+        .custom_col {
+            position: relative;
+            margin: 5px;
+            overflow: hidden;
+            .img {
+                width: 100%;
+                height: 300px;
+            }
+            .hover_con {
+                padding: 0;
+                position: absolute;
+                top: 25px;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                opacity: 0;
+                transition: all 0.5s;
+                visibility: hidden;
+                .hover_inner {
+                    width: 100%;
+                    .textcentr {
+                        color: #fff;
+                        margin: 90px 0;
+                        text-align: center;
+                    }
+                    .hed_tex {
+                        padding-left: 20px;
+                        margin-bottom: 0;
+                        color: #fff;
+                        font-size: 20px;
+                        font-weight: 300;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            &::before {
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 100%;
+                background-image: linear-gradient(-90deg,#44a1abfa, #005aff);
+                opacity: 0;
+                transition: all 0.5s;
+                top: 0;
+                left: 0;
+            }
+            &:hover{
+                &::before {
+                    opacity: 0.7;
+                }
+                .hover_con {
+                    opacity: 1;
+                    top: 0;
+                    visibility: visible;
+                }
+            }
+        }
+    }
+    
+}
