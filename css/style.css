@@ -695,8 +695,21 @@ body {
       margin: 5px;
       overflow: hidden; }
       .img_inner .hover_link .custom_col .img {
-        width: 100%;
-        height: 300px; }
+        width: 100%; }
+      .img_inner .hover_link .custom_col .imgSize {
+        width: 194px; }
+      .img_inner .hover_link .custom_col .imgSize3 {
+        width: 398px;
+        height: 398px; }
+      .img_inner .hover_link .custom_col .imgSize4 {
+        width: 398px;
+        height: 195px; }
+      .img_inner .hover_link .custom_col .imgSize5 {
+        width: 398px;
+        height: 398px; }
+      .img_inner .hover_link .custom_col .imgSize6 {
+        width: 398px;
+        height: 195px; }
       .img_inner .hover_link .custom_col .hover_con {
         padding: 0;
         position: absolute;
