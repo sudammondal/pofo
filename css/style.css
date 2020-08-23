@@ -576,6 +576,103 @@ body {
           -ms-transform: scale(1.1);
           transform: scale(1.1); }
 
+.videoWorp .col_castom {
+  background-image: url(../imgs/parallax-bg9.jpg);
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; }
+  .videoWorp .col_castom .overLay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    content: "";
+    background-color: #1c1c1c; }
+  .videoWorp .col_castom .sort_manu {
+    position: relative;
+    padding: 57px 40px; }
+    .videoWorp .col_castom .sort_manu .sort_tpra {
+      color: #ff214f;
+      font-size: 14px;
+      text-transform: capitalize;
+      font-weight: 600;
+      border-bottom: 1px solid #ff214f;
+      text-decoration: none; }
+    .videoWorp .col_castom .sort_manu .hoverHed {
+      font-size: 30px;
+      font-weight: 500;
+      color: #fff;
+      margin: 20px 0 20px 0;
+      max-width: 249px; }
+    .videoWorp .col_castom .sort_manu .hover_prag {
+      margin-bottom: 25px;
+      color: #fff;
+      font-size: 14px;
+      max-width: 254px;
+      line-height: 1.5; }
+    .videoWorp .col_castom .sort_manu button {
+      padding: 5px 25px;
+      border: 2px solid #fff;
+      border-radius: 0;
+      background-color: #fff;
+      color: #000;
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 500;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      .videoWorp .col_castom .sort_manu button:hover {
+        background-color: transparent;
+        color: #fff; }
+
+.videoWorp .shortBaner2 {
+  background-image: url(../imgs/parallax-bg10.jpg);
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; }
+
+.videoWorp .col_castom {
+  background-image: url(../imgs/digital-marketing.jpg);
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; }
+  .videoWorp .col_castom .overLayCenter {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    content: "";
+    background-color: #ff214f; }
+  .videoWorp .col_castom .sort_manu {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative; }
+    .videoWorp .col_castom .sort_manu .soplayer {
+      position: absolute;
+      top: 45%;
+      left: 45%;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: center; }
+      .videoWorp .col_castom .sort_manu .soplayer .imgWidthdd {
+        width: 75px; }
+
 .amazing_projects {
   padding: 125px 0; }
   .amazing_projects .amazingHeader {
