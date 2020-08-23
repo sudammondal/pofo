@@ -208,9 +208,11 @@
                 right: 30px;
                 padding: 5px 10px;
                 color: #000;
-                background-color: #e0e0e0;
                 background-color: #878787;
                 border-radius: 50%;
+                &:hover {
+                      background-color: #e0e0e0;
+                }
             }
             .copyrit {
                 padding: 25px 0;
