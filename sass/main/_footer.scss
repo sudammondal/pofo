@@ -206,13 +206,18 @@
                 position: fixed;
                 bottom: 30px;
                 right: 30px;
-                padding: 5px 10px;
-                color: #000;
-                background-color: #878787;
-                border-radius: 50%;
-                &:hover {
-                      background-color: #e0e0e0;
+                z-index: 1;
+                a {
+                    padding: 7px 10px; 
+                    text-decoration: none;
+                    color: #000;
+                    background-color: #878787;
+                    border-radius: 50%; 
+                    &:hover {
+                        background-color: #e0e0e0;
+                    }
                 }
+               
             }
             .copyrit {
                 padding: 25px 0;
@@ -223,16 +228,9 @@
             .copyrit_flot {
                 float: right;
             }
-            .upIcon {
-                .up_icon {
-                    transition: all 0.5s;
-                    a {
-                        text-decoration: none;
-                        color: #000;
-                    }
-                }
+            .up_icon {
+                transition: all 0.5s;
             }
-           
         }
     }
     
