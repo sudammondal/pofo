@@ -888,11 +888,41 @@ body {
       width: 100%; }
       .footer .aplien_item .instagramfollow .instgramManu .instgramItem {
         display: inline-block;
-        padding: 5px; }
+        margin: 1px 5px;
+        position: relative;
+        overflow: hidden; }
         .footer .aplien_item .instagramfollow .instgramManu .instgramItem figure {
           margin: 0; }
           .footer .aplien_item .instagramfollow .instgramManu .instgramItem figure a .instaimage {
             width: 77px; }
+        .footer .aplien_item .instagramfollow .instgramManu .instgramItem .bloghovericon {
+          position: absolute;
+          height: 22px;
+          width: 100%;
+          bottom: -23px;
+          left: 0;
+          text-align: center;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s;
+          opacity: 0;
+          background: rgba(0, 0, 0, 0.5); }
+          .footer .aplien_item .instagramfollow .instgramManu .instgramItem .bloghovericon .weightplus {
+            font-size: 14px;
+            color: #fff;
+            position: absolute;
+            top: 4px;
+            left: 46%;
+            -webkit-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s; }
+        .footer .aplien_item .instagramfollow .instgramManu .instgramItem:hover .bloghovericon {
+          height: 22px;
+          bottom: 0;
+          opacity: 1; }
+          .footer .aplien_item .instagramfollow .instgramManu .instgramItem:hover .bloghovericon .weightplus {
+            top: 4px;
+            left: 46%; }
   .footer .border_top {
     border-top: 1px solid #363636; }
     .footer .border_top .footer_coprit {

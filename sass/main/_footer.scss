@@ -150,14 +150,48 @@
                 width: 100%;
                 .instgramItem {
                     display: inline-block;
-                    padding: 5px;
+                    margin: 1px 5px;
+                    position: relative;
+                    overflow: hidden;
                     figure {
                         margin: 0;
                         a {
                             .instaimage {
                                 width: 77px;
                             }
+                            
                         }
+                    }
+                    .bloghovericon {
+                        position: absolute;
+                        height: 22px;
+                        width: 100%;
+                        bottom: -23px;
+                        left: 0;
+                        text-align: center;
+                        transition: all 0.5s;
+                        opacity: 0;
+                        background: rgba(0, 0, 0, 0.5);
+                        .weightplus {
+                            font-size: 14px;
+                            color: #fff;
+                            position: absolute;
+                            top: 4px;
+                            left: 46%;
+                            transition: all 0.5s;
+                        }
+                    }
+                    &:hover {
+                        .bloghovericon {
+                            height: 22px;
+                            bottom: 0;
+                            opacity: 1;
+                            .weightplus {
+                                top: 4px;
+                                left: 46%;
+                            }
+                        }
+
                     }
                 }
             }
@@ -166,7 +200,8 @@
     }
     .border_top {
         border-top: 1px solid #363636;
-        .footer_coprit {
+        .footer_coprit { 
+            position: relative;
             .up_iconFixd {
                 transition: all 0.5s;
                 position: fixed;
@@ -177,8 +212,6 @@
                 background-color: #e0e0e0;
                 border-radius: 50%;
             }
-    
-            position: relative;
             .copyrit {
                 padding: 25px 0;
                 color: #6d6d6d;
