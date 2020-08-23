@@ -223,13 +223,16 @@
             .copyrit_flot {
                 float: right;
             }
-            .up_icon {
-                transition: all 0.5s;
-                a {
-                    text-decoration: none;
-                    color: #000;
+            .upIcon {
+                .up_icon {
+                    transition: all 0.5s;
+                    a {
+                        text-decoration: none;
+                        color: #000;
+                    }
                 }
             }
+           
         }
     }
     

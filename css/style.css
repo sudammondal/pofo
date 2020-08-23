@@ -947,10 +947,10 @@ body {
         margin: 0; }
       .footer .border_top .footer_coprit .copyrit_flot {
         float: right; }
-      .footer .border_top .footer_coprit .up_icon {
+      .footer .border_top .footer_coprit .upIcon .up_icon {
         -webkit-transition: all 0.5s;
         -o-transition: all 0.5s;
         transition: all 0.5s; }
-        .footer .border_top .footer_coprit .up_icon a {
+        .footer .border_top .footer_coprit .upIcon .up_icon a {
           text-decoration: none;
           color: #000; }
