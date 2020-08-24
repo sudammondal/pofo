@@ -581,7 +581,6 @@ body {
   .amazing_projects .amazingHeader {
     text-align: center; }
     .amazing_projects .amazingHeader .projects_head {
-      max-width: 300px;
       margin: 0 auto 70px auto; }
       .amazing_projects .amazingHeader .projects_head .amazing_pra {
         font-size: 12px;
@@ -593,12 +592,14 @@ body {
         text-transform: uppercase;
         text-align: center; }
       .amazing_projects .amazingHeader .projects_head .amazing_head {
+        max-width: 22%;
         color: #232323;
         font-weight: 600;
         font-size: 32px;
         line-height: 40px;
-        font-family: 'Montserrat', sans-serif; }
-  .amazing_projects .ctmROW {
+        font-family: 'Montserrat', sans-serif;
+        margin: 0 auto; }
+  .amazing_projects .ctmCOL {
     padding: 0; }
   .amazing_projects .hover_link {
     text-decoration: none; }

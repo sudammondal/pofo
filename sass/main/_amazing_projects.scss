@@ -3,7 +3,7 @@
     .amazingHeader {
         text-align: center;
         .projects_head {
-            max-width: 300px;
+            
             margin: 0 auto 70px auto;
             .amazing_pra {
                 font-size: 12px;
@@ -17,16 +17,18 @@
 
             }
             .amazing_head {
+                max-width: 22%;
                 color: #232323;
                 font-weight: 600;
                 font-size: 32px;
                 line-height: 40px;
                 font-family: 'Montserrat', sans-serif;
+                margin: 0 auto; 
 
             }
         }
     }
-    .ctmROW {
+    .ctmCOL {
         padding: 0;
     }
     .hover_link { 
