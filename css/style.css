@@ -206,7 +206,7 @@ body {
     margin-bottom: 25px; }
   .wow_fadeIn .wow_pra {
     margin-bottom: 30px; }
-  .wow_fadeIn .about {
+  .wow_fadeIn .about_button .about {
     padding: 5px 25px;
     border: 2px solid #000;
     border-radius: 0;
@@ -218,7 +218,7 @@ body {
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s; }
-    .wow_fadeIn .about:hover {
+    .wow_fadeIn .about_button .about:hover {
       background-color: transparent;
       color: #000; }
   .wow_fadeIn .blog_img {
@@ -956,3 +956,19 @@ body {
         -webkit-transition: all 0.5s;
         -o-transition: all 0.5s;
         transition: all 0.5s; }
+
+@media (max-width: 767px) {
+  .about_button {
+    margin-bottom: 30px; }
+  .wow_fadeIn {
+    padding: 80px 0; }
+  .amazing_projects .amazingHeader .projects_head .amazing_head {
+    max-width: 54%; }
+  .amazing_projects .amazingHeader .projects_head .amazing_head {
+    max-width: 55%;
+    color: #232323;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    /* margin: 0 auto; */ } }
