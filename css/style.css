@@ -957,18 +957,58 @@ body {
         -o-transition: all 0.5s;
         transition: all 0.5s; }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+  .banner_worp .imgcamara {
+    top: -154px;
+    left: -234px;
+    width: 569px; }
+  .banner_worp .imgTree {
+    top: -127px;
+    right: 29px;
+    width: 436px; }
+  .banner_worp .imgNotbook {
+    bottom: -413px;
+    left: -303px;
+    width: 713px; }
+  .banner_worp .imgPad {
+    position: absolute;
+    bottom: -131px;
+    right: -319px;
+    width: 554px; }
+  .banner_worp .markerPancil {
+    bottom: 44px;
+    width: 138px; }
+  .banner_worp .redPancil {
+    bottom: -162px;
+    left: 109px;
+    width: 240px; }
+  .banner_worp .stapPin {
+    bottom: 134px;
+    left: 287px;
+    width: 35px; }
+  .banner_worp .stapPin2 {
+    bottom: 152px;
+    left: 249px;
+    width: 35px; }
+  .banner_worp .padePen {
+    bottom: 2px;
+    right: 124px;
+    width: 200px; }
+  .banner_worp .banner_inner .banner .ban_hed {
+    font-size: 52px; }
+  .banner_worp .banner_inner .banner .ban_pra {
+    font-size: 12px; }
+  .banner_worp .banner_inner .banner .downloade_now {
+    padding: 13px 24px;
+    text-decoration: none;
+    font-size: 11px; }
+  .banner_worp .banner_inner .banner .ban_hed {
+    margin-bottom: 5px; }
+  .banner_worp .banner_inner .banner .ban_pra {
+    margin-bottom: 20px; }
   .about_button {
     margin-bottom: 30px; }
   .wow_fadeIn {
     padding: 80px 0; }
   .amazing_projects .amazingHeader .projects_head .amazing_head {
-    max-width: 54%; }
-  .amazing_projects .amazingHeader .projects_head .amazing_head {
-    max-width: 55%;
-    color: #232323;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 40px;
-    font-family: 'Montserrat', sans-serif;
-    /* margin: 0 auto; */ } }
+    max-width: 54%; } }
