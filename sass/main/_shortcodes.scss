@@ -110,3 +110,90 @@
         }
     }
 }
+.video_Worp {
+    .CastomCol {
+        background-image: url(../imgs/29716155_646461779018392_1632824515853549568_n.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: hidden;
+        position: relative;
+        .hover_lay {
+            position : absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            content: "";
+            opacity: 1;
+            background-color: rgba(24, 22, 22, 0.329);
+
+        }
+        .link_a {
+            color: #fff;
+
+        }
+        .header_video {
+            color: #fff;
+        }
+        .video_pra {
+            
+            color: #fff;
+
+        }
+        .butn {
+            .btn_defual {
+                
+            color: #fff;
+
+            }
+        }
+    }
+}
+.video_Worp {
+    .CastomCol2 {
+        background-image: url(../imgs/digital-marketing.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        overflow: hidden;
+        position: relative;
+        .hover_lay {
+            position : absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            content: "";
+            opacity: 1;
+            background-color: rgba(24, 22, 22, 0.616);
+
+        }
+        .positionR {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        .icon_vdieo {
+            position: absolute;
+            top: 34%;
+            left: 43%;
+            justify-content: center;
+                a {
+                    .img_Video {
+                        width: 70px;
+                    }
+                }
+                &:hover {
+                    a {
+                        .img_Video {
+                            transform: scale(1.1);
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+   
+    
+}
