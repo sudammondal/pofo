@@ -39,10 +39,9 @@ body {
           color: red;
           font-size: 40px;
           margin-left: -5px; }
-      .header .mainContiner .navbar .collapse .ullist {
+      .header .mainContiner .navbar .collapse_add .ullist {
         margin: 0 auto; }
-        .header .mainContiner .navbar .collapse .ullist .nav-item .nav-link {
-          margin-left: 40px;
+        .header .mainContiner .navbar .collapse_add .ullist .nav-item .nav-link {
           font-size: 12px;
           text-decoration: none;
           -webkit-transition: all 0.5s;
@@ -54,22 +53,70 @@ body {
           color: #232323;
           font-weight: 600;
           cursor: pointer; }
-        .header .mainContiner .navbar .collapse .ullist .nav-item.active .nav-link, .header .mainContiner .navbar .collapse .ullist .nav-item:hover .nav-link {
+        .header .mainContiner .navbar .collapse_add .ullist .nav-item.active .nav-link, .header .mainContiner .navbar .collapse_add .ullist .nav-item:hover .nav-link {
           color: rgba(0, 0, 0, 0.6); }
-      .header .mainContiner .navbar .collapse .lastC {
+      .header .mainContiner .navbar .collapse_add .lastC {
         margin: 0px;
         margin-left: 17px; }
-        .header .mainContiner .navbar .collapse .lastC .iCon {
+        .header .mainContiner .navbar .collapse_add .lastC .iCon {
           margin-left: 10px;
           text-decoration: none; }
-          .header .mainContiner .navbar .collapse .lastC .iCon .FTGQ {
+          .header .mainContiner .navbar .collapse_add .lastC .iCon .FTGQ {
             color: #000;
             font-size: 16px;
             margin-left: 5px; }
-        .header .mainContiner .navbar .collapse .lastC .srcbr {
+        .header .mainContiner .navbar .collapse_add .lastC .srcbr {
           border-right: 1px solid #bdb6b6;
           padding-right: 10px;
           margin-right: 10px; }
+      .header .mainContiner .navbar button, .header .mainContiner .navbar.nav_toggler {
+        outline: none;
+        border: 0;
+        position: relative; }
+        .header .mainContiner .navbar button .navbar_icon, .header .mainContiner .navbar.nav_toggler .navbar_icon {
+          margin-right: -15px; }
+          .header .mainContiner .navbar button .navbar_icon .itm_sss, .header .mainContiner .navbar.nav_toggler .navbar_icon .itm_sss {
+            display: block; }
+          .header .mainContiner .navbar button .navbar_icon .cros_manu .cros_item, .header .mainContiner .navbar.nav_toggler .navbar_icon .cros_manu .cros_item {
+            display: block;
+            height: 40px; }
+          .header .mainContiner .navbar button .navbar_icon .itm_sss, .header .mainContiner .navbar.nav_toggler .navbar_icon .itm_sss {
+            width: 27px;
+            padding: 2px;
+            margin: 6px 0;
+            background-color: #000;
+            border-radius: 10px; }
+          .header .mainContiner .navbar button .navbar_icon .cros_manu .cros_item::before,
+          .header .mainContiner .navbar button .navbar_icon .cros_manu ::after, .header .mainContiner .navbar.nav_toggler .navbar_icon .cros_manu .cros_item::before,
+          .header .mainContiner .navbar.nav_toggler .navbar_icon .cros_manu ::after {
+            width: 4px;
+            background: #000;
+            content: "";
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            bottom: 20%;
+            border-radius: 5px; }
+          .header .mainContiner .navbar button .navbar_icon .cros_manu .cros_item::before, .header .mainContiner .navbar.nav_toggler .navbar_icon .cros_manu .cros_item::before {
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg); }
+          .header .mainContiner .navbar button .navbar_icon .cros_manu .cros_item::after, .header .mainContiner .navbar.nav_toggler .navbar_icon .cros_manu .cros_item::after {
+            -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg); }
+        .header .mainContiner .navbar button[aria-expanded="true"], .header .mainContiner .navbar.nav_toggler[aria-expanded="true"] {
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+          .header .mainContiner .navbar button[aria-expanded="true"] .navbar_icon .itm_sss, .header .mainContiner .navbar.nav_toggler[aria-expanded="true"] .navbar_icon .itm_sss {
+            display: none; }
+          .header .mainContiner .navbar button[aria-expanded="true"] .navbar_icon .cros_manu, .header .mainContiner .navbar.nav_toggler[aria-expanded="true"] .navbar_icon .cros_manu {
+            display: block; }
+        .header .mainContiner .navbar button[aria-expanded="false"] .navbar_icon .itm_sss, .header .mainContiner .navbar.nav_toggler[aria-expanded="false"] .navbar_icon .itm_sss {
+          display: block; }
+        .header .mainContiner .navbar button[aria-expanded="false"] .navbar_icon .cros_manu, .header .mainContiner .navbar.nav_toggler[aria-expanded="false"] .navbar_icon .cros_manu {
+          display: none; }
   .header.fixedMenu {
     background: #1a1822;
     padding: 0px 0;
@@ -92,6 +139,14 @@ body {
     .header.fixedMenu .mainContiner .navbar .collapse .lastC .srcbr {
       border-right: 1px solid #bdb6b6;
       text-decoration: none; }
+    .header.fixedMenu .mainContiner .navbar button, .header.fixedMenu .mainContiner .navbar.nav_toggler {
+      position: relative; }
+      .header.fixedMenu .mainContiner .navbar button .navbar_icon .itm_sss, .header.fixedMenu .mainContiner .navbar.nav_toggler .navbar_icon .itm_sss {
+        background-color: #fff; }
+      .header.fixedMenu .mainContiner .navbar button .navbar_icon .cros_manu .cros_item::before,
+      .header.fixedMenu .mainContiner .navbar button .navbar_icon .cros_manu ::after, .header.fixedMenu .mainContiner .navbar.nav_toggler .navbar_icon .cros_manu .cros_item::before,
+      .header.fixedMenu .mainContiner .navbar.nav_toggler .navbar_icon .cros_manu ::after {
+        background: #fff; }
 
 /*end header*/
 .banner_worp {

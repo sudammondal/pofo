@@ -22,12 +22,11 @@
                  
                 }
             }
-            .collapse{
+            .collapse_add {
                 .ullist {
                     margin:  0 auto;
                     .nav-item {
                         .nav-link {
-                            margin-left: 40px;
                             font-size: 12px;
                             text-decoration: none;
                             transition: all 0.5s;
@@ -37,7 +36,6 @@
                             color: #232323;
                             font-weight: 600;
                             cursor: pointer;
-                            
                         }
                         &.active,
                         &:hover {
@@ -68,6 +66,69 @@
                     }
                 }
             }
+        button,
+        &.nav_toggler {
+            outline: none;
+            border: 0;
+            position: relative;
+            .navbar_icon {
+                margin-right: -15px;
+                .itm_sss {
+                    display: block;
+                }
+                .cros_manu { 
+                   .cros_item {
+                        display: block;
+                        height: 40px;
+                    }
+                }
+                .itm_sss {
+                    width: 27px;
+                    padding: 2px;
+                    margin: 6px 0;
+                    background-color: #000;
+                    border-radius: 10px;
+                }
+                .cros_manu {
+                    .cros_item::before,
+                    ::after {
+                        width: 4px;
+                        background: #000;
+                        content: "";
+                        position: absolute;
+                        top: 20%;
+                        left: 50%;
+                        bottom: 20%;
+                        border-radius: 5px;
+                        
+                    }
+                    .cros_item::before {
+                        transform: rotate(45deg);
+                    }
+                    .cros_item::after  {
+                        transform: rotate(-45deg);
+                    }
+                }
+                
+            }
+            &[aria-expanded="true"] {
+                transition:  all 0.5s;
+                .navbar_icon {
+                    .itm_sss {display: none;}
+                    .cros_manu {
+                        display: block;
+                    }
+                }
+            }
+            &[aria-expanded="false"] {
+                .navbar_icon {
+                    .itm_sss {display: block;}
+                    .cros_manu {
+                        display: none;
+                    }
+                }
+            }
+        }
             
         }
     }
@@ -105,7 +166,6 @@
                             .FTGQ{
                                 color: #fff;
                             }
-                            
                         }
                         .srcbr {
                             border-right: 1px solid #bdb6b6;
@@ -113,9 +173,30 @@
                         }
                     }
                 }
+                button,
+                &.nav_toggler {
+                    position: relative;
+                    .navbar_icon {
+                    
+                        .itm_sss {
+                            background-color: #fff;
+                        }
+                        .cros_manu {
+                            .cros_item::before,
+                            ::after {
+                                background: #fff;
+                                
+                            }
+                        
+                        }
+                        
+                    }
                 
+                }
+                        
             }
         }
+        
     }
 }
 /*end header*/
