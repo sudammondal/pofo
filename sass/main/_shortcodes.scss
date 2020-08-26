@@ -130,21 +130,38 @@
 
         }
         .link_a {
-            color: #fff;
+            a {
+                color: #ff214f;
+                font-size: 14px;
+                text-decoration: none;
+                font-weight: 600;
+                border-bottom: 1px solid #ff214f;
+                text-transform: uppercase;
+            }
+            
 
         }
         .header_video {
             color: #fff;
+            font-size: 30px;
+            font-weight: 500;
+            max-width: 249px;
+            margin: 20px 0 20px 0;
         }
         .video_pra {
-            
+            font-size: 14px;
             color: #fff;
+            margin-bottom: 25px;
+            line-height: 1.5;
+            max-width: 254px;
+
 
         }
         .butn {
             .btn_defual {
                 
             color: #fff;
+            
 
             }
         }
@@ -180,7 +197,7 @@
             justify-content: center;
                 a {
                     .img_Video {
-                        width: 70px;
+                        width: 70px;transition: all 0.5s;
                     }
                 }
                 &:hover {

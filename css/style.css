@@ -593,12 +593,25 @@ body {
     content: "";
     opacity: 1;
     background-color: rgba(24, 22, 22, 0.329); }
-  .video_Worp .CastomCol .link_a {
-    color: #fff; }
+  .video_Worp .CastomCol .link_a a {
+    color: #ff214f;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px solid #ff214f;
+    text-transform: uppercase; }
   .video_Worp .CastomCol .header_video {
-    color: #fff; }
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    max-width: 249px;
+    margin: 20px 0 20px 0; }
   .video_Worp .CastomCol .video_pra {
-    color: #fff; }
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    max-width: 254px; }
   .video_Worp .CastomCol .butn .btn_defual {
     color: #fff; }
 
@@ -630,7 +643,10 @@ body {
       -ms-flex-pack: center;
       justify-content: center; }
       .video_Worp .CastomCol2 .positionR .icon_vdieo a .img_Video {
-        width: 70px; }
+        width: 70px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
       .video_Worp .CastomCol2 .positionR .icon_vdieo:hover a .img_Video {
         -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
