@@ -41,20 +41,22 @@ body {
           margin-left: -5px; }
       .header .mainContiner .navbar .collapse_add .ullist {
         margin: 0 auto; }
-        .header .mainContiner .navbar .collapse_add .ullist .nav-item .nav-link {
-          font-size: 12px;
-          text-decoration: none;
-          -webkit-transition: all 0.5s;
-          -o-transition: all 0.5s;
-          transition: all 0.5s;
-          text-transform: uppercase;
-          font-family: 'Raleway', sans-serif;
-          padding: 15px 0;
-          color: #232323;
-          font-weight: 600;
-          cursor: pointer; }
-        .header .mainContiner .navbar .collapse_add .ullist .nav-item.active .nav-link, .header .mainContiner .navbar .collapse_add .ullist .nav-item:hover .nav-link {
-          color: rgba(0, 0, 0, 0.6); }
+        .header .mainContiner .navbar .collapse_add .ullist .nav-item {
+          margin: 0 10px; }
+          .header .mainContiner .navbar .collapse_add .ullist .nav-item .nav-link {
+            font-size: 12px;
+            text-decoration: none;
+            -webkit-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s;
+            text-transform: uppercase;
+            font-family: 'Raleway', sans-serif;
+            padding: 15px 0;
+            color: #232323;
+            font-weight: 600;
+            cursor: pointer; }
+          .header .mainContiner .navbar .collapse_add .ullist .nav-item.active .nav-link, .header .mainContiner .navbar .collapse_add .ullist .nav-item:hover .nav-link {
+            color: rgba(0, 0, 0, 0.6); }
       .header .mainContiner .navbar .collapse_add .lastC {
         margin: 0px;
         margin-left: 17px; }
