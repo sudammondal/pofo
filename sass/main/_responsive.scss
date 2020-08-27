@@ -1,6 +1,33 @@
 @media (min-width: 767px) and (max-width: 1200px) { }
 
-@media(max-width: 1024px) {}
+@media(max-width: 1024px) {
+    .information .text_center {
+        max-width: 569px;
+    }
+    .information .imges {
+        margin-bottom: 0px;
+    }
+    .amazing_projects .amazingHeader .projects_head .amazing_head {
+        max-width: 51%;
+    }
+    .Unique .castomPading .heaB .hed_text {
+        font-weight: 400;
+        font-size: 35px;
+    }
+    .shortcodes .shortBaner .sortManu {
+        padding: 57px 30px;
+    }
+    .shortcodes .shortBaner .sortManu .sort_hed {
+        font-size: 28px;
+    }
+    .shortcodes .shortBaner .sortManu .sort_pra {
+        font-size: 12px;
+    } 
+    .shortcodes .shortBaner .sortManu .sortCuard {
+        padding: 5px 13px; 
+    }
+
+}
 
 // media for ipad pro 
 @media (max-width: 991px) {}
