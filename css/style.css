@@ -502,7 +502,8 @@ body {
     background-size: cover !important;
     overflow: hidden !important;
     background-position: center !important;
-    background-repeat: no-repeat !important; }
+    background-repeat: no-repeat !important;
+    min-height: 676px; }
   .Unique .castomPading {
     padding: 60px 85px; }
     .Unique .castomPading .heaB .hed_text {
@@ -568,7 +569,7 @@ body {
       font-size: 14px;
       max-width: 254px;
       line-height: 1.5; }
-    .shortcodes .shortBaner .sortManu .sortCuard {
+    .shortcodes .shortBaner .sortManu .sort_button .sortCuard {
       padding: 5px 25px;
       border: 2px solid #fff;
       border-radius: 0;
@@ -580,7 +581,7 @@ body {
       -webkit-transition: all 0.5s;
       -o-transition: all 0.5s;
       transition: all 0.5s; }
-      .shortcodes .shortBaner .sortManu .sortCuard:hover {
+      .shortcodes .shortBaner .sortManu .sort_button .sortCuard:hover {
         background-color: transparent;
         color: #fff; }
 
@@ -598,7 +599,8 @@ body {
   overflow: hidden;
   background-position: center;
   background-repeat: no-repeat;
-  position: relative; }
+  position: relative;
+  height: 430px; }
   .shortcodes .shortBanerCenter .overLayCenter {
     position: absolute;
     height: 100%;
@@ -1038,57 +1040,131 @@ body {
     padding: 5px 13px; } }
 
 @media (max-width: 768px) {
+  .header .mainContiner {
+    margin: 0; }
   .banner_worp .imgcamara {
     top: -154px;
-    left: -234px;
-    width: 569px; }
+    left: -360px;
+    width: 635px; }
   .banner_worp .imgTree {
-    top: -127px;
-    right: 29px;
-    width: 436px; }
+    top: -86px;
+    right: -47px;
+    width: 500px; }
   .banner_worp .imgNotbook {
     bottom: -413px;
-    left: -303px;
-    width: 713px; }
+    left: -408px;
+    width: 791px; }
   .banner_worp .imgPad {
-    position: absolute;
     bottom: -131px;
-    right: -319px;
-    width: 554px; }
+    right: -436px;
+    width: 692px; }
   .banner_worp .markerPancil {
-    bottom: 44px;
-    width: 138px; }
+    bottom: 112px;
+    width: 178px;
+    left: 23px; }
   .banner_worp .redPancil {
     bottom: -162px;
-    left: 109px;
-    width: 240px; }
+    left: 35px;
+    width: 300px; }
   .banner_worp .stapPin {
-    bottom: 134px;
-    left: 287px;
-    width: 35px; }
+    bottom: 184px;
+    left: 250px;
+    width: 50px; }
   .banner_worp .stapPin2 {
-    bottom: 152px;
-    left: 249px;
-    width: 35px; }
+    bottom: 220px;
+    left: 210px;
+    width: 50px; }
   .banner_worp .padePen {
     bottom: 2px;
-    right: 124px;
-    width: 200px; }
+    right: 100px;
+    width: 300px; }
   .banner_worp .banner_inner .banner .ban_hed {
-    font-size: 52px; }
+    font-size: 59px; }
   .banner_worp .banner_inner .banner .ban_pra {
-    font-size: 12px; }
+    font-size: 14px; }
   .banner_worp .banner_inner .banner .downloade_now {
-    padding: 13px 24px;
+    padding: 13px 25px;
     text-decoration: none;
-    font-size: 11px; }
+    font-size: 12px; }
   .banner_worp .banner_inner .banner .ban_hed {
-    margin-bottom: 5px; }
+    margin-bottom: 10px; }
   .banner_worp .banner_inner .banner .ban_pra {
-    margin-bottom: 20px; }
-  .about_button {
     margin-bottom: 30px; }
+  .wow_fadeIn .wow_tpra {
+    text-align: center; }
+  .wow_fadeIn .wow_hed {
+    text-align: center; }
+  .wow_fadeIn .wow_pra {
+    text-align: center; }
+  .about_button {
+    margin-bottom: 30px;
+    text-align: center; }
+  .wow_fadeIn .about_button .about {
+    margin-bottom: 20px; }
   .wow_fadeIn {
     padding: 80px 0; }
   .amazing_projects .amazingHeader .projects_head .amazing_head {
-    max-width: 54%; } }
+    max-width: 54%; }
+  .information .info_hed {
+    line-height: 35px;
+    margin: 15px 0;
+    font-size: 27px; }
+  .information .info_pra {
+    font-size: 12px;
+    margin-bottom: 0; }
+  .amazing_projects .amazingHeader .projects_head .amazing_head {
+    max-width: 68%; }
+  .dicover .disover {
+    max-width: 100%;
+    text-align: center; }
+  .dicover .disover .wow_hed {
+    font-size: 27px; }
+  .dicover .disover .wow_pra {
+    padding-right: 0px; }
+  .about_btn {
+    margin-bottom: 40px; }
+  .dicover .iconBanner .iconPart .pra_text_icon {
+    max-width: 100%; }
+  .dicover .iconBanner .iconPart .pra_text_icon {
+    font-size: 14px; }
+  .dicover .iconBanner {
+    text-align: center; }
+  .Unique .castomPading {
+    padding: 60px 30px; }
+  .Unique .castomPading .heaB .hed_text {
+    max-width: 100%;
+    font-size: 38px;
+    text-align: center; }
+  .costom_class {
+    margin-bottom: 30px; }
+  section.iconItems {
+    padding: 40px 0; }
+  .shortcodes .shortBaner .sortManu {
+    padding: 57px 30px;
+    text-align: center; }
+  .shortcodes .shortBaner .sortManu .sort_pra {
+    max-width: 389px;
+    margin: auto; }
+  .shortcodes .shortBanerCenter .position-relative .iconplay {
+    left: 45%; }
+  .shortcodes .shortBaner .sortManu .sort_hed {
+    max-width: 100%; }
+  .shortcodes .shortBaner .sortManu .sort_button {
+    margin-top: 30px; }
+  .iconItems .addcastom .iconprag {
+    font-size: 14px;
+    max-width: 100%; }
+  .iconItems .addcastom {
+    margin: 20px 0; }
+  .cardTitlese_worp {
+    padding: 75px 0; }
+  .cardTitlese_worp .marginauto .cardHed {
+    font-size: 30px; }
+  .cardTitlese_worp .cardGrup {
+    margin-bottom: 30px; }
+  .footer .footPra p {
+    font-size: 14px; }
+  .footer .footPra .disflx span {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 0px; } }
