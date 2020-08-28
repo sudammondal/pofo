@@ -57,17 +57,17 @@ body {
             cursor: pointer; }
           .header .mainContiner .navbar .collapse_add .ullist .nav-item.active .nav-link, .header .mainContiner .navbar .collapse_add .ullist .nav-item:hover .nav-link {
             color: rgba(0, 0, 0, 0.6); }
-      .header .mainContiner .navbar .collapse_add .lastC {
+      .header .mainContiner .navbar .lastC {
         margin: 0px;
         margin-left: 17px; }
-        .header .mainContiner .navbar .collapse_add .lastC .iCon {
+        .header .mainContiner .navbar .lastC .iCon {
           margin-left: 10px;
           text-decoration: none; }
-          .header .mainContiner .navbar .collapse_add .lastC .iCon .FTGQ {
+          .header .mainContiner .navbar .lastC .iCon .FTGQ {
             color: #000;
             font-size: 16px;
             margin-left: 5px; }
-        .header .mainContiner .navbar .collapse_add .lastC .srcbr {
+        .header .mainContiner .navbar .lastC .srcbr {
           border-right: 1px solid #bdb6b6;
           padding-right: 10px;
           margin-right: 10px; }
@@ -134,11 +134,11 @@ body {
         color: #fff; }
       .header.fixedMenu .mainContiner .navbar .collapse .ullist .nav-item.active .nav-link, .header.fixedMenu .mainContiner .navbar .collapse .ullist .nav-item:hover .nav-link {
         color: #bdb6b6; }
-    .header.fixedMenu .mainContiner .navbar .collapse .lastC .iCon {
+    .header.fixedMenu .mainContiner .navbar .lastC .iCon {
       text-decoration: none; }
-      .header.fixedMenu .mainContiner .navbar .collapse .lastC .iCon .FTGQ {
+      .header.fixedMenu .mainContiner .navbar .lastC .iCon .FTGQ {
         color: #fff; }
-    .header.fixedMenu .mainContiner .navbar .collapse .lastC .srcbr {
+    .header.fixedMenu .mainContiner .navbar .lastC .srcbr {
       border-right: 1px solid #bdb6b6;
       text-decoration: none; }
     .header.fixedMenu .mainContiner .navbar button, .header.fixedMenu .mainContiner .navbar.nav_toggler {

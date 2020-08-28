@@ -47,31 +47,32 @@
                         
                     }  
                 }
-                .lastC {
-                    margin: 0px;
-                    margin-left: 17px;
-                    .iCon{
-                        margin-left: 10px;
-                        text-decoration: none;
-                        .FTGQ{
-                            color: #000;
-                            font-size: 16px;
-                            margin-left: 5px;
-                        }
-                        
+                
+            }
+            .lastC {
+                margin: 0px;
+                margin-left: 17px;
+                .iCon{
+                    margin-left: 10px;
+                    text-decoration: none;
+                    .FTGQ{
+                        color: #000;
+                        font-size: 16px;
+                        margin-left: 5px;
                     }
-                    .srcbr {
-                        border-right: 1px solid #bdb6b6;
-                        padding-right: 10px;
-                        margin-right: 10px;
-                    }
+                    
+                }
+                .srcbr {
+                    border-right: 1px solid #bdb6b6;
+                    padding-right: 10px;
+                    margin-right: 10px;
                 }
             }
-        button,
-        &.nav_toggler {
-            outline: none;
-            border: 0;
-            position: relative;
+            button,
+            &.nav_toggler {
+                outline: none;
+                border: 0;
+                position: relative;
             .navbar_icon {
                 margin-right: -15px;
                 .itm_sss {
@@ -161,7 +162,9 @@
                             
                         }  
                     }
-                    .lastC {
+                   
+                }
+                 .lastC {
                         .iCon {
                             text-decoration: none;
                             .FTGQ{
@@ -173,7 +176,6 @@
                             text-decoration: none;
                         }
                     }
-                }
                 button,
                 &.nav_toggler {
                     position: relative;
