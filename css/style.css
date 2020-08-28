@@ -1021,6 +1021,17 @@ body {
         transition: all 0.5s; }
 
 @media (max-width: 1024px) {
+  .banner_worp .imgcamara {
+    top: -175px; }
+  .banner_worp .padePen {
+    right: 230px; }
+  .banner_worp .stapPin2 {
+    position: absolute;
+    bottom: 247px;
+    left: 306px; }
+  .banner_worp .stapPin {
+    bottom: 215px;
+    left: 353px; }
   .information .text_center {
     max-width: 569px; }
   .information .imges {
