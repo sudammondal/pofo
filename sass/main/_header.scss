@@ -74,27 +74,27 @@
                 border: 0;
                 position: relative;
             .navbar_icon {
-                margin-right: -15px;
+                margin-right: -13px;
                 .itm_sss {
                     display: block;
                 }
                 .cros_manu { 
                    .cros_item {
                         display: block;
-                        height: 40px;
+                        height: 34px;
                     }
                 }
                 .itm_sss {
-                    width: 27px;
-                    padding: 2px;
-                    margin: 6px 0;
+                    width: 23px;
+                    padding: 1px;
+                    margin: 5px 0;
                     background-color: #000;
                     border-radius: 10px;
                 }
                 .cros_manu {
                     .cros_item::before,
                     ::after {
-                        width: 4px;
+                        width: 2px;
                         background: #000;
                         content: "";
                         position: absolute;

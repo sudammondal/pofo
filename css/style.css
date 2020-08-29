@@ -76,22 +76,22 @@ body {
         border: 0;
         position: relative; }
         .header .mainContiner .navbar button .navbar_icon, .header .mainContiner .navbar.nav_toggler .navbar_icon {
-          margin-right: -15px; }
+          margin-right: -13px; }
           .header .mainContiner .navbar button .navbar_icon .itm_sss, .header .mainContiner .navbar.nav_toggler .navbar_icon .itm_sss {
             display: block; }
           .header .mainContiner .navbar button .navbar_icon .cros_manu .cros_item, .header .mainContiner .navbar.nav_toggler .navbar_icon .cros_manu .cros_item {
             display: block;
-            height: 40px; }
+            height: 34px; }
           .header .mainContiner .navbar button .navbar_icon .itm_sss, .header .mainContiner .navbar.nav_toggler .navbar_icon .itm_sss {
-            width: 27px;
-            padding: 2px;
-            margin: 6px 0;
+            width: 23px;
+            padding: 1px;
+            margin: 5px 0;
             background-color: #000;
             border-radius: 10px; }
           .header .mainContiner .navbar button .navbar_icon .cros_manu .cros_item::before,
           .header .mainContiner .navbar button .navbar_icon .cros_manu ::after, .header .mainContiner .navbar.nav_toggler .navbar_icon .cros_manu .cros_item::before,
           .header .mainContiner .navbar.nav_toggler .navbar_icon .cros_manu ::after {
-            width: 4px;
+            width: 2px;
             background: #000;
             content: "";
             position: absolute;
@@ -1052,7 +1052,131 @@ body {
   .shortcodes .shortBaner .sortManu .sortCuard {
     padding: 5px 13px; } }
 
+@media (max-width: 812px) {
+  .header .mainContiner .navbar button, .header .mainContiner .navbar.nav_toggler {
+    margin: 0 150px 0 auto; }
+  .header .mainContiner .navbar .lastC {
+    position: fixed;
+    top: 16px;
+    right: 56px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+  .fixedMenu .mainContiner .navbar .lastC {
+    position: fixed;
+    top: 7px; }
+  .header .mainContiner .navbar button, .header .mainContiner .navbar.nav_toggler {
+    margin-left: auto; }
+  .header.fixedMenu .mainContiner .navbar button, .header.fixedMenu .mainContiner .navbar.nav_toggler {
+    position: relative;
+    margin-left: auto; }
+  .banner_worp .banner_inner .banner .ban_hed {
+    font-size: 50px; }
+  .banner_worp .banner_inner .banner .ban_pra {
+    font-size: 12px; }
+  .banner_worp .banner_inner .banner .downloade_now {
+    font-size: 10px; }
+  .banner_worp .imgcamara {
+    display: none; }
+  .banner_worp .imgTree {
+    display: none; }
+  .banner_worp .imgNotbook {
+    display: none; }
+  .banner_worp .imgPad {
+    display: none; }
+  .banner_worp .markerPancil {
+    display: none; }
+  .banner_worp .redPancil {
+    display: none; }
+  .banner_worp .stapPin {
+    display: none; }
+  .banner_worp .stapPin2 {
+    display: none; }
+  .banner_worp .padePen {
+    display: none; }
+  .wow_fadeIn {
+    padding: 75px 0; }
+    .wow_fadeIn .about_button {
+      margin-bottom: 40px;
+      text-align: center; }
+  .wow_fadeIn .wow_tpra {
+    text-align: center; }
+  .wow_fadeIn .wow_hed {
+    text-align: center;
+    font-size: 30px; }
+  .wow_fadeIn .wow_pra {
+    text-align: center;
+    font-size: 14px; }
+  .wow_fadeIn .about_button .about {
+    font-size: 10px; }
+  .information .info_hed {
+    font-size: 27px; }
+  .amazing_projects .amazingHeader .projects_head .amazing_head {
+    max-width: 65%; }
+  .parallax {
+    padding: 100px 0; }
+  .parallax .parlex_itm {
+    margin-bottom: 30px; }
+  .dicover .disover {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 40px; }
+  .dicover .iconBanner {
+    text-align: center; }
+  .dicover .iconBanner .iconPart .pra_text_icon {
+    max-width: 100%; }
+  .dicover .iconBanner .iconPart .hed_text_icon {
+    font-size: 16px; }
+  .dicover .iconBanner .iconPart .pra_text_icon {
+    font-size: 14px; }
+  .Unique .castomPading .heaB .hed_text {
+    max-width: 100%;
+    text-align: center;
+    font-size: 33px; }
+  .counting_worp .costom_class .counting_worp {
+    margin-bottom: 30px; }
+  .shortcodes .shortBaner .sortManu {
+    text-align: center; }
+  .shortcodes .shortBaner .sortManu .sort_hed {
+    max-width: 100%; }
+  .shortcodes .shortBaner .sortManu .sort_pra {
+    max-width: 100%; }
+  .iconItems {
+    padding: 70px 0; }
+  .iconItems .addcastom {
+    margin: 20px 0; }
+  .iconItems .addcastom {
+    text-align: center; }
+  .iconItems .addcastom .iconprag {
+    max-width: 80%;
+    margin: 0 auto; }
+  .cardTitlese_worp .marginauto .cardHed {
+    font-size: 28px;
+    line-height: 35px; }
+  .cardTitlese_worp .marginauto .cardHed {
+    font-size: 27px; }
+  .card-group {
+    margin-bottom: 30px; }
+  .cardTitlese_worp {
+    padding: 100px 0; }
+  .footer .footPra p {
+    font-size: 14px; }
+  .footer .footPra .disflx span {
+    font-size: 14px;
+    margin: 0 5px; }
+  .footer .footPra .disflx .ftrlink .linkFooter:last-child {
+    margin: 0 0px; }
+  .footer .footPra .disflx .ftrlink .linkFooter:first-child {
+    margin: 0 5px 0 0; }
+  .footer .footPra .disflx .ftrlink .linkFooter {
+    margin: 0 4px; } }
+
 @media (max-width: 768px) {
+  .header .mainContiner .navbar button, .header .mainContiner .navbar.nav_toggler {
+    margin-left: auto; }
+  .header.fixedMenu .mainContiner .navbar button, .header.fixedMenu .mainContiner .navbar.nav_toggler {
+    position: relative;
+    margin-left: auto; }
   .header .mainContiner {
     margin: 0; }
   .banner_worp .imgcamara {
@@ -1179,3 +1303,28 @@ body {
     font-size: 14px;
     margin-left: 5px;
     margin-right: 0px; } }
+
+@media (max-width: 375px) {
+  .header .mainContiner .navbar button, .header .mainContiner .navbar.nav_toggler {
+    margin-left: auto; }
+  .header.fixedMenu .mainContiner .navbar button, .header.fixedMenu .mainContiner .navbar.nav_toggler {
+    position: relative;
+    margin-left: auto; }
+  .banner_worp .imgcamara {
+    display: none; }
+  .banner_worp .imgTree {
+    display: none; }
+  .banner_worp .imgNotbook {
+    display: none; }
+  .banner_worp .imgPad {
+    display: none; }
+  .banner_worp .markerPancil {
+    display: none; }
+  .banner_worp .redPancil {
+    display: none; }
+  .banner_worp .stapPin {
+    display: none; }
+  .banner_worp .stapPin2 {
+    display: none; }
+  .banner_worp .padePen {
+    display: none; } }
