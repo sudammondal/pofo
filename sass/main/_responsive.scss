@@ -49,15 +49,23 @@
 
 //  media for ipad
 @media (max-width: 812px) {
+    .header {
+        background-color: #fff;
+    }
     .header .mainContiner .navbar button, .header .mainContiner .navbar.nav_toggler {
-        margin: 0 150px 0 auto;
+        margin: 0 160px 0 auto;
     }
 
     .header .mainContiner .navbar .lastC {
         position: fixed;
         top: 16px;
-        right: 56px;
+        right: 20px;
         transition: all 0.5s;
+    }
+    .header .mainContiner .navbar .collapse_add .ullist {
+        overflow: scroll;
+        width: 100%;
+        height: 200px;
     }
     &.fixedMenu {
         .mainContiner {
@@ -65,12 +73,21 @@
                 .lastC {
                     position: fixed;
                     top: 7px;
-                }  
+                }
+                .collapse_add {
+                    .ullist {
+                        overflow: scroll;
+                        width: 100%;
+                        height: 200px;
+                    }  
+                }
             }
         }
         
     }
-    
+    .header .mainContiner .navbar .collapse_add .ullist .nav-item .nav-link {
+        padding: 6px 0;
+    }
     .header .mainContiner .navbar button, .header .mainContiner .navbar.nav_toggler {
         margin-left: auto;
     }
