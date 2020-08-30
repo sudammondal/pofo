@@ -394,7 +394,7 @@
         padding: 40px 0;
     }
     .shortcodes .shortBaner .sortManu {
-        padding: 57px 30px;
+        padding: 100px 3px;
         text-align: center;
     }
     
@@ -593,8 +593,58 @@
 // media for mobile small
 @media (max-width: 375px) {
     
-    
-    
+    .banner_worp .banner_inner .banner .ban_hed {
+        font-size: 50px;
+    }
+    .banner_worp .banner_inner .banner .downloade_now {
+        padding: 10px 22px;
+    }
+    .wow_fadeIn .about_button .about {
+        padding: 4px 20px;
+    }
+    .wow_fadeIn .blogar_itm .bl_pra {
+        font-size: 12px;
+    }
+    .parallax .parlex_itm .parl_prag {
+        font-size: 14px;
+    }
+    .information .info_hed {
+        font-size: 18px;
+    }
+    .amazing_projects .amazingHeader .projects_head .amazing_head {
+        max-width: 96%;
+    }
+    .amazing_projects .amazingHeader .projects_head .amazing_head {
+        font-size: 26px;
+    }
+    .dicover .disover .wow_pra {
+        font-size: 12px;
+    }
+    .dicover .disover .about {
+        padding: 4px 20px;
+    }
+    .dicover .iconBanner .iconPart .pra_text_icon {
+        font-size: 12px;
+    }
+    .Unique .castomPading .heaB .hed_text {
+        font-size: 26px;
+    }
+    .shortcodes .shortBaner .sortManu {
+        padding: 100px 3px;
+        text-align: center;
+    }
+    .shortcodes .shortBaner .sortManu .sort_hed {
+        font-size: 26px;
+    }
+    .cardTitlese_worp .marginauto .cardHed {
+        font-size: 23px;
+    }
+    .footer .footPra .imgfter {
+        width: 100px;
+    }
+    .footer .border_top .footer_coprit .copyrit {
+        font-size: 12px;
+    }
 
 }
 
