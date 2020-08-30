@@ -493,7 +493,7 @@ body {
       margin-bottom: 10px; }
 
 .Unique {
-  background-color: #000; }
+  background-color: #1c1c1c; }
   .Unique .castomBanner {
     background-image: url(../imgs/homepage-option15-image-4.jpg);
     position: relative !important;
@@ -1045,29 +1045,37 @@ body {
     font-size: 35px; }
   .shortcodes .shortBaner .sortManu {
     padding: 57px 30px; }
-  .shortcodes .shortBaner .sortManu .sort_hed {
-    font-size: 28px; }
-  .shortcodes .shortBaner .sortManu .sort_pra {
-    font-size: 12px; }
-  .shortcodes .shortBaner .sortManu .sortCuard {
-    padding: 5px 13px; } }
+    .shortcodes .shortBaner .sortManu .sort_hed {
+      font-size: 28px; }
+    .shortcodes .shortBaner .sortManu .sort_pra {
+      font-size: 12px; }
+    .shortcodes .shortBaner .sortManu .sortCuard {
+      padding: 5px 13px; } }
 
 @media (max-width: 823px) {
   .header {
     background-color: #fff; }
-  .header .mainContiner .navbar button, .header .mainContiner .navbar.nav_toggler {
-    margin: 0 160px 0 auto; }
-  .header .mainContiner .navbar .lastC {
-    position: fixed;
-    top: 16px;
-    right: 20px;
-    -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s; }
-  .header .mainContiner .navbar .collapse_add .ullist {
-    overflow: scroll;
-    width: 100%;
-    height: 200px; }
+    .header .mainContiner .nav_toggler {
+      margin: 0 160px 0 auto;
+      margin-left: auto;
+      position: relative;
+      margin-left: auto; }
+    .header .mainContiner .navbar button {
+      margin: 0 160px 0 auto;
+      margin-left: auto;
+      position: relative;
+      margin-left: auto; }
+    .header .mainContiner .navbar .lastC {
+      position: fixed;
+      top: 16px;
+      right: 20px;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .header .mainContiner .navbar .collapse_add .ullist {
+      overflow: scroll;
+      width: 100%;
+      height: 200px; }
   .fixedMenu .mainContiner .navbar .lastC {
     position: fixed;
     top: 7px; }
@@ -1075,13 +1083,8 @@ body {
     overflow: scroll;
     width: 100%;
     height: 200px; }
-  .header .mainContiner .navbar .collapse_add .ullist .nav-item .nav-link {
-    padding: 6px 0; }
-  .header .mainContiner .navbar button, .header .mainContiner .navbar.nav_toggler {
-    margin-left: auto; }
-  .header.fixedMenu .mainContiner .navbar button, .header.fixedMenu .mainContiner .navbar.nav_toggler {
-    position: relative;
-    margin-left: auto; }
+    .fixedMenu .mainContiner .navbar .collapse_add .ullist .nav-item .nav-link {
+      padding: 6px 0; }
   .banner_worp .banner_inner .banner .ban_hed {
     font-size: 50px; }
   .banner_worp .banner_inner .banner .ban_pra {
@@ -1111,36 +1114,35 @@ body {
     .wow_fadeIn .about_button {
       margin-bottom: 40px;
       text-align: center; }
-  .wow_fadeIn .wow_tpra {
-    text-align: center; }
-  .wow_fadeIn .wow_hed {
-    text-align: center;
-    font-size: 30px; }
-  .wow_fadeIn .wow_pra {
-    text-align: center;
-    font-size: 14px; }
-  .wow_fadeIn .about_button .about {
-    font-size: 10px; }
+      .wow_fadeIn .about_button .about {
+        font-size: 10px; }
+    .wow_fadeIn .wow_tpra {
+      text-align: center; }
+    .wow_fadeIn .wow_hed {
+      text-align: center;
+      font-size: 30px; }
+    .wow_fadeIn .wow_pra {
+      text-align: center;
+      font-size: 14px; }
   .information .info_hed {
     font-size: 27px; }
   .amazing_projects .amazingHeader .projects_head .amazing_head {
     max-width: 65%; }
   .parallax {
     padding: 100px 0; }
-  .parallax .parlex_itm {
-    margin-bottom: 30px; }
+    .parallax .parlex_itm {
+      margin-bottom: 30px; }
   .dicover .disover {
     max-width: 100%;
     text-align: center;
     margin-bottom: 40px; }
   .dicover .iconBanner {
     text-align: center; }
-  .dicover .iconBanner .iconPart .pra_text_icon {
-    max-width: 100%; }
-  .dicover .iconBanner .iconPart .hed_text_icon {
-    font-size: 16px; }
-  .dicover .iconBanner .iconPart .pra_text_icon {
-    font-size: 14px; }
+    .dicover .iconBanner .iconPart .pra_text_icon {
+      max-width: 100%;
+      font-size: 14px; }
+    .dicover .iconBanner .iconPart .hed_text_icon {
+      font-size: 16px; }
   .Unique .castomPading .heaB .hed_text {
     max-width: 100%;
     text-align: center;
@@ -1148,116 +1150,70 @@ body {
   .counting_worp .costom_class .counting_worp {
     margin: 15px 0; }
   .shortcodes .shortBaner .sortManu {
-    text-align: center; }
-  .shortcodes .shortBaner .sortManu .sort_hed {
-    max-width: 100%; }
-  .shortcodes .shortBaner .sortManu .sort_pra {
-    max-width: 100%; }
+    text-align: center;
+    padding: 108px 142px; }
+    .shortcodes .shortBaner .sortManu .sort_hed {
+      max-width: 100%; }
+    .shortcodes .shortBaner .sortManu .sort_pra {
+      max-width: 100%; }
   .iconItems {
     padding: 70px 0; }
-  .iconItems .addcastom {
-    margin: 20px 0; }
-  .iconItems .addcastom {
-    text-align: center; }
-  .iconItems .addcastom .iconprag {
-    max-width: 80%;
-    margin: 0 auto; }
-  .cardTitlese_worp .marginauto .cardHed {
-    font-size: 28px;
-    line-height: 35px; }
-  .cardTitlese_worp .marginauto .cardHed {
-    font-size: 27px; }
-  .card-group {
-    margin-bottom: 30px; }
+    .iconItems .addcastom {
+      margin: 20px 0;
+      text-align: center; }
+      .iconItems .addcastom .iconprag {
+        max-width: 80%;
+        margin: 0 auto; }
   .cardTitlese_worp {
     padding: 100px 0; }
+    .cardTitlese_worp .marginauto .cardHed {
+      font-size: 27px;
+      line-height: 35px; }
+    .cardTitlese_worp .cardGrup {
+      margin-bottom: 30px; }
   .footer .footPra p {
     font-size: 14px; }
   .footer .footPra .disflx span {
     font-size: 14px;
     margin: 0 5px; }
-  .footer .footPra .disflx .ftrlink .linkFooter:last-child {
-    margin: 0 0px; }
-  .footer .footPra .disflx .ftrlink .linkFooter:first-child {
+  .footer .footPra .disflx .ftrlink .linkFooter, .footer .footPra .disflx .ftrlink:last-child {
+    margin: 0 3px; }
+  .footer .footPra .disflx .ftrlink:first-child {
     margin: 0 5px 0 0; }
-  .footer .footPra .disflx .ftrlink .linkFooter {
-    margin: 0 4px; }
   .footer .border_top {
     text-align: center; }
-  .footer .border_top .footer_coprit .copyrit_flot {
-    float: none; } }
+    .footer .border_top .footer_coprit .copyrit_flot {
+      float: none; } }
 
 @media (max-width: 768px) {
-  .header .mainContiner .navbar button, .header .mainContiner .navbar.nav_toggler {
-    margin-left: auto; }
-  .header.fixedMenu .mainContiner .navbar button, .header.fixedMenu .mainContiner .navbar.nav_toggler {
+  .header .mainContiner .nav_toggler {
+    margin: 0 160px 0 auto;
+    margin-left: auto;
     position: relative;
     margin-left: auto; }
-  .header .mainContiner {
-    margin: 0; }
-  .banner_worp .imgcamara {
-    top: -154px;
-    left: -360px;
-    width: 635px; }
-  .banner_worp .imgTree {
-    top: -86px;
-    right: -47px;
-    width: 500px; }
-  .banner_worp .imgNotbook {
-    bottom: -413px;
-    left: -408px;
-    width: 791px; }
-  .banner_worp .imgPad {
-    bottom: -131px;
-    right: -436px;
-    width: 692px; }
-  .banner_worp .markerPancil {
-    bottom: 112px;
-    width: 178px;
-    left: 23px; }
-  .banner_worp .redPancil {
-    bottom: -162px;
-    left: 35px;
-    width: 300px; }
-  .banner_worp .stapPin {
-    bottom: 184px;
-    left: 250px;
-    width: 50px; }
-  .banner_worp .stapPin2 {
-    bottom: 220px;
-    left: 210px;
-    width: 50px; }
-  .banner_worp .padePen {
-    bottom: 2px;
-    right: 100px;
-    width: 300px; }
   .banner_worp .banner_inner .banner .ban_hed {
-    font-size: 59px; }
+    font-size: 59px;
+    margin-bottom: 10px; }
   .banner_worp .banner_inner .banner .ban_pra {
-    font-size: 14px; }
+    font-size: 14px;
+    margin-bottom: 30px; }
   .banner_worp .banner_inner .banner .downloade_now {
     padding: 13px 25px;
     text-decoration: none;
     font-size: 12px; }
-  .banner_worp .banner_inner .banner .ban_hed {
-    margin-bottom: 10px; }
-  .banner_worp .banner_inner .banner .ban_pra {
-    margin-bottom: 30px; }
-  .wow_fadeIn .wow_tpra {
-    text-align: center; }
-  .wow_fadeIn .wow_hed {
-    text-align: center; }
-  .wow_fadeIn .wow_pra {
-    text-align: center; }
-  .about_button {
-    margin-bottom: 30px;
-    text-align: center; }
-  .wow_fadeIn .about_button .about {
-    margin-bottom: 20px; }
   .wow_fadeIn {
     padding: 80px 0; }
-  .amazing_projects .amazingHeader .projects_head .amazing_head {
-    max-width: 54%; }
+    .wow_fadeIn .wow_tpra {
+      text-align: center; }
+    .wow_fadeIn .wow_hed {
+      text-align: center; }
+    .wow_fadeIn .wow_pra {
+      text-align: center; }
+    .wow_fadeIn .about_button {
+      text-align: center;
+      margin-bottom: 40px; }
+      .wow_fadeIn .about_button .about {
+        margin-bottom: 20px; }
   .information .info_hed {
     line-height: 35px;
     margin: 15px 0;
@@ -1266,47 +1222,44 @@ body {
     font-size: 12px;
     margin-bottom: 0; }
   .amazing_projects .amazingHeader .projects_head .amazing_head {
-    max-width: 68%; }
+    max-width: 60%; }
   .dicover .disover {
     max-width: 100%;
     text-align: center; }
-  .dicover .disover .wow_hed {
-    font-size: 27px; }
-  .dicover .disover .wow_pra {
-    padding-right: 0px; }
-  .about_btn {
-    margin-bottom: 40px; }
-  .dicover .iconBanner .iconPart .pra_text_icon {
-    max-width: 100%; }
-  .dicover .iconBanner .iconPart .pra_text_icon {
-    font-size: 14px; }
+    .dicover .disover .wow_hed {
+      font-size: 27px; }
+    .dicover .disover .wow_pra {
+      padding-right: 0px; }
   .dicover .iconBanner {
     text-align: center; }
+    .dicover .iconBanner .iconPart .pra_text_icon {
+      max-width: 100%;
+      font-size: 14px; }
   .Unique .castomPading {
     padding: 60px 30px; }
-  .Unique .castomPading .heaB .hed_text {
-    max-width: 100%;
-    font-size: 38px;
-    text-align: center; }
+    .Unique .castomPading .heaB .hed_text {
+      max-width: 100%;
+      font-size: 38px;
+      text-align: center; }
   .counting_worp .costom_class .counting_worp {
     margin: 15px 0; }
-  section.iconItems {
-    padding: 40px 0; }
   .shortcodes .shortBaner .sortManu {
     padding: 100px 3px;
     text-align: center; }
-  .shortcodes .shortBaner .sortManu .sort_pra {
-    max-width: 389px;
-    margin: auto; }
-  .shortcodes .shortBaner .sortManu .sort_hed {
-    max-width: 100%; }
-  .shortcodes .shortBaner .sortManu .sort_button {
-    margin-top: 30px; }
-  .iconItems .addcastom .iconprag {
-    font-size: 14px;
-    max-width: 100%; }
-  .iconItems .addcastom {
-    margin: 20px 0; }
+    .shortcodes .shortBaner .sortManu .sort_pra {
+      max-width: 389px;
+      margin: auto; }
+    .shortcodes .shortBaner .sortManu .sort_hed {
+      max-width: 100%; }
+    .shortcodes .shortBaner .sortManu .sort_button {
+      margin-top: 30px; }
+  .iconItems {
+    padding: 40px 0; }
+    .iconItems .addcastom {
+      margin: 20px 0; }
+      .iconItems .addcastom .iconprag {
+        font-size: 14px;
+        max-width: 100%; }
   .cardTitlese_worp {
     padding: 75px 0; }
   .cardTitlese_worp .marginauto .cardHed {
@@ -1315,54 +1268,43 @@ body {
     margin-bottom: 30px; }
   .footer .footPra p {
     font-size: 14px; }
-  .footer .footPra .disflx span {
+  .footer .footPra .disflx {
     font-size: 14px;
     margin-left: 5px;
     margin-right: 0px; } }
 
 @media (max-width: 736px) {
-  .footer .footPraLeft {
+  .Unique {
     text-align: center; }
-  .footer .footPra .disflx {
-    display: inline-block; }
-  .footer .footPra {
-    padding: 20px 0 20px 0;
-    text-align: center; }
-  .footer .footPraRight {
-    float: none; }
-  .footer .border_top {
-    text-align: center; }
-  .footer .border_top .footer_coprit .copyrit {
-    padding: 25px 0 0 0; }
-  .footer .border_top .footer_coprit .copyrit_flot {
-    float: none; }
   .footer {
-    padding: 40px 0 40px 0; } }
+    padding: 40px 0 40px 0; }
+    .footer .footPraLeft {
+      text-align: center; }
+    .footer .footPra {
+      padding: 20px 0 20px 0;
+      text-align: center; }
+      .footer .footPra .disflx {
+        display: inline-block; }
+    .footer .footPraRight {
+      float: none; }
+    .footer .border_top {
+      text-align: center; }
+      .footer .border_top .footer_coprit .copyrit {
+        padding: 25px 0 0 0; }
+      .footer .border_top .footer_coprit .copyrit_flot {
+        float: none; } }
 
 @media (max-width: 420px) {
-  .header .mainContiner .navbar button, .header .mainContiner .navbar.nav_toggler {
-    margin-left: auto; }
-  .header.fixedMenu .mainContiner .navbar button, .header.fixedMenu .mainContiner .navbar.nav_toggler {
+  .header .mainContiner .nav_toggler {
+    margin: 0 160px 0 auto;
+    margin-left: auto;
     position: relative;
     margin-left: auto; }
-  .banner_worp .imgcamara {
-    display: none; }
-  .banner_worp .imgTree {
-    display: none; }
-  .banner_worp .imgNotbook {
-    display: none; }
-  .banner_worp .imgPad {
-    display: none; }
-  .banner_worp .markerPancil {
-    display: none; }
-  .banner_worp .redPancil {
-    display: none; }
-  .banner_worp .stapPin {
-    display: none; }
-  .banner_worp .stapPin2 {
-    display: none; }
-  .banner_worp .padePen {
-    display: none; }
+  .header .mainContiner .navbar button {
+    margin: 0 160px 0 auto;
+    margin-left: auto;
+    position: relative;
+    margin-left: auto; }
   .banner_worp .banner_inner .banner .ban_pra {
     font-size: 12px; }
   .banner_worp .banner_inner .banner .ban_hed {
@@ -1372,8 +1314,6 @@ body {
   .wow_fadeIn .wow_hed {
     font-size: 20px; }
   .wow_fadeIn .wow_tpra {
-    font-size: 12px; }
-  .wow_fadeIn .wow_pra {
     font-size: 12px; }
   .wow_fadeIn .about_button .about {
     padding: 4px 23px; }
@@ -1389,8 +1329,6 @@ body {
     font-size: 10px; }
   .Unique .castomPading .heaB .hed_text {
     font-size: 30px; }
-  .dicover .disover .wow_pra {
-    font-size: 14px; }
   .shortcodes .shortBaner .sortManu .sort_tpra {
     font-size: 12px; }
   .shortcodes .shortBaner .sortManu .sort_hed {
@@ -1402,23 +1340,23 @@ body {
     font-size: 12px; }
   .cardTitlese_worp .marginauto .cardHed {
     font-size: 27px; }
-  .footer .footPraLeft {
-    text-align: center; }
-  .footer .footPra .disflx {
-    display: inline-block; }
-  .footer .footPra {
-    padding: 20px 0 20px 0;
-    text-align: center; }
-  .footer .footPraRight {
-    float: none; }
-  .footer .border_top {
-    text-align: center; }
-  .footer .border_top .footer_coprit .copyrit {
-    padding: 25px 0 0 0; }
-  .footer .border_top .footer_coprit .copyrit_flot {
-    float: none; }
   .footer {
-    padding: 40px 0 40px 0; } }
+    padding: 40px 0 40px 0; }
+    .footer .footPraLeft {
+      text-align: center; }
+    .footer .footPra {
+      padding: 20px 0 20px 0;
+      text-align: center; }
+      .footer .footPra .disflx {
+        display: inline-block; }
+    .footer .footPraRight {
+      float: none; }
+    .footer .border_top {
+      text-align: center; }
+      .footer .border_top .footer_coprit .copyrit {
+        padding: 25px 0 0 0; }
+      .footer .border_top .footer_coprit .copyrit_flot {
+        float: none; } }
 
 @media (max-width: 375px) {
   .banner_worp .banner_inner .banner .ban_hed {
@@ -1434,8 +1372,7 @@ body {
   .information .info_hed {
     font-size: 18px; }
   .amazing_projects .amazingHeader .projects_head .amazing_head {
-    max-width: 96%; }
-  .amazing_projects .amazingHeader .projects_head .amazing_head {
+    max-width: 96%;
     font-size: 26px; }
   .dicover .disover .wow_pra {
     font-size: 12px; }
@@ -1448,8 +1385,8 @@ body {
   .shortcodes .shortBaner .sortManu {
     padding: 100px 3px;
     text-align: center; }
-  .shortcodes .shortBaner .sortManu .sort_hed {
-    font-size: 26px; }
+    .shortcodes .shortBaner .sortManu .sort_hed {
+      font-size: 26px; }
   .cardTitlese_worp .marginauto .cardHed {
     font-size: 23px; }
   .footer .footPra .imgfter {
@@ -1458,18 +1395,26 @@ body {
     font-size: 12px; } }
 
 @media (max-width: 320px) {
-  .header .mainContiner .navbar button, .header .mainContiner .navbar.nav_toggler {
-    margin: 0 146px 0 0px; }
+  .header .mainContiner .nav_toggler {
+    margin: 0 146px 0 auto;
+    margin-left: auto;
+    position: relative;
+    margin-left: auto; }
+  .header .mainContiner .navbar button {
+    margin: 0 146px 0 auto;
+    margin-left: auto;
+    position: relative;
+    margin-left: auto; }
   .header .mainContiner .navbar .lastC .iCon .FTGQ {
     margin-left: 3px; }
   .header .mainContiner .navbar .logo {
     font-size: 26px; }
-  .banner_worp .banner_inner .banner .ban_hed {
-    font-size: 48px; }
   .wow_fadeIn .blogar_itm a .blogar {
     font-size: 12px; }
   .amazing_projects .amazingHeader .projects_head .amazing_head {
     font-size: 22px; }
+  .dicover .disover .ban_hed {
+    font-size: 48px; }
   .dicover .disover .wow_hed {
     font-size: 17px; }
   .dicover .disover .wow_tpra {
