@@ -1052,7 +1052,7 @@ body {
   .shortcodes .shortBaner .sortManu .sortCuard {
     padding: 5px 13px; } }
 
-@media (max-width: 812px) {
+@media (max-width: 823px) {
   .header {
     background-color: #fff; }
   .header .mainContiner .navbar button, .header .mainContiner .navbar.nav_toggler {
@@ -1181,7 +1181,11 @@ body {
   .footer .footPra .disflx .ftrlink .linkFooter:first-child {
     margin: 0 5px 0 0; }
   .footer .footPra .disflx .ftrlink .linkFooter {
-    margin: 0 4px; } }
+    margin: 0 4px; }
+  .footer .border_top {
+    text-align: center; }
+  .footer .border_top .footer_coprit .copyrit_flot {
+    float: none; } }
 
 @media (max-width: 768px) {
   .header .mainContiner .navbar button, .header .mainContiner .navbar.nav_toggler {
@@ -1454,6 +1458,12 @@ body {
     font-size: 12px; } }
 
 @media (max-width: 320px) {
+  .header .mainContiner .navbar button, .header .mainContiner .navbar.nav_toggler {
+    margin: 0 146px 0 0px; }
+  .header .mainContiner .navbar .lastC .iCon .FTGQ {
+    margin-left: 3px; }
+  .header .mainContiner .navbar .logo {
+    font-size: 26px; }
   .banner_worp .banner_inner .banner .ban_hed {
     font-size: 48px; }
   .wow_fadeIn .blogar_itm a .blogar {
