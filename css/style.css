@@ -1411,7 +1411,8 @@ body {
   .header .mainContiner .navbar .lastC .iCon .FTGQ {
     margin-left: 3px; }
   .header .mainContiner .navbar .logo {
-    font-size: 26px; }
+    font-size: 26px;
+    margin: 0; }
   .wow_fadeIn .blogar_itm a .blogar {
     font-size: 12px; }
   .amazing_projects .amazingHeader .projects_head .amazing_head {
