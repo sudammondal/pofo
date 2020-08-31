@@ -1292,7 +1292,10 @@ body {
       .footer .border_top .footer_coprit .copyrit {
         padding: 25px 0 0 0; }
       .footer .border_top .footer_coprit .copyrit_flot {
-        float: none; } }
+        float: none; }
+    .footer .aplien_item form .from_manu .imput_button .input_email {
+      padding: 0 45px 0 15px;
+      width: 100%; } }
 
 @media (max-width: 420px) {
   .header .mainContiner .nav_toggler {
