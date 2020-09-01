@@ -1266,12 +1266,17 @@ body {
     font-size: 30px; }
   .cardTitlese_worp .cardGrup {
     margin-bottom: 30px; }
-  .footer .footPra p {
+  .footer .footPra .imgfter {
+    width: 90px; }
+  .footer .footPra img
+p {
     font-size: 14px; }
   .footer .footPra .disflx {
     font-size: 14px;
     margin-left: 5px;
-    margin-right: 0px; } }
+    margin-right: 0px; }
+    .footer .footPra .disflx span {
+      margin: 0 1px; } }
 
 @media (max-width: 736px) {
   .Unique {
