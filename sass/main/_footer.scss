@@ -151,19 +151,20 @@
                 list-style: none;
                 padding: 0;
                 margin: 0;
-                display: -webkit-box;
-                display: -ms-flexbox;
                 width: 100%;
                 .instgramItem {
                     display: inline-block;
-                    margin: 1px 5px;
+                    margin: 0;
                     position: relative;
                     overflow: hidden;
+                    width: 33.333336%;
+                    padding: 0 5px;
+                    float: left;
+                    margin-bottom: 10px;
                     figure {
                         margin: 0;
                         a {
                             .instaimage {
-                                width: 77px;
                             }
                         }
                     }

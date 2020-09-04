@@ -611,33 +611,29 @@ body {
     content: "";
     background-color: #ff214f; }
   .shortcodes .shortBanerCenter .position-relative {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     text-align: center;
     width: 100%;
-    height: 100%;
-    position: relative; }
-    .shortcodes .shortBanerCenter .position-relative .iconplay {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      text-align: center; }
-      .shortcodes .shortBanerCenter .position-relative .iconplay .imgWidth {
-        width: 75px;
-        -webkit-transition: all 0.5s;
-        -o-transition: all 0.5s;
-        transition: all 0.5s; }
-        .shortcodes .shortBanerCenter .position-relative .iconplay .imgWidth:hover {
-          -webkit-transform: scale(1.1);
-          -ms-transform: scale(1.1);
-          transform: scale(1.1); }
+    height: 100%; }
+    .shortcodes .shortBanerCenter .position-relative .iconplay .imgWidth {
+      max-width: 75px;
+      width: 60%;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+      .shortcodes .shortBanerCenter .position-relative .iconplay .imgWidth:hover {
+        width: 100%; }
 
 .amazing_projects {
   padding: 125px 0; }
@@ -950,18 +946,18 @@ body {
       list-style: none;
       padding: 0;
       margin: 0;
-      display: -webkit-box;
-      display: -ms-flexbox;
       width: 100%; }
       .footer .aplien_item .instagramfollow .instgramManu .instgramItem {
         display: inline-block;
-        margin: 1px 5px;
+        margin: 0;
         position: relative;
-        overflow: hidden; }
+        overflow: hidden;
+        width: 33.333336%;
+        padding: 0 5px;
+        float: left;
+        margin-bottom: 10px; }
         .footer .aplien_item .instagramfollow .instgramManu .instgramItem figure {
           margin: 0; }
-          .footer .aplien_item .instagramfollow .instgramManu .instgramItem figure a .instaimage {
-            width: 77px; }
         .footer .aplien_item .instagramfollow .instgramManu .instgramItem .bloghovericon {
           position: absolute;
           height: 22px;
