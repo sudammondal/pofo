@@ -627,13 +627,13 @@ body {
     width: 100%;
     height: 100%; }
     .shortcodes .shortBanerCenter .position-relative .iconplay .imgWidth {
-      max-width: 75px;
-      width: 60%;
+      max-width: 85px;
+      width: 70%;
       -webkit-transition: all 0.5s;
       -o-transition: all 0.5s;
       transition: all 0.5s; }
       .shortcodes .shortBanerCenter .position-relative .iconplay .imgWidth:hover {
-        width: 100%; }
+        width: 80%; }
 
 .amazing_projects {
   padding: 125px 0; }
