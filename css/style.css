@@ -303,7 +303,7 @@ body {
       left: 0; }
 
 .parallax {
-  background-image: url(../imgs/29716155_646461779018392_1632824515853549568_n.jpg);
+  background-image: url(../imgs/office_banner.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -917,6 +917,62 @@ body {
             color: #ff214f; }
       .footer .aplien_item .resent_posr .latestpost .media:last-child {
         border-bottom: 1px solid transparent; }
+    .footer .aplien_item .icon_items {
+      display: block;
+      padding-bottom: 22px; }
+      .footer .aplien_item .icon_items .iconss {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .footer .aplien_item .icon_items .iconss i {
+          color: #b7aeae;
+          font-size: 22px; }
+        .footer .aplien_item .icon_items .iconss .icon_pra {
+          color: #aeaeb8; }
+          .footer .aplien_item .icon_items .iconss .icon_pra a {
+            color: #ddd;
+            text-decoration: none; }
+            .footer .aplien_item .icon_items .iconss .icon_pra a:hover {
+              color: #fff; }
+        .footer .aplien_item .icon_items .iconss .icon_p {
+          color: #ddd;
+          text-decoration: none; }
+          .footer .aplien_item .icon_items .iconss .icon_p:hover {
+            color: #fff; }
+        .footer .aplien_item .icon_items .iconss .ct_call {
+          padding: 5px; }
+          .footer .aplien_item .icon_items .iconss .ct_call .member_col {
+            position: relative;
+            overflow: hidden; }
+            .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con {
+              padding: 0;
+              position: absolute;
+              left: 0;
+              top: 102px;
+              width: 100%;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-align: center;
+              -ms-flex-align: center;
+              align-items: center;
+              opacity: 0;
+              -webkit-transition: all 0.5s;
+              -o-transition: all 0.5s;
+              transition: all 0.5s; }
+              .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con a {
+                display: block; }
+              .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con .member_icons {
+                background-color: #373835;
+                width: 100%; }
+                .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con .member_icons .member_tex {
+                  text-decoration: none; }
+                  .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con .member_icons .member_tex i {
+                    font-size: 16px; }
+            .footer .aplien_item .icon_items .iconss .ct_call .member_col:hover .member_con {
+              opacity: 1;
+              top: 65px;
+              visibility: visible; }
     .footer .aplien_item form .from_manu .imput_button {
       border: 1px solid #363636;
       position: relative;
@@ -932,7 +988,8 @@ body {
         left: 0;
         outline: 0;
         color: #6f6f6f;
-        font-size: 14px; }
+        font-size: 14px;
+        width: 84%; }
       .footer .aplien_item form .from_manu .imput_button .buton {
         position: absolute;
         top: 0;
@@ -943,50 +1000,6 @@ body {
         color: #6f6f6f;
         -webkit-box-shadow: none;
         box-shadow: none; }
-    .footer .aplien_item .instagramfollow .instgramManu {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      width: 100%; }
-      .footer .aplien_item .instagramfollow .instgramManu .instgramItem {
-        display: inline-block;
-        margin: 0;
-        position: relative;
-        overflow: hidden;
-        width: 33.333336%;
-        padding: 0 5px;
-        float: left;
-        margin-bottom: 10px; }
-        .footer .aplien_item .instagramfollow .instgramManu .instgramItem figure {
-          margin: 0; }
-        .footer .aplien_item .instagramfollow .instgramManu .instgramItem .bloghovericon {
-          position: absolute;
-          height: 22px;
-          width: 100%;
-          bottom: -23px;
-          left: 0;
-          text-align: center;
-          -webkit-transition: all 0.5s;
-          -o-transition: all 0.5s;
-          transition: all 0.5s;
-          opacity: 0;
-          background: rgba(0, 0, 0, 0.5); }
-          .footer .aplien_item .instagramfollow .instgramManu .instgramItem .bloghovericon .weightplus {
-            font-size: 14px;
-            color: #fff;
-            position: absolute;
-            top: 4px;
-            left: 46%;
-            -webkit-transition: all 0.5s;
-            -o-transition: all 0.5s;
-            transition: all 0.5s; }
-        .footer .aplien_item .instagramfollow .instgramManu .instgramItem:hover .bloghovericon {
-          height: 22px;
-          bottom: 0;
-          opacity: 1; }
-          .footer .aplien_item .instagramfollow .instgramManu .instgramItem:hover .bloghovericon .weightplus {
-            top: 4px;
-            left: 46%; }
   .footer .border_top {
     border-top: 1px solid #363636; }
     .footer .border_top .footer_coprit {

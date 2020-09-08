@@ -109,6 +109,74 @@
                 }
             }
         }
+        .icon_items {
+            display: block;
+            padding-bottom: 22px;
+            .iconss {
+                display: flex;
+                i {
+                    color: #b7aeae;
+                    font-size: 22px;
+                }
+                .icon_pra {
+                    color: #aeaeb8;
+                    a {
+                        
+                        color:#ddd;
+                        text-decoration: none;
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+                .icon_p {
+                    color:#ddd;
+                    text-decoration: none;
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+                .ct_call {
+                    padding: 5px;
+                    .member_col {
+                        position: relative;
+                        overflow: hidden;
+                        .member_con {
+                            padding: 0;
+                            position: absolute;
+                            left: 0;
+                            top: 102px;
+                            width: 100%;
+                            display: flex;
+                            align-items: center;
+                            opacity: 0;
+                            transition: all 0.5s;
+                            a {
+                                display: block;
+                            }
+                            .member_icons {
+                                background-color: #373835;
+                                width: 100%;
+                                .member_tex {
+                                    text-decoration: none;
+                                    i {
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+                               
+                        }
+                        &:hover {
+                            .member_con {
+                                opacity: 1;
+                                top: 65px;
+                                visibility: visible;
+                            }
+                        }
+                    }
+                }
+            }
+        }
 
         form {
             .from_manu {
@@ -128,6 +196,7 @@
                         outline: 0;
                         color: #6f6f6f;
                         font-size: 14px;
+                        width: 84%;
 
                     }
                     .buton {
@@ -143,62 +212,6 @@
                     }
                 }
 
-            }
-        }
-
-        .instagramfollow {
-            .instgramManu {
-                list-style: none;
-                padding: 0;
-                margin: 0;
-                width: 100%;
-                .instgramItem {
-                    display: inline-block;
-                    margin: 0;
-                    position: relative;
-                    overflow: hidden;
-                    width: 33.333336%;
-                    padding: 0 5px;
-                    float: left;
-                    margin-bottom: 10px;
-                    figure {
-                        margin: 0;
-                        a {
-                            .instaimage {
-                            }
-                        }
-                    }
-                    .bloghovericon {
-                        position: absolute;
-                        height: 22px;
-                        width: 100%;
-                        bottom: -23px;
-                        left: 0;
-                        text-align: center;
-                        transition: all 0.5s;
-                        opacity: 0;
-                        background: rgba(0, 0, 0, 0.5);
-                        .weightplus {
-                            font-size: 14px;
-                            color: #fff;
-                            position: absolute;
-                            top: 4px;
-                            left: 46%;
-                            transition: all 0.5s;
-                        }
-                    }
-                    &:hover {
-                        .bloghovericon {
-                            height: 22px;
-                            bottom: 0;
-                            opacity: 1;
-                            .weightplus {
-                                top: 4px;
-                                left: 46%;
-                            }
-                        }
-                    }
-                }
             }
         }
     }
