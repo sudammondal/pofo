@@ -1,0 +1,39 @@
+.footerTop {
+    background-color: #141414;
+    .footPra {
+        padding: 50px 0;
+        text-align: center;
+        p {
+            font-size: 16px;
+            color: #6f6f6f;
+        }
+        .disflx {
+            display: flex;
+            span {
+                font-size: 16px;
+                color: #6f6f6f;
+                margin-right: 10px;
+            }
+            .ftrlink {
+                list-style: none;
+                display: flex;
+                float: right;
+                .linkFooter{
+                    margin: 0 5px;
+                    .fico {
+                        font-size: 16px;
+                        color: #fff;
+                        padding: 0 5px;
+                        font-weight: 600;
+                        text-decoration: none;
+                        transition: all 0.5s;
+                        &:hover {
+                            color: #ff214f;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
