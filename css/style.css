@@ -67,7 +67,7 @@ body {
           margin-left: 5px; }
       .header .mainContiner .navbar .lastC .srcbr {
         border-right: 1px solid #bdb6b6;
-        padding-right: 10px;
+        padding-right: 20px;
         margin-right: 10px; }
     .header .mainContiner .navbar button, .header .mainContiner .navbar.nav_toggler {
       outline: none;
