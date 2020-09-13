@@ -81,7 +81,7 @@
             }
             .navbar {
                 button {
-                    margin: 0 160px 0 auto;
+                    margin: 0 115px 0 auto;
                     margin-left: auto;
                     position: relative;
                     margin-left: auto;
@@ -187,6 +187,7 @@
         .wow_pra {
             text-align: center;
             font-size: 14px;
+            max-width: 100%;
         }
 
     }
@@ -213,7 +214,7 @@
         .disover {
             max-width: 100%;
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 60px;
         }
         .iconBanner {
             text-align: center;
@@ -315,6 +316,21 @@
                 .copyrit_flot {
                     float: none;
 
+                }
+            }
+        }
+    }
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -20px;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -511,6 +527,19 @@
 }
 
 @media (max-width: 736px) { 
+    .header {background-color: #fff;
+        .mainContiner {
+            .navbar {
+                button {
+                    margin: 0 65px 0 auto;
+                    margin-left: auto;
+                    position: relative;
+                    margin-left: auto;
+                }
+                
+            }
+        }
+    }
     .Unique {
         text-align: center;
     }
@@ -552,6 +581,110 @@
             }
         }
     }
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -79px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 731px) { 
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -80px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 667px) {
+    .header {
+        .mainContiner {
+           
+            .navbar {
+                button {
+                    margin: 0 100px 0 auto;
+                }
+                
+            }
+        }
+    }
+
+}
+@media (max-width: 640px) {
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -85px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header {
+        .mainContiner {
+           
+            .navbar {
+                button {
+                    margin: 0 115px 0 auto;
+                }
+                
+            }
+        }
+    }
+
+}
+@media (max-width: 568px) {
+    .header {
+        .mainContiner {
+           
+            .navbar {
+                button {
+                    margin: 0 160px 0 auto;
+                }
+                
+            }
+        }
+    }
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -89px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
 // media for mobile large
 
@@ -701,6 +834,21 @@
 
         }
     }
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -39px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 
 }
 
@@ -755,7 +903,7 @@
         }
     }
     .dicover {
-        .disover {
+        .disover { margin-bottom: 60px;
             .wow_pra {
                 font-size: 12px;
             }
@@ -771,7 +919,6 @@
             }
         }
     }
-
     .Unique {
         .castomPading {
             .heaB {
@@ -809,6 +956,21 @@
             .footer_coprit {
                 .copyrit {
                     font-size: 12px;
+                }
+            }
+        }
+    }
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -30px;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -908,6 +1070,21 @@
         .marginauto {
             .cardHed {
                 font-size: 20px;
+            }
+        }
+    }
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -8px;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
