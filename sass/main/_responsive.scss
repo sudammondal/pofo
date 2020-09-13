@@ -45,6 +45,9 @@
             }
         }
     }
+    .cardTitlese_worp {
+        padding: 100px 0;
+    }
     .shortcodes {
         .shortBaner {
             .sortManu {
@@ -347,7 +350,6 @@
             }
         }
     }
-
     .wow_fadeIn { padding: 80px 0;
         .wow_tpra {
             text-align: center;
@@ -357,7 +359,8 @@
         }
         .wow_pra {
             text-align: center;
-            }
+            max-width: 100%;
+        }
         .about_button {
             text-align: center;
             margin-bottom: 40px;
@@ -470,7 +473,7 @@
             margin-bottom: 30px;
         }
     }
-
+    
     .footer {
         .footPra {
             .imgfter {
@@ -486,6 +489,21 @@
                 margin-right: 0px;
                 span {
                     margin: 0 1px;
+                }
+            }
+        }
+    }
+    .footer {
+        .aplien_item {
+            .icon_items {
+                .iconss {
+                    .ct_call {
+                        .member_col{
+                            .member_con {
+                                bottom: -19px;
+                            }
+                        }
+                    }
                 }
             }
         }

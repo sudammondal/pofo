@@ -1059,6 +1059,8 @@ body {
   .Unique .castomPading .heaB .hed_text {
     font-weight: 400;
     font-size: 35px; }
+  .cardTitlese_worp {
+    padding: 100px 0; }
   .shortcodes .shortBaner .sortManu {
     padding: 57px 30px; }
     .shortcodes .shortBaner .sortManu .sort_hed {
@@ -1224,7 +1226,8 @@ body {
     .wow_fadeIn .wow_hed {
       text-align: center; }
     .wow_fadeIn .wow_pra {
-      text-align: center; }
+      text-align: center;
+      max-width: 100%; }
     .wow_fadeIn .about_button {
       text-align: center;
       margin-bottom: 40px; }
@@ -1292,7 +1295,9 @@ p {
     margin-left: 5px;
     margin-right: 0px; }
     .footer .footPra .disflx span {
-      margin: 0 1px; } }
+      margin: 0 1px; }
+  .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con {
+    bottom: -19px; } }
 
 @media (max-width: 736px) {
   .Unique {
