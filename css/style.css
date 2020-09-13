@@ -1038,6 +1038,10 @@ body {
         -o-transition: all 0.5s;
         transition: all 0.5s; }
 
+@media (min-width: 767px) and (max-width: 1200px) {
+  .footer .border_top .footer_coprit .up_iconFixd {
+    right: 15px; } }
+
 @media (max-width: 1024px) {
   .banner_worp .imgcamara {
     top: -175px; }

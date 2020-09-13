@@ -1,4 +1,14 @@
-@media (min-width: 767px) and (max-width: 1200px) { }
+@media (min-width: 767px) and (max-width: 1200px) { 
+    .footer {
+        .border_top {
+            .footer_coprit {
+                .up_iconFixd {
+                    right: 15px;
+                }
+            }
+        }
+    }
+}
 
 @media(max-width: 1024px) {
     .banner_worp {
