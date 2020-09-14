@@ -306,7 +306,7 @@ body {
       left: 0; }
 
 .parallax {
-  background-image: url(../imgs/office_banner.png);
+  background-image: url(../imgs/home_bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -945,40 +945,42 @@ body {
           text-decoration: none; }
           .footer .aplien_item .icon_items .iconss .icon_p:hover {
             color: #fff; }
-        .footer .aplien_item .icon_items .iconss .ct_call {
-          padding: 5px; }
-          .footer .aplien_item .icon_items .iconss .ct_call .member_col {
-            position: relative;
-            overflow: hidden; }
-            .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con {
-              padding: 0;
-              position: absolute;
-              left: 0;
-              top: 102px;
-              width: 100%;
-              display: -webkit-box;
-              display: -ms-flexbox;
-              display: flex;
-              -webkit-box-align: center;
-              -ms-flex-align: center;
-              align-items: center;
-              opacity: 0;
-              -webkit-transition: all 0.5s;
-              -o-transition: all 0.5s;
-              transition: all 0.5s; }
-              .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con a {
-                display: block; }
-              .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con .member_icons {
-                background-color: #373835;
-                width: 100%; }
-                .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con .member_icons .member_tex {
-                  text-decoration: none; }
-                  .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con .member_icons .member_tex i {
-                    font-size: 16px; }
-            .footer .aplien_item .icon_items .iconss .ct_call .member_col:hover .member_con {
-              opacity: 1;
-              top: 65px;
-              visibility: visible; }
+        .footer .aplien_item .icon_items .iconss .castom_row {
+          margin: 0 -5px; }
+          .footer .aplien_item .icon_items .iconss .castom_row .ct_call {
+            padding: 5px; }
+            .footer .aplien_item .icon_items .iconss .castom_row .ct_call .member_col {
+              position: relative;
+              overflow: hidden; }
+              .footer .aplien_item .icon_items .iconss .castom_row .ct_call .member_col .member_con {
+                padding: 0;
+                position: absolute;
+                left: 0;
+                top: 102px;
+                width: 100%;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                opacity: 0;
+                -webkit-transition: all 0.5s;
+                -o-transition: all 0.5s;
+                transition: all 0.5s; }
+                .footer .aplien_item .icon_items .iconss .castom_row .ct_call .member_col .member_con a {
+                  display: block; }
+                .footer .aplien_item .icon_items .iconss .castom_row .ct_call .member_col .member_con .member_icons {
+                  background-color: #373835;
+                  width: 100%; }
+                  .footer .aplien_item .icon_items .iconss .castom_row .ct_call .member_col .member_con .member_icons .member_tex {
+                    text-decoration: none; }
+                    .footer .aplien_item .icon_items .iconss .castom_row .ct_call .member_col .member_con .member_icons .member_tex i {
+                      font-size: 16px; }
+              .footer .aplien_item .icon_items .iconss .castom_row .ct_call .member_col:hover .member_con {
+                opacity: 1;
+                top: 65px;
+                visibility: visible; }
     .footer .aplien_item form .from_manu .imput_button {
       border: 1px solid #363636;
       position: relative;
@@ -1422,6 +1424,10 @@ p {
         padding: 25px 0 0 0; }
       .footer .border_top .footer_coprit .copyrit_flot {
         float: none; }
+  .footerTop .footPra .disflx {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
   .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con {
     bottom: -39px; } }
 
