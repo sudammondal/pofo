@@ -128,13 +128,15 @@ body {
         color: #fff; }
       .header.fixedMenu .mainContiner .navbar .collapse .ullist .nav-item.active .nav-link, .header.fixedMenu .mainContiner .navbar .collapse .ullist .nav-item:hover .nav-link {
         color: #bdb6b6; }
-    .header.fixedMenu .mainContiner .navbar .lastC .iCon {
-      text-decoration: none; }
-      .header.fixedMenu .mainContiner .navbar .lastC .iCon .FTGQ {
-        color: #fff; }
-    .header.fixedMenu .mainContiner .navbar .lastC .srcbr {
-      border-right: 1px solid #bdb6b6;
-      text-decoration: none; }
+    .header.fixedMenu .mainContiner .navbar .lastC {
+      top: 5px; }
+      .header.fixedMenu .mainContiner .navbar .lastC .iCon {
+        text-decoration: none; }
+        .header.fixedMenu .mainContiner .navbar .lastC .iCon .FTGQ {
+          color: #fff; }
+      .header.fixedMenu .mainContiner .navbar .lastC .srcbr {
+        border-right: 1px solid #bdb6b6;
+        text-decoration: none; }
     .header.fixedMenu .mainContiner .navbar button, .header.fixedMenu .mainContiner .navbar.nav_toggler {
       position: relative; }
       .header.fixedMenu .mainContiner .navbar button .navbar_icon .itm_sss, .header.fixedMenu .mainContiner .navbar.nav_toggler .navbar_icon .itm_sss {
@@ -1079,7 +1081,7 @@ body {
       margin: 0 160px 0 auto; }
     .header .mainContiner .navbar .lastC {
       position: fixed;
-      top: 16px;
+      top: 13px;
       right: 20px;
       -webkit-transition: all 0.5s;
       -o-transition: all 0.5s;

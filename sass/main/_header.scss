@@ -164,18 +164,19 @@
                     }
                    
                 }
-                 .lastC {
-                        .iCon {
-                            text-decoration: none;
-                            .FTGQ{
-                                color: #fff;
-                            }
-                        }
-                        .srcbr {
-                            border-right: 1px solid #bdb6b6;
-                            text-decoration: none;
+                .lastC {
+                    top: 5px;
+                    .iCon {
+                        text-decoration: none;
+                        .FTGQ{
+                            color: #fff;
                         }
                     }
+                    .srcbr {
+                        border-right: 1px solid #bdb6b6;
+                        text-decoration: none;
+                    }
+                }
                 button,
                 &.nav_toggler {
                     position: relative;
