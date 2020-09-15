@@ -1075,16 +1075,8 @@ body {
 @media (max-width: 823px) {
   .header {
     background-color: #fff; }
-    .header .mainContiner .nav_toggler {
-      margin: 0 160px 0 auto;
-      margin-left: auto;
-      position: relative;
-      margin-left: auto; }
     .header .mainContiner .navbar button {
-      margin: 0 115px 0 auto;
-      margin-left: auto;
-      position: relative;
-      margin-left: auto; }
+      margin: 0 160px 0 auto; }
     .header .mainContiner .navbar .lastC {
       position: fixed;
       top: 16px;
@@ -1209,11 +1201,8 @@ body {
     bottom: -20px; } }
 
 @media (max-width: 768px) {
-  .header .mainContiner .nav_toggler {
-    margin: 0 160px 0 auto;
-    margin-left: auto;
-    position: relative;
-    margin-left: auto; }
+  .header .mainContiner .navbar button {
+    margin: 0 160px 0 auto; }
   .banner_worp .banner_inner .banner .ban_hed {
     font-size: 59px;
     margin-bottom: 10px; }
@@ -1308,10 +1297,7 @@ p {
   .header {
     background-color: #fff; }
     .header .mainContiner .navbar button {
-      margin: 0 65px 0 auto;
-      margin-left: auto;
-      position: relative;
-      margin-left: auto; }
+      margin: 0 80px 0 auto; }
   .Unique {
     text-align: center; }
   .footer {
@@ -1343,31 +1329,23 @@ p {
 
 @media (max-width: 667px) {
   .header .mainContiner .navbar button {
-    margin: 0 100px 0 auto; } }
+    margin: 0 115px 0 auto; } }
 
 @media (max-width: 640px) {
   .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con {
     bottom: -85px; }
   .header .mainContiner .navbar button {
-    margin: 0 115px 0 auto; } }
+    margin: 0 120px 0 auto; } }
 
 @media (max-width: 568px) {
   .header .mainContiner .navbar button {
-    margin: 0 160px 0 auto; }
+    margin: 0 180px 0 auto; }
   .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con {
     bottom: -89px; } }
 
 @media (max-width: 420px) {
-  .header .mainContiner .nav_toggler {
-    margin: 0 160px 0 auto;
-    margin-left: auto;
-    position: relative;
-    margin-left: auto; }
   .header .mainContiner .navbar button {
-    margin: 0 160px 0 auto;
-    margin-left: auto;
-    position: relative;
-    margin-left: auto; }
+    margin: 0 180px 0 auto; }
   .banner_worp .banner_inner .banner .ban_pra {
     font-size: 12px; }
   .banner_worp .banner_inner .banner .ban_hed {
@@ -1428,6 +1406,10 @@ p {
     bottom: -39px; } }
 
 @media (max-width: 375px) {
+  .header .mainContiner .navbar button {
+    margin: 0 173px 0 auto; }
+  .header .mainContiner .navbar .logoBrand {
+    width: 100px; }
   .banner_worp .banner_inner .banner .ban_hed {
     font-size: 50px; }
   .banner_worp .banner_inner .banner .downloade_now {
@@ -1468,21 +1450,12 @@ p {
     bottom: -30px; } }
 
 @media (max-width: 320px) {
-  .header .mainContiner .nav_toggler {
-    margin: 0 146px 0 auto;
-    margin-left: auto;
-    position: relative;
-    margin-left: auto; }
   .header .mainContiner .navbar button {
-    margin: 0 146px 0 auto;
-    margin-left: auto;
-    position: relative;
-    margin-left: auto; }
+    margin: 0 155px 0 auto; }
   .header .mainContiner .navbar .lastC .iCon .FTGQ {
     margin-left: 3px; }
-  .header .mainContiner .navbar .logo {
-    font-size: 26px;
-    margin: 0; }
+  .header .mainContiner .navbar .logoBrand {
+    width: 100px; }
   .wow_fadeIn .blogar_itm a .blogar {
     font-size: 12px; }
   .amazing_projects .amazingHeader .projects_head .amazing_head {
