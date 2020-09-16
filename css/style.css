@@ -1039,6 +1039,11 @@ body {
         color: #6d6d6d;
         font-size: 13px;
         margin: 0; }
+        .footer .border_top .footer_coprit .copyrit a {
+          text-decoration: none;
+          color: #6d6d6d; }
+          .footer .border_top .footer_coprit .copyrit a:hover {
+            color: #ff214f; }
       .footer .border_top .footer_coprit .copyrit_flot {
         float: right; }
       .footer .border_top .footer_coprit .up_icon {
