@@ -835,19 +835,22 @@ body {
       left: 46%; }
 
 .footerTop {
-  background-color: #141414; }
+  background-color: #141414;
+  padding: 50px 0; }
   .footerTop .footPra {
-    padding: 50px 0;
     text-align: center; }
     .footerTop .footPra p {
-      font-size: 16px;
+      margin: 0;
+      font-size: 14px;
       color: #6f6f6f; }
+    .footerTop .footPra .imgfter {
+      width: 114px; }
     .footerTop .footPra .disflx {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
       .footerTop .footPra .disflx span {
-        font-size: 16px;
+        font-size: 14px;
         color: #6f6f6f;
         margin-right: 10px; }
       .footerTop .footPra .disflx .ftrlink {
@@ -855,7 +858,8 @@ body {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        float: right; }
+        float: right;
+        margin: 0; }
         .footerTop .footPra .disflx .ftrlink .linkFooter {
           margin: 0 5px; }
           .footerTop .footPra .disflx .ftrlink .linkFooter .fico {
