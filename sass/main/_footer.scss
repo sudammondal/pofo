@@ -176,7 +176,10 @@
                         background: transparent;
                         color: #6f6f6f;
                         box-shadow: none;
-
+                        &:hover {
+                            background-color: #fff;
+                            color: #000;
+                        }
                     }
                 }
 
