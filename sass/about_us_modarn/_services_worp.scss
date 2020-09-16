@@ -1,0 +1,68 @@
+.services_worp {
+    background-color: #1c1c1c;
+    .services {
+        padding: 45px 30px;
+        .service_hedr {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 40px;
+            margin: 0 0 25px;
+            padding: 0;
+            letter-spacing: 0;
+            color: #ffffff;
+
+        }
+        .services_h4 {
+            font-weight: 300;
+            color: #b7b7b7;
+            font-size: 19px;
+            line-height: 26px;
+            margin: 0 0 25px;
+            letter-spacing: -0.8px;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+        .services_pra {
+            margin: 0 0 30px 0;
+            font-size: 13px;
+            color: #6f6f6f;
+            font-weight: 400;
+            line-height: 24px;
+            font-family: 'Montserrat', sans-serif;
+
+        }
+        .sarvices_btn {
+            margin-bottom: 15px;
+            .btn_darvice {
+                padding: 10px 29px;
+                border-radius: 50px;
+                font-size: 12px;
+                text-decoration: none;
+                outline: none;
+                box-shadow: none;
+                background-color: transparent;
+                border: 2px solid #fff;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                color: #fff;
+                text-transform: uppercase;
+                transition: all 0.5s;
+                &:hover {
+                    background: #ffffff;
+                    color: #232323;
+                }
+            }
+        }
+        &.ext_padding {
+            padding: 45px 60px;
+        }
+    }
+    .back_img {
+        background-image: url(../imgs/about-img1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+}

@@ -6,6 +6,13 @@ $(document).ready(function () {
             $(".header").removeClass("fixedMenu");
         }
     });
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 0) {
+            $(".header2").addClass("fixedMenu");
+        } else {
+            $(".header2").removeClass("fixedMenu");
+        }
+    });
 
 	jQuery(document).ready(function($) {
         $('.counter').counterUp({
