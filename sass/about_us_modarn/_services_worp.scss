@@ -57,6 +57,42 @@
         &.ext_padding {
             padding: 45px 60px;
         }
+        .countin_main {
+            margin: 50px 34px 0 0;
+            .counting_parsen {
+                margin: 25px 0;
+                .progress {
+                    display: flex;
+                    height: 5px;
+                    overflow: hidden;
+                    font-size: 14px;
+                    background: rgba(255,255,255,.2);
+                    border-radius: 0;
+                    .progress_ber {
+                        background: #ff214f;
+                        background: -moz-linear-gradient(left, #ff214f 0%, #ffffff 100%);
+                        background: -webkit-linear-gradient(left, #ff214f 0%,#ffffff 100%);
+                        /* background: linear-gradient(to right, #ff214f 0%,#ffffff 100%); */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff214f', endColorstr='#ffffff',GradientType=1 );
+                    }
+                }
+                .progress_decler {
+                    margin: 5px 0;
+                    .progress_pra {
+                        font-size: 10px;
+                        color: #626262;
+                        text-transform: uppercase;
+                    }
+                    .parsent {
+                        color: #626262;
+                        font-size: 12px;
+                        float: right;
+                    }
+                }
+                
+            }
+        }
+        
     }
     .back_img {
         background-image: url(../imgs/about-img1.jpg);
