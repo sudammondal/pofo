@@ -34,6 +34,40 @@
 
                 }
             }
+            .counting_worp2 {
+                text-align: center;
+                font-size: 20px;
+                padding: 40px;
+                background: transparent;
+                .count_er {
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: #000;
+                    .counter {
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                }
+                .countex {
+                    font-size: 12px;
+                    color: #757575;
+                    font-weight: 500;
+                }
+                .border_digree {
+                    position: relative;
+                    text-align: center;
+                    &::before {
+                        position: absolute;
+                        width: 21px;
+                        height: 1px;
+                        content: "";
+                        background-color:#757575;
+                        top: 50%;
+                        left: 44%;
+                        transform: rotate(90deg);
+
+                    }
+                }
+            }
         }
     
 }

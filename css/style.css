@@ -495,6 +495,35 @@ body {
       font-size: 40px;
       color: #757575;
       margin-bottom: 10px; }
+  .counting_worp .costom_class .counting_worp2 {
+    text-align: center;
+    font-size: 20px;
+    padding: 40px;
+    background: transparent; }
+    .counting_worp .costom_class .counting_worp2 .count_er {
+      font-size: 30px;
+      font-weight: 600;
+      color: #000; }
+      .counting_worp .costom_class .counting_worp2 .count_er .counter {
+        font-family: 'Montserrat', sans-serif; }
+    .counting_worp .costom_class .counting_worp2 .countex {
+      font-size: 12px;
+      color: #757575;
+      font-weight: 500; }
+    .counting_worp .costom_class .counting_worp2 .border_digree {
+      position: relative;
+      text-align: center; }
+      .counting_worp .costom_class .counting_worp2 .border_digree::before {
+        position: absolute;
+        width: 21px;
+        height: 1px;
+        content: "";
+        background-color: #757575;
+        top: 50%;
+        left: 44%;
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg); }
 
 .Unique {
   background-color: #1c1c1c; }
@@ -1344,6 +1373,90 @@ body {
     background-position: center;
     background-size: cover;
     position: relative; }
+
+.about_agency {
+  background-image: url(../imgs/parallax-bg18.jpg);
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 130px 0; }
+  .about_agency .marginauto {
+    max-width: 595px;
+    margin: 0 auto; }
+    .about_agency .marginauto .cardHed {
+      font-size: 32px;
+      line-height: 40px;
+      font-weight: 700;
+      color: #232323;
+      margin: 0 0 25px;
+      padding: 0; }
+    .about_agency .marginauto .cardPr {
+      font-size: 13px;
+      font-weight: 500;
+      padding: 0;
+      color: #6f6f6f;
+      margin-bottom: 95px; }
+  .about_agency .cardGrup .mainCard {
+    text-align: center;
+    border: 0;
+    border-radius: 0;
+    background-color: #fff; }
+    .about_agency .cardGrup .mainCard a {
+      position: relative;
+      text-decoration: none; }
+      .about_agency .cardGrup .mainCard a .cardimg {
+        border-radius: 0; }
+      .about_agency .cardGrup .mainCard a .bloghovericon {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        text-align: center;
+        opacity: 0;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+        .about_agency .cardGrup .mainCard a .bloghovericon .weightplus {
+          font-size: 60px;
+          color: #fff;
+          position: absolute;
+          top: 60%;
+          left: 46%;
+          -webkit-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+    .about_agency .cardGrup .mainCard .cardBody {
+      padding: 30px; }
+      .about_agency .cardGrup .mainCard .cardBody .cardTitle {
+        font-size: 16px;
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+        .about_agency .cardGrup .mainCard .cardBody .cardTitle:hover {
+          color: #ff214f; }
+      .about_agency .cardGrup .mainCard .cardBody .cardpara {
+        margin: 15px 0;
+        color: #939393;
+        font-size: 14px; }
+  .about_agency .cardGrup:hover .mainCard a .bloghovericon {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    opacity: 1; }
+    .about_agency .cardGrup:hover .mainCard a .bloghovericon .weightplus {
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      top: 42%;
+      left: 46%; }
 
 @media (min-width: 767px) and (max-width: 1200px) {
   .footer .border_top .footer_coprit .up_iconFixd {
