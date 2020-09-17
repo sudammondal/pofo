@@ -1616,6 +1616,8 @@ body {
         padding: 5px 29px;
         border-radius: 50px;
         border-color: #232323;
+        background-color: #232323;
+        color: #fff;
         font-size: 11px;
         display: inline-block;
         border: 2px solid transparent;
@@ -1632,6 +1634,7 @@ body {
         transition-timing-function: ease-in-out; }
         .tab_cllsps .tab_content .tab_items .ctm_row .service_btn:hover {
           color: #212529;
+          border-color: #232323;
           text-decoration: none;
           background: transparent; }
   .tab_cllsps .tab-content > .active {
