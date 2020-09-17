@@ -1637,8 +1637,6 @@ body {
           border-color: #232323;
           text-decoration: none;
           background: transparent; }
-  .tab_cllsps .tab-content > .active {
-    display: block; }
 
 @media (min-width: 767px) and (max-width: 1200px) {
   .footer .border_top .footer_coprit .up_iconFixd {

@@ -53,7 +53,7 @@
     }
     .tab_content {
         margin-top: 54px;
-        .tab_items{
+        .tab_items {
             .ctm_row {
                 text-align: left;
                 justify-content: center;
@@ -117,7 +117,14 @@
         }
         
     }
-    .tab-content>.active {
-        display: block;
-    }
+    // .tab-content>.active {
+    //     display: block;
+    // }
+    // .tab-content>.tab-pane {
+    //     display: none;
+    // }
+    // .tab-content>.tab-pane {
+    //     display: none;
+    // }
+    
 }
