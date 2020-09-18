@@ -1558,23 +1558,31 @@ body {
       float: none;
       margin-right: 5px; }
       .tab_cllsps .tab_main .nav-item .nav-link {
-        border: 1px solid #e5e5e5;
+        border: 1px solid transparent;
         border-bottom: none;
         border-radius: 0;
         margin-bottom: 0;
         display: inline-block;
         float: none;
         margin-right: 5px; }
+        .tab_cllsps .tab_main .nav-item .nav-link.active {
+          border-color: transparent;
+          border-radius: 0;
+          background: #fff;
+          top: 1px;
+          position: relative;
+          border-bottom: 0;
+          color: #575757; }
       .tab_cllsps .tab_main .nav-item a {
-        background-color: #f7f7f7;
-        border: none;
+        background-color: #fff;
+        border: 0;
         color: #575757;
         line-height: 44px;
         margin: 0 !important;
         padding: 0 25px;
         border-radius: 0;
         text-decoration: none; }
-      .tab_cllsps .tab_main .nav-item:active {
+      .tab_cllsps .tab_main .nav-item.active {
         border-color: transparent;
         border: none;
         border-radius: 0;
@@ -1637,6 +1645,71 @@ body {
           border-color: #232323;
           text-decoration: none;
           background: transparent; }
+
+.member_slied {
+  padding: 130px 0;
+  background-image: url(../imgs/testimonial-parallax-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative; }
+  .member_slied::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    position: absolute;
+    background: #00000080; }
+  .member_slied .testmonials_slied .main_slieda_ttstmonials {
+    paddong-top: 55px;
+    width: 100%;
+    margin: 0 auto; }
+    .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items {
+      width: 100%;
+      margin: 0 auto;
+      position: relative; }
+      .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: left;
+        padding: 0 240px; }
+        .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme .slidimg {
+          width: 130px;
+          margin-right: 50px;
+          border-radius: 50%; }
+        .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme .title_hed .slid_pra {
+          color: #b7b7b7;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 24px; }
+        .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme .title_hed .sld_dedloper {
+          font-size: 12px;
+          line-height: 20px;
+          font-weight: 500;
+          text-transform: uppercase;
+          display: inline-block;
+          font-weight: 500;
+          color: #fff; }
+    .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-prev:before, .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-next:before {
+      font-family: 'slick';
+      font-size: 30px; }
+    .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-prev {
+      left: 0;
+      top: 50px;
+      width: 32px;
+      z-index: 1; }
+    .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-next {
+      right: 0;
+      top: 50px;
+      width: 32px;
+      z-index: 1; }
 
 @media (min-width: 767px) and (max-width: 1200px) {
   .footer .border_top .footer_coprit .up_iconFixd {

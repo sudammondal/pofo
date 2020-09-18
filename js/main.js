@@ -36,6 +36,45 @@ $(document).ready(function () {
 		else {
 			$(".up_icon").removeClass("up_iconFixd");
 		}
-	});
+    });
+    $('.main_slieda_ttstmonials').slick({
+        autoplay: true,
+        slidesToScroll: 1,
+        slidesToShow: 1,
+        dots: false,
+        arrows: true,
+        infinite: true,
+        speed: 1500,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              dots: false,
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+              dots: false,
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              dots: false,
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              dots: false,
+            }
+          }
+        ]
+    });
 
 });

@@ -22,17 +22,27 @@
             float: none;
             margin-right: 5px;
             .nav-link{
-                border: 1px solid #e5e5e5;
+                border: 1px solid transparent;
                 border-bottom: none;
                 border-radius: 0;
                 margin-bottom: 0;
                 display: inline-block;
                 float: none;
                 margin-right: 5px;
+                &.active {
+                    border-color: transparent;
+                    border-radius: 0;
+                    background: #fff;
+                    top: 1px;
+                    position: relative;
+                    border-bottom: 0;
+                    color: #575757;
+                }
 
-            }a {
-                background-color: #f7f7f7;
-                border: none;
+            }
+            a {
+                background-color: #fff;
+                border: 0;
                 color: #575757;
                 line-height: 44px;
                 margin: 0 !important;
@@ -40,7 +50,7 @@
                 border-radius: 0;
                 text-decoration: none;
             }
-            &:active {
+            &.active {
                 border-color: transparent;
                 border: none;
                 border-radius: 0;
@@ -48,7 +58,6 @@
                 top: 1px;
                 position: relative;
             }
-            
         }
     }
     .tab_content {
@@ -58,9 +67,6 @@
                 text-align: left;
                 justify-content: center;
                 align-items: center;
-                .imgwidth {
-
-                }
                 .tab_head {
                     margin-bottom: 20px;
                     font-weight: 700;
