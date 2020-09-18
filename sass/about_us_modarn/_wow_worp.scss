@@ -17,7 +17,7 @@
     
         }
         .wowpra {
-            margin: 0 auto;
+            margin: 0 auto 95px auto;
             font-size: 14px;
             color: #6f6f6f;
             font-weight: 400;
@@ -26,6 +26,73 @@
                 
         }
 
+    }
+    .ovErlay {
+        .img_overlay {
+            position: relative;
+            .image {
+                display: block;
+
+            }
+            &:hover {
+                .overlay {
+                    top: 0;
+                    height: 100%;
+                }
+            }
+            .overlay {
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: #ff214fd6;
+                overflow: hidden;
+                width: 100%;
+                height:0;
+                transition: .5s ease;
+                .text {
+                    white-space: nowrap; 
+                    color: white;
+                    font-size: 20px;
+                    position: absolute;
+                    overflow: hidden;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    .overlay_icon {
+                        display: inline-block;
+                        text-decoration: none;
+                        font-size: 16px;
+                        color: #fff;
+                        padding: 5px;
+                    }
+
+                }
+            }
+        }
+        .wow_title {
+            margin: 20px 0;
+            .wow_hed {
+                font-weight: 600;
+                color: #232323;
+                font-size: 12px;
+                margin: 0;
+                line-height: 20px;
+                text-transform: uppercase;
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+            }
+            .wow_hed2 {
+                color: #939393;
+                font-size: 11px;
+                line-height: 14px;
+                font-weight: 100;
+                text-transform: uppercase;
+                text-align: center;
+                font-family: 'Montserrat', sans-serif;
+
+            }
+        }
     }
     
 }
