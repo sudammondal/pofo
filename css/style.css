@@ -1711,6 +1711,30 @@ body {
       width: 32px;
       z-index: 1; }
 
+.wow_worp {
+  padding: 130px 0; }
+  .wow_worp .wow_head {
+    max-width: 575px;
+    margin: 0 auto; }
+    .wow_worp .wow_head .wowhead {
+      font-size: 32px;
+      font-weight: 700;
+      color: #232323;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      line-height: 40px;
+      padding: 0;
+      letter-spacing: 0;
+      text-align: center;
+      margin-bottom: 25px; }
+    .wow_worp .wow_head .wowpra {
+      margin: 0 auto;
+      font-size: 14px;
+      color: #6f6f6f;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center; }
+
 @media (min-width: 767px) and (max-width: 1200px) {
   .footer .border_top .footer_coprit .up_iconFixd {
     right: 15px; } }
