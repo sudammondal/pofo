@@ -1664,7 +1664,6 @@ body {
     position: absolute;
     background: #00000080; }
   .member_slied .testmonials_slied .main_slieda_ttstmonials {
-    paddong-top: 55px;
     width: 100%;
     margin: 0 auto; }
     .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items {
@@ -1697,7 +1696,10 @@ body {
           display: inline-block;
           font-weight: 500;
           color: #fff; }
-    .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-prev:before, .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-next:before {
+    .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-prev:before {
+      font-family: 'slick';
+      font-size: 30px; }
+    .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-next:before {
       font-family: 'slick';
       font-size: 30px; }
     .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-prev {
@@ -1789,6 +1791,15 @@ body {
       text-transform: uppercase;
       text-align: center;
       font-family: 'Montserrat', sans-serif; }
+
+.brand_worp {
+  padding: 125px 0;
+  background-color: #ddd; }
+  .brand_worp .brand_iten a {
+    text-decoration: none;
+    display: block; }
+    .brand_worp .brand_iten a:hover {
+      background-color: #fff; }
 
 @media (min-width: 767px) and (max-width: 1200px) {
   .footer .border_top .footer_coprit .up_iconFixd {

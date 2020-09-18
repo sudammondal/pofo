@@ -19,7 +19,6 @@
     }
     .testmonials_slied {
         .main_slieda_ttstmonials {
-            paddong-top: 55px;
             width: 100%;
             margin: 0 auto;
             .test_slid_items {
@@ -57,15 +56,15 @@
                     }
                     
                 }
-               
-               
             }
-           
-            .slick-prev:before, .slick-next:before {
+            .slick-prev:before {
                 font-family: 'slick';
                 font-size: 30px;
             }
-            
+            .slick-next:before {
+                font-family: 'slick';
+                font-size: 30px;
+            }
             .slick-prev {
                 left: 0;
                 top: 50px;
