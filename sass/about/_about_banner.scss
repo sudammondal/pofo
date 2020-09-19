@@ -38,9 +38,20 @@
         }
     }
     .dawn_icon {
+        transition: all 0.5s;
+        transform: translate(-50%, -50%);
+        bottom: -400px;
+        a {
+            display: none;
+            .darrow {
+            }
+        }
+    }
+    .dawn_iconFixd {
         text-align: center;
+        justify-content: center;
+        align-items: center;
         position: absolute;
-        bottom: 0;
         bottom: -300px;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -53,7 +64,6 @@
             .darrow {
                 color: #fff;
                 font-size: 17px;
-                
             }
         }
         

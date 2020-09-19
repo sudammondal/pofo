@@ -1231,21 +1231,36 @@ body {
       margin: 0 auto;
       color: #fff; }
   .about_banner .dawn_icon {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    bottom: -400px; }
+    .about_banner .dawn_icon a {
+      display: none; }
+  .about_banner .dawn_iconFixd {
     text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     position: absolute;
-    bottom: 0;
     bottom: -300px;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
-    .about_banner .dawn_icon a {
+    .about_banner .dawn_iconFixd a {
       padding: 13px 18px;
       text-decoration: none;
       background-color: #ff214f;
       border-radius: 50%;
       display: block; }
-      .about_banner .dawn_icon a .darrow {
+      .about_banner .dawn_iconFixd a .darrow {
         color: #fff;
         font-size: 17px; }
 
@@ -1787,7 +1802,7 @@ body {
       color: #939393;
       font-size: 11px;
       line-height: 14px;
-      font-weight: 100;
+      font-weight: 200;
       text-transform: uppercase;
       text-align: center;
       font-family: 'Montserrat', sans-serif; }
