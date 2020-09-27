@@ -105,7 +105,7 @@ $(document).ready(function () {
     
   $('.sssyour-class').slick({
     arrows: false,
-    autoplay: true,
+    autoplay: false,
     dots: true,
     infinite: true,
     speed: 300,

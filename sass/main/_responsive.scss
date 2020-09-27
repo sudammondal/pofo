@@ -732,6 +732,7 @@
             }
         }
     }
+    
     .wow_fadeIn {
         .wow_hed {
             font-size: 20px;
@@ -863,6 +864,20 @@
                     }
                 }
             }
+        }
+        .border_top {
+            .footer_coprit {
+                .up_iconFixd {
+                    a {
+                        padding: 9px 11px;
+                    }
+                }
+            }
+        }
+    }
+    .footerTop {
+        .footPra p {
+            text-align: center;
         }
     }
 
@@ -1004,6 +1019,11 @@
                     }
                 }
             }
+        }
+    }
+    .footerTop {
+        .footPra p {
+            text-align: center;
         }
     }
 }
