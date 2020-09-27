@@ -24,10 +24,15 @@
         max-width: 565px;
         .videoimg {
             a {
-                display: block;
+                display: inline-block;
                 .video_icon {
                     width: 130px;
+                    transition: all 0.5s;
+                    &:hover {
+                        transform: scale(1.1);
+                    }
                 }
+                
             }
         }
         .overhed {

@@ -32,6 +32,7 @@
             position: relative;
             .image {
                 display: block;
+                border: 1px solid #ddd;
 
             }
             &:hover {
@@ -93,5 +94,4 @@
             }
         }
     }
-    
 }

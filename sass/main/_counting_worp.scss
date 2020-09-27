@@ -39,6 +39,8 @@
                 font-size: 20px;
                 padding: 40px;
                 background: transparent;
+                border: 1px solid #ddd;
+                margin-bottom: 30px;
                 .count_er {
                     font-size: 30px;
                     font-weight: 600;
@@ -62,15 +64,16 @@
                         content: "";
                         background-color:#757575;
                         top: 50%;
-                        left: 44%;
+                        left: 45%;
                         transform: rotate(90deg);
 
                     }
                 }
                 .count_icon {
                     margin-top: 40px;
-                    i {
+                    .icon_sise {
                         color: #757575;
+                        font-size: 30px;
                     }
 
                 }
