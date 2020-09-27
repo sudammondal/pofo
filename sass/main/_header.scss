@@ -71,64 +71,64 @@
                 outline: none;
                 border: 0;
                 position: relative;
-            .navbar_icon {
-                margin-right: -13px;
-                .itm_sss {
-                    display: block;
-                }
-                .cros_manu { 
-                   .cros_item {
-                        display: block;
-                        height: 34px;
-                    }
-                }
-                .itm_sss {
-                    width: 23px;
-                    padding: 1px;
-                    margin: 5px 0;
-                    background-color: #000;
-                    border-radius: 10px;
-                }
-                .cros_manu {
-                    .cros_item::before,
-                    ::after {
-                        width: 2px;
-                        background: #000;
-                        content: "";
-                        position: absolute;
-                        top: 20%;
-                        left: 50%;
-                        bottom: 20%;
-                        border-radius: 5px;
-                        
-                    }
-                    .cros_item::before {
-                        transform: rotate(45deg);
-                    }
-                    .cros_item::after  {
-                        transform: rotate(-45deg);
-                    }
-                }
-                
-            }
-            &[aria-expanded="true"] {
-                transition:  all 0.5s;
                 .navbar_icon {
-                    .itm_sss {display: none;}
-                    .cros_manu {
+                    margin-right: -13px;
+                    .itm_sss {
                         display: block;
                     }
-                }
-            }
-            &[aria-expanded="false"] {
-                .navbar_icon {
-                    .itm_sss {display: block;}
+                    .cros_manu { 
+                    .cros_item {
+                            display: block;
+                            height: 34px;
+                        }
+                    }
+                    .itm_sss {
+                        width: 23px;
+                        padding: 1px;
+                        margin: 5px 0;
+                        background-color: #000;
+                        border-radius: 10px;
+                    }
                     .cros_manu {
-                        display: none;
+                        .cros_item::before,
+                        ::after {
+                            width: 2px;
+                            background: #000;
+                            content: "";
+                            position: absolute;
+                            top: 20%;
+                            left: 50%;
+                            bottom: 20%;
+                            border-radius: 5px;
+                            
+                        }
+                        .cros_item::before {
+                            transform: rotate(45deg);
+                        }
+                        .cros_item::after  {
+                            transform: rotate(-45deg);
+                        }
+                    }
+                    
+                }
+                &[aria-expanded="true"] {
+                    transition:  all 0.5s;
+                    .navbar_icon {
+                        .itm_sss {display: none;}
+                        .cros_manu {
+                            display: block;
+                        }
+                    }
+                }
+                &[aria-expanded="false"] {
+                    .navbar_icon {
+                        .itm_sss {display: block;}
+                        .cros_manu {
+                            display: none;
+                        }
                     }
                 }
             }
-        }
             
         }
     }

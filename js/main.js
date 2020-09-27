@@ -64,7 +64,7 @@ $(document).ready(function () {
 
     // slider js// 
     $('.main_slieda_ttstmonials').slick({
-        autoplay: true,
+        autoplay: false,
         slidesToScroll: 1,
         slidesToShow: 1,
         dots: false,

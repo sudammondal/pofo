@@ -85,12 +85,12 @@
         .mainContiner {
             .navbar {
                 button {
-                    margin: 0 160px 0 auto;
+                    margin: 0;
                 }
                 .lastC {
                     position: fixed;
                     top: 13px;
-                    right: 20px;
+                    right: 100px;
                     transition: all 0.5s;
                 }
                 .collapse_add {
@@ -342,7 +342,7 @@
         .mainContiner {
             .navbar {
                 button {
-                    margin: 0 160px 0 auto;
+                    margin: 0 ;
                 }
             }
         }
@@ -641,6 +641,7 @@
             }
         }
     }
+    
     .header {
         .mainContiner {
            

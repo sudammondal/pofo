@@ -7,68 +7,68 @@
     transition: all 0.5s;
     z-index   : 1080; 
     .mainContiner {
-            .navbar {
-                padding: 0;
-                .logoBrand {
-                    .fast{
-                        display: block;
-                    }
-                    .secknd {
-                        display: none;
-                    }
+        .navbar {
+            padding: 0;
+            .logoBrand {
+                .fast{
+                    display: block;
+                }
+                .secknd {
+                    display: none;
+                }
+            }
+            
+            .collapse_add {
+                .ullist2 {
+                    margin: 0;
+                    .nav-item {
+                        margin: 0 20px;
+                        .nav-link {
+                            font-size: 12px;
+                            text-decoration: none;
+                            transition: all 0.5s;
+                            text-transform: uppercase;
+                            font-family: 'Raleway', sans-serif;
+                            padding: 15px 0;
+                            color: #fff;
+                            font-weight: 600;
+                            cursor: pointer;
+                        }
+                        &.active,
+                        &:hover {
+                            .nav-link {
+                                color: rgba(255,255,255,0.6);
+                            }
+                        }
+                        
+                    }  
                 }
                 
-                .collapse_add {
-                    .ullist2 {
-                        margin: 0;
-                        .nav-item {
-                            margin: 0 20px;
-                            .nav-link {
-                                font-size: 12px;
-                                text-decoration: none;
-                                transition: all 0.5s;
-                                text-transform: uppercase;
-                                font-family: 'Raleway', sans-serif;
-                                padding: 15px 0;
-                                color: #fff;
-                                font-weight: 600;
-                                cursor: pointer;
-                            }
-                            &.active,
-                            &:hover {
-                                .nav-link {
-                                    color: rgba(255,255,255,0.6);
-                                }
-                            }
-                            
-                        }  
+            }
+            .lastC {
+                margin: 0px;
+                .iCon{
+                    margin-left: 10px;
+                    text-decoration: none;
+                    .FTGQ2{
+                        color: #fff;
+                        font-size: 16px;
+                        margin-left: 5px;
                     }
                     
                 }
-                .lastC {
-                    margin: 0px;
-                    .iCon{
-                        margin-left: 10px;
-                        text-decoration: none;
-                        .FTGQ2{
-                            color: #fff;
-                            font-size: 16px;
-                            margin-left: 5px;
-                        }
-                        
-                    }
-                    .srcbr2 {
-                        border-left: 1px solid rgba(255,255,255,.15);
-                        border-right: 1px solid rgba(255,255,255,.15);
-                        padding: 0 20px;
-                        margin-right: 10px;
-                    }
+                .srcbr2 {
+                    border-left: 1px solid rgba(255,255,255,.15);
+                    border-right: 1px solid rgba(255,255,255,.15);
+                    padding: 0 20px;
+                    margin-right: 10px;
                 }
-                button,
-                &.nav_toggler {
-                    outline: none;
-                    border: 0;
-                    position: relative;
+            }
+            button,
+            &.nav_toggler {
+                outline: none;
+                border: 0;
+                position: relative;
                 .navbar_icon {
                     margin-right: -13px;
                     .itm_sss {
@@ -84,14 +84,14 @@
                         width: 23px;
                         padding: 1px;
                         margin: 5px 0;
-                        background-color: #000;
+                        background-color: #fff;
                         border-radius: 10px;
                     }
                     .cros_manu {
                         .cros_item::before,
                         ::after {
                             width: 2px;
-                            background: #000;
+                            background: #fff;
                             content: "";
                             position: absolute;
                             top: 20%;
@@ -109,7 +109,43 @@
                     }
                     
                 }
+                &[aria-expanded="true"] {
+                    transition:  all 0.5s;
+                    .navbar_icon {
+                        .itm_sss {display: none;}
+                        .cros_manu {
+                            display: block;
+                        }
+                    }
+                }
+                &[aria-expanded="false"] {
+                    .navbar_icon {
+                        .itm_sss {display: block;}
+                        .cros_manu {
+                            display: none;
+                        }
+                    }
+                }
+                button,
+                &.nav_toggler {
+                    position: relative;
+                    .navbar_icon {
+                        .itm_sss {
+                            background-color: #fff;
+                        }
+                        .cros_manu {
+                            .cros_item::before,
+                            ::after {
+                                background: #fff;
+                                
+                            }
+                        
+                        }
+                        
+                    }
                 
+                }
+            
             }
             
         }
@@ -146,7 +182,9 @@
                    
                 }
                 .lastC {
-                    top: 5px;
+                    top: 11px;
+                    right: 45px;
+                    position: static;
                     .iCon {
                         text-decoration: none;
                         .FTGQ{
