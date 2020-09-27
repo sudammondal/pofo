@@ -544,7 +544,8 @@ body {
     .counting_worp .costom_class .counting_worp2 .countex {
       font-size: 12px;
       color: #757575;
-      font-weight: 500; }
+      font-weight: 500;
+      margin-bottom: 10px; }
     .counting_worp .costom_class .counting_worp2 .border_digree {
       text-align: center;
       width: 1px;
