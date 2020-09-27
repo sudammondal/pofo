@@ -32,24 +32,26 @@ body {
       display: none; }
     .header .mainContiner .navbar .logoBrand .secknd {
       display: inline-block; }
-    .header .mainContiner .navbar .collapse_add .ullist {
-      margin: 0 auto; }
-      .header .mainContiner .navbar .collapse_add .ullist .nav-item {
-        margin: 0 20px; }
-        .header .mainContiner .navbar .collapse_add .ullist .nav-item .nav-link {
-          font-size: 12px;
-          text-decoration: none;
-          -webkit-transition: all 0.5s;
-          -o-transition: all 0.5s;
-          transition: all 0.5s;
-          text-transform: uppercase;
-          font-family: 'Raleway', sans-serif;
-          padding: 15px 0;
-          color: #232323;
-          font-weight: 600;
-          cursor: pointer; }
-        .header .mainContiner .navbar .collapse_add .ullist .nav-item.active .nav-link, .header .mainContiner .navbar .collapse_add .ullist .nav-item:hover .nav-link {
-          color: rgba(0, 0, 0, 0.6); }
+    .header .mainContiner .navbar .collapse_add {
+      padding: 10px 0; }
+      .header .mainContiner .navbar .collapse_add .ullist {
+        margin: 0 auto; }
+        .header .mainContiner .navbar .collapse_add .ullist .nav-item {
+          margin: 0 20px; }
+          .header .mainContiner .navbar .collapse_add .ullist .nav-item .nav-link {
+            font-size: 12px;
+            text-decoration: none;
+            -webkit-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s;
+            text-transform: uppercase;
+            font-family: 'Raleway', sans-serif;
+            padding: 5px 0;
+            color: #232323;
+            font-weight: 600;
+            cursor: pointer; }
+          .header .mainContiner .navbar .collapse_add .ullist .nav-item.active .nav-link, .header .mainContiner .navbar .collapse_add .ullist .nav-item:hover .nav-link {
+            color: rgba(0, 0, 0, 0.6); }
     .header .mainContiner .navbar .lastC {
       margin: 0 auto; }
       .header .mainContiner .navbar .lastC .iCon {
@@ -115,21 +117,23 @@ body {
         display: none; }
   .header.fixedMenu {
     background: #1a1822;
-    padding: 0px 0;
+    padding: 5px 0;
     -webkit-box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
     box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06); }
     .header.fixedMenu .mainContiner .navbar .logoBrand .fast {
       display: inline-block; }
     .header.fixedMenu .mainContiner .navbar .logoBrand .secknd {
       display: none; }
-    .header.fixedMenu .mainContiner .navbar .collapse .ullist {
-      margin: 0 auto; }
-      .header.fixedMenu .mainContiner .navbar .collapse .ullist .nav-item .nav-link {
-        color: #fff; }
-      .header.fixedMenu .mainContiner .navbar .collapse .ullist .nav-item.active .nav-link, .header.fixedMenu .mainContiner .navbar .collapse .ullist .nav-item:hover .nav-link {
-        color: #bdb6b6; }
+    .header.fixedMenu .mainContiner .navbar .collapse_add {
+      padding: 10px 0; }
+      .header.fixedMenu .mainContiner .navbar .collapse_add .ullist {
+        margin: 0 auto; }
+        .header.fixedMenu .mainContiner .navbar .collapse_add .ullist .nav-item .nav-link {
+          color: #fff; }
+        .header.fixedMenu .mainContiner .navbar .collapse_add .ullist .nav-item.active .nav-link, .header.fixedMenu .mainContiner .navbar .collapse_add .ullist .nav-item:hover .nav-link {
+          color: #bdb6b6; }
     .header.fixedMenu .mainContiner .navbar .lastC {
-      top: 5px; }
+      top: 10px; }
       .header.fixedMenu .mainContiner .navbar .lastC .iCon {
         text-decoration: none; }
         .header.fixedMenu .mainContiner .navbar .lastC .iCon .FTGQ {
@@ -1090,11 +1094,21 @@ body {
         right: 30px;
         z-index: 1; }
         .footer .border_top .footer_coprit .up_iconFixd a {
-          padding: 10px 11px;
           text-decoration: none;
           color: #000;
           background-color: #878787;
-          border-radius: 50%; }
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center; }
           .footer .border_top .footer_coprit .up_iconFixd a:hover {
             background-color: #ff214f;
             color: #fff; }
@@ -1806,8 +1820,6 @@ body {
     overflow: scroll;
     width: 100%;
     height: 200px; }
-    .fixedMenu .mainContiner .navbar .collapse_add .ullist .nav-item .nav-link {
-      padding: 6px 0; }
   .banner_worp .banner_inner .banner .ban_hed {
     font-size: 50px; }
   .banner_worp .banner_inner .banner .ban_pra {
@@ -2248,9 +2260,7 @@ p {
   .fixedMenu .mainContiner .navbar .collapse_add .ullist {
     overflow: scroll;
     width: 100%;
-    height: 200px; }
-    .fixedMenu .mainContiner .navbar .collapse_add .ullist .nav-item .nav-link {
-      padding: 6px 0; } }
+    height: 200px; } }
 
 @media (max-width: 736px) {
   .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
@@ -2317,11 +2327,15 @@ p {
     margin-bottom: 30px; } }
 
 @media (max-width: 375px) {
-  .about_banner .about .about_header {
-    font-size: 44px;
-    width: 67%; }
+  .about_banner {
+    height: auto; }
+    .about_banner .about {
+      margin: 120px auto; }
+      .about_banner .about .about_header {
+        font-size: 44px;
+        width: 67%; }
   .about_banner .dawn_iconFixd {
-    bottom: -250px; }
+    bottom: 0px; }
   .website_worp .website .website_head {
     line-height: 40px;
     text-align: center;

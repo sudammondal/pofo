@@ -19,6 +19,7 @@
             }
             
             .collapse_add {
+                padding: 10px 0;
                 .ullist {
                     margin:  0 auto;
                     .nav-item {
@@ -29,7 +30,7 @@
                             transition: all 0.5s;
                             text-transform: uppercase;
                             font-family: 'Raleway', sans-serif;
-                            padding: 15px 0;
+                            padding: 5px 0;
                             color: #232323;
                             font-weight: 600;
                             cursor: pointer;
@@ -134,7 +135,7 @@
     }
     &.fixedMenu {
         background: #1a1822;
-        padding   : 0px 0;
+        padding   : 5px 0;
         box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
         .mainContiner {
             .navbar {
@@ -146,7 +147,8 @@
                         display: none;
                     }
                 }
-                .collapse {
+                .collapse_add {
+                    padding: 10px 0;
                     .ullist {
                         margin:  0 auto;
                         .nav-item {
@@ -165,7 +167,7 @@
                    
                 }
                 .lastC {
-                    top: 5px;
+                    top: 10px;
                     .iCon {
                         text-decoration: none;
                         .FTGQ{
