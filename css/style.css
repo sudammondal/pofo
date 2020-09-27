@@ -2223,7 +2223,9 @@ p {
     text-align: left;
     margin-bottom: 60px; }
   .services_worp .services {
-    padding: 45px 30px; } }
+    padding: 45px 30px; }
+  .website_worp .website .website_head {
+    text-align: center; } }
 
 @media (max-width: 823px) {
   .header2 {
@@ -2251,14 +2253,13 @@ p {
 
 @media (max-width: 736px) {
   .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
-    padding: 0 0px; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
+    padding: 0 0px;
     display: block;
     text-align: center; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme .slidimg {
-    max-width: 130px;
-    border-radius: 50%;
-    margin: 0 auto 15px auto; }
+    .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme .slidimg {
+      max-width: 130px;
+      border-radius: 50%;
+      margin: 0 auto 15px auto; }
   .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-prev {
     left: 60px;
     top: 300px; }
@@ -2267,11 +2268,11 @@ p {
     top: 300px; }
   .footerTop .footPra {
     margin: 15px 0; }
-  .tab_cllsps .tab_content .tab_items .ctm_row img.imgwidth.img-fluid {
+  .tab_cllsps .tab_content .tab_items .ctm_row .imgwidth {
     margin-bottom: 30px; } }
 
 @media (max-width: 731px) {
-  img.imgwidth.img-fluid {
+  .imgwidth {
     margin-bottom: 30px; }
   .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con {
     bottom: -80px; } }
@@ -2281,8 +2282,8 @@ p {
     text-align: center; }
   .footerTop .footPra {
     margin: 15px 0; }
-  .footerTop .footPra .disflx {
-    display: block; }
+    .footerTop .footPra .disflx {
+      display: block; }
   .wow_worp .ovErlay {
     margin-bottom: 45px; } }
 
@@ -2293,28 +2294,25 @@ p {
 @media (max-width: 420px) {
   .brand_iten {
     text-align: center; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
-    padding: 0 0px; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
-    display: block;
-    text-align: center; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme .slidimg {
-    max-width: 130px;
-    border-radius: 50%;
-    margin: 0 auto 15px auto; }
   .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-prev {
     left: 60px;
     top: 300px; }
   .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-next {
     right: 60px;
     top: 300px; }
+  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
+    padding: 0 0px;
+    display: block;
+    text-align: center; }
+    .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme .slidimg {
+      max-width: 130px;
+      border-radius: 50%;
+      margin: 0 auto 15px auto; }
   .about_banner .dawn_iconFixd {
     bottom: -170px; }
-  img.img-fluid.imGSL {
+  .imGSL {
     margin: 0 auto; }
-  img.imgwidth.img-fluid {
-    margin-bottom: 30px; }
-  .tab_cllsps .tab_content .tab_items .ctm_row img.imgwidth.img-fluid {
+  .tab_cllsps .tab_content .tab_items .ctm_row .imgwidth {
     margin-bottom: 30px; } }
 
 @media (max-width: 375px) {
@@ -2337,23 +2335,22 @@ p {
     text-align: center; }
   .services_worp .services .service_hedr {
     font-size: 24px; }
-  .services_worp .services.ext_padding {
-    padding: 45px 30px; }
   .services_worp .services .countin_main {
     margin: 50px 10px 0 0; }
+  .services_worp .ext_padding {
+    padding: 45px 30px; }
   .tab_cllsps .tab_content .tab_items .ctm_row .imgwidth {
     margin-bottom: 30px; }
-  img.img-fluid.imGSL {
+  .imGSL {
     margin: 0 auto; }
   .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
-    padding: 0 0px; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
     display: block;
+    padding: 0 0px;
     text-align: center; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme .slidimg {
-    max-width: 130px;
-    border-radius: 50%;
-    margin: 0 auto 15px auto; }
+    .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme .slidimg {
+      max-width: 130px;
+      border-radius: 50%;
+      margin: 0 auto 15px auto; }
   .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-prev {
     left: 60px;
     top: 300px; }
