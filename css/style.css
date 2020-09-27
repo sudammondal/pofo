@@ -1852,6 +1852,9 @@ body {
     right: 15px; } }
 
 @media (max-width: 1024px) {
+  .header .mainContiner .navbar .lastC .srcbr {
+    padding-right: 10px;
+    margin-right: 5px; }
   .banner_worp .imgcamara {
     top: -175px; }
   .banner_worp .padePen {
@@ -1887,21 +1890,19 @@ body {
   .header {
     background-color: #fff; }
     .header .mainContiner .navbar button {
-      margin: 0; }
+      margin-right: -45px; }
     .header .mainContiner .navbar .lastC {
       position: fixed;
       top: 13px;
-      right: 100px;
-      -webkit-transition: all 0.5s;
-      -o-transition: all 0.5s;
-      transition: all 0.5s; }
+      right: 80px; }
     .header .mainContiner .navbar .collapse_add .ullist {
       overflow: scroll;
       width: 100%;
       height: 200px; }
   .fixedMenu .mainContiner .navbar .lastC {
     position: fixed;
-    top: 7px; }
+    top: 5px;
+    right: 65px; }
   .fixedMenu .mainContiner .navbar .collapse_add .ullist {
     overflow: scroll;
     width: 100%;
@@ -2013,7 +2014,9 @@ body {
 
 @media (max-width: 768px) {
   .header .mainContiner .navbar button {
-    margin: 0; }
+    margin-right: -22px; }
+  .header .mainContiner .navbar .lastC {
+    right: 65px; }
   .banner_worp .banner_inner .banner .ban_hed {
     font-size: 59px;
     margin-bottom: 10px; }
@@ -2108,7 +2111,9 @@ p {
   .header {
     background-color: #fff; }
     .header .mainContiner .navbar button {
-      margin: 0 80px 0 auto; }
+      margin-right: -95px; }
+    .header .mainContiner .navbar .lastC {
+      right: 65px; }
   .Unique {
     text-align: center; }
   .footer {
@@ -2140,23 +2145,25 @@ p {
 
 @media (max-width: 667px) {
   .header .mainContiner .navbar button {
-    margin: 0 115px 0 auto; } }
+    margin-right: -63px; } }
 
 @media (max-width: 640px) {
   .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con {
     bottom: -85px; }
   .header .mainContiner .navbar button {
-    margin: 0 120px 0 auto; } }
+    margin-right: -47px; } }
 
 @media (max-width: 568px) {
   .header .mainContiner .navbar button {
-    margin: 0 180px 0 auto; }
+    margin-right: 0; }
   .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con {
     bottom: -89px; } }
 
 @media (max-width: 420px) {
   .header .mainContiner .navbar button {
-    margin: 0 180px 0 auto; }
+    margin-right: 0; }
+  .header .mainContiner .navbar .lastC {
+    right: 60px; }
   .banner_worp .banner_inner .banner .ban_pra {
     font-size: 12px; }
   .banner_worp .banner_inner .banner .ban_hed {
@@ -2218,9 +2225,11 @@ p {
 
 @media (max-width: 375px) {
   .header .mainContiner .navbar button {
-    margin: 0 173px 0 auto; }
+    margin-right: 10px; }
   .header .mainContiner .navbar .logoBrand {
     width: 100px; }
+  .header .mainContiner .navbar .lastC {
+    right: 70px; }
   .banner_worp .banner_inner .banner .ban_hed {
     font-size: 50px; }
   .banner_worp .banner_inner .banner .downloade_now {
@@ -2262,9 +2271,14 @@ p {
 
 @media (max-width: 320px) {
   .header .mainContiner .navbar button {
-    margin: 0 155px 0 auto; }
-  .header .mainContiner .navbar .lastC .iCon .FTGQ {
-    margin-left: 3px; }
+    margin-right: 0px; }
+  .header .mainContiner .navbar .lastC {
+    right: 52px; }
+    .header .mainContiner .navbar .lastC .iCon .FTGQ {
+      margin-left: 3px; }
+    .header .mainContiner .navbar .lastC .srcbr {
+      padding-right: 10px;
+      margin-right: 5px; }
   .header .mainContiner .navbar .logoBrand {
     width: 100px; }
   .wow_fadeIn .blogar_itm a .blogar {
@@ -2289,146 +2303,3 @@ p {
     font-size: 20px; }
   .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con {
     bottom: -8px; } }
-
-@media (min-width: 767px) and (max-width: 1200px) {
-  .footer .border_top .footer_coprit .up_iconFixd {
-    right: 15px; } }
-
-@media (max-width: 1024px) {
-  .about_banner::before {
-    content: "";
-    background: transparent; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
-    padding: 0 100px; }
-  .website_worp .website .website_head {
-    font-size: 30px;
-    text-align: left;
-    margin-bottom: 60px; } }
-
-@media (max-width: 823px) {
-  .header2 {
-    background-color: transparent; }
-    .header2 .mainContiner .navbar button {
-      margin: 0 25px 0 auto; }
-    .header2 .mainContiner .navbar .lastC {
-      top: 12px;
-      right: 20px;
-      -webkit-transition: all 0.5s;
-      -o-transition: all 0.5s;
-      transition: all 0.5s; }
-    .header2 .mainContiner .navbar .collapse_add .ullist {
-      overflow: scroll;
-      width: 100%;
-      height: 200px; }
-  .fixedMenu .mainContiner .navbar .lastC {
-    top: 2px; }
-  .fixedMenu .mainContiner .navbar .collapse_add .ullist {
-    overflow: scroll;
-    width: 100%;
-    height: 200px; }
-    .fixedMenu .mainContiner .navbar .collapse_add .ullist .nav-item .nav-link {
-      padding: 6px 0; } }
-
-@media (max-width: 736px) {
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
-    padding: 0 0px; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
-    display: block;
-    text-align: center; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme .slidimg {
-    max-width: 130px;
-    border-radius: 50%;
-    margin: 0 auto 15px auto; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-prev {
-    left: 60px;
-    top: 300px; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-next {
-    right: 60px;
-    top: 300px; }
-  .counting_worp .costom_class .counting_worp2 .border_digree::before {
-    left: 47%; }
-  .footerTop .footPra {
-    margin: 15px 0; } }
-
-@media (max-width: 731px) {
-  .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con {
-    bottom: -80px; } }
-
-@media (max-width: 667px) {
-  .brand_worp .brand_iten {
-    text-align: center; }
-  .footerTop .footPra {
-    margin: 15px 0; }
-  .footerTop .footPra .disflx {
-    display: block; } }
-
-@media (max-width: 568px) {
-  .website_worp .website .website_head {
-    text-align: center; } }
-
-@media (max-width: 420px) {
-  .brand_iten {
-    text-align: center; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
-    padding: 0 0px; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
-    display: block;
-    text-align: center; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme .slidimg {
-    max-width: 130px;
-    border-radius: 50%;
-    margin: 0 auto 15px auto; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-prev {
-    left: 60px;
-    top: 300px; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-next {
-    right: 60px;
-    top: 300px; } }
-
-@media (max-width: 375px) {
-  .about_banner .about .about_header {
-    font-size: 44px;
-    width: 67%; }
-  .website_worp .website .website_head {
-    line-height: 40px;
-    text-align: center;
-    margin-bottom: 60px; }
-  .about_banner .about .about_header {
-    font-size: 34px;
-    width: 80%; }
-  .website_worp .website .website_head {
-    font-size: 26px; }
-  .website_worp .website .framework {
-    display: block;
-    text-align: center; }
-  .services_worp .services .service_hedr {
-    font-size: 24px; }
-  .services_worp .services.ext_padding {
-    padding: 45px 30px; }
-  .services_worp .services .countin_main {
-    margin: 50px 10px 0 0; }
-  .tab_cllsps .tab_content .tab_items .ctm_row .imgwidth {
-    margin-bottom: 30px; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
-    padding: 0 0px; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
-    display: block;
-    text-align: center; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme .slidimg {
-    max-width: 130px;
-    border-radius: 50%;
-    margin: 0 auto 15px auto; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-prev {
-    left: 60px;
-    top: 300px; }
-  .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-next {
-    right: 60px;
-    top: 300px; }
-  .brand_worp .brand_iten {
-    text-align: center; }
-  .footerTop .footPra {
-    margin: 15px 0; } }
-
-@media (max-width: 320px) {
-  .counting_worp .costom_class .counting_worp2 .border_digree::before {
-    left: 43%; } }

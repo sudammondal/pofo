@@ -8,9 +8,22 @@
             }
         }
     }
+    
 }
 
 @media(max-width: 1024px) {
+    .header {
+        .mainContiner {
+            .navbar {
+                .lastC {
+                    .srcbr {
+                        padding-right: 10px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+    }
     .banner_worp {
         .imgcamara {
             top: -175px;
@@ -85,13 +98,12 @@
         .mainContiner {
             .navbar {
                 button {
-                    margin: 0;
+                    margin-right: -45px;
                 }
                 .lastC {
                     position: fixed;
                     top: 13px;
-                    right: 100px;
-                    transition: all 0.5s;
+                    right: 80px;
                 }
                 .collapse_add {
                     .ullist {
@@ -103,12 +115,14 @@
             }
         }
     }
+    
     &.fixedMenu {
         .mainContiner {
             .navbar {
                 .lastC {
                     position: fixed;
-                    top: 7px;
+                    top: 5px;
+                    right: 65px;
                 }
                 .collapse_add {
                     .ullist {
@@ -125,7 +139,6 @@
             }
         }
     }
-   
     .banner_worp {
         .banner_inner {
             .banner {
@@ -342,11 +355,15 @@
         .mainContiner {
             .navbar {
                 button {
-                    margin: 0 ;
+                    margin-right: -22px ;
+                }
+                .lastC {
+                    right: 65px;
                 }
             }
         }
     }
+    
     .banner_worp {
         .banner_inner {
             .banner {
@@ -531,9 +548,11 @@
         .mainContiner {
             .navbar {
                 button {
-                    margin: 0 80px 0 auto;
+                   margin-right: -95px;
                 }
-                
+                .lastC {
+                    right: 65px;
+                }
             }
         }
     }
@@ -614,16 +633,14 @@
 @media (max-width: 667px) {
     .header {
         .mainContiner {
-           
             .navbar {
                 button {
-                    margin: 0 115px 0 auto;
+                    margin-right: -63px;
                 }
                 
             }
         }
     }
-
 }
 @media (max-width: 640px) {
     .footer {
@@ -647,7 +664,7 @@
            
             .navbar {
                 button {
-                    margin: 0 120px 0 auto;
+                    margin-right: -47px;
                 }
                 
             }
@@ -660,12 +677,13 @@
         .mainContiner {
             .navbar {
                 button {
-                    margin: 0 180px 0 auto;
+                    margin-right: 0;
                 }
                 
             }
         }
     }
+   
     .footer {
         .aplien_item {
             .icon_items {
@@ -690,7 +708,10 @@
         .mainContiner {
             .navbar {
                 button {
-                    margin: 0 180px 0 auto;
+                    margin-right: 0; 
+                }
+                .lastC {
+                    right: 60px;
                 }
             }
         }
@@ -853,10 +874,13 @@
         .mainContiner {
             .navbar {
                 button {
-                    margin: 0 173px 0 auto;
+                    margin-right: 10px;
                 }
                 .logoBrand {
                     width: 100px;
+                }
+                .lastC {
+                    right: 70px;
                 }
             }
         }
@@ -989,18 +1013,25 @@
         .mainContiner {
             .navbar {
                 button {
-                    margin: 0 155px 0 auto;
+                    margin-right: 0px;
                 }
                 .lastC {
+                    right: 52px;
                     .iCon {
                         .FTGQ {
                             margin-left: 3px;
                         }
                     }
+                    .srcbr {
+                        padding-right: 10px;
+                        margin-right: 5px;
+                    }
                 }
                 .logoBrand {
                     width: 100px;
                 }
+                
+                
             }
         }
     }
