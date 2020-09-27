@@ -103,22 +103,17 @@
                     font-weight: 500;
                 }
                 .border_digree {
-                    position: relative;
                     text-align: center;
-                    &::before {
-                        position: absolute;
-                        width: 21px;
-                        height: 1px;
-                        content: "";
-                        background-color:#757575;
-                        top: 50%;
-                        left: 45%;
-                        transform: rotate(90deg);
+                    width: 1px;
+                    height: 20px;
+                    background-color:#757575;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto 10px;
 
-                    }
+                    
                 }
                 .count_icon {
-                    margin-top: 40px;
                     .icon_sise {
                         color: #757575;
                         font-size: 30px;

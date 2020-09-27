@@ -26,9 +26,7 @@
     .services_worp .services {
         padding: 45px 30px;
     }
-    .counting_worp .costom_class .counting_worp2 .border_digree::before {
-        left: 43%;
-    }
+    
 
 }
 
@@ -82,11 +80,9 @@
         }
     }
     
-   .counting_worp .costom_class .counting_worp2 .border_digree::before {
-    left: 46%;
+  
 }
     
-}
 @media (max-width: 768px) {
     
 }
@@ -112,11 +108,12 @@
         right: 60px;
         top: 300px;
     } 
-    .counting_worp .costom_class .counting_worp2 .border_digree::before {
-        left: 47%;
-    }
+    
     .footerTop .footPra {
         margin: 15px 0;
+    }
+    .tab_cllsps .tab_content .tab_items .ctm_row img.imgwidth.img-fluid {
+        margin-bottom: 30px;
     }
     
 }
@@ -166,6 +163,7 @@
     .website_worp .website .website_head {
         text-align: center;
     }
+  
 
 }
 // media for mobile large
@@ -203,6 +201,10 @@
     img.imgwidth.img-fluid {
         margin-bottom: 30px;
     }
+    .tab_cllsps .tab_content .tab_items .ctm_row img.imgwidth.img-fluid {
+        margin-bottom: 30px;
+    }
+    
 }
 
 // media for mobile small
@@ -245,9 +247,7 @@
     img.img-fluid.imGSL {
         margin: 0 auto;
     }
-    .counting_worp2 .border_digree::before {
-        left: 46%;
-    }
+    
 
     //slise responsive //
     .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
@@ -277,13 +277,9 @@
     .footerTop .footPra {
         margin: 15px 0;
     }
-    .counting_worp .costom_class .counting_worp2 .border_digree::before {
-        left: 46%;
-    }
+    
 }
 
 @media (max-width: 320px) {
-    .counting_worp .costom_class .counting_worp2 .border_digree::before {
-        left: 45%;
-    }
+    
 }
