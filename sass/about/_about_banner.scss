@@ -1,5 +1,5 @@
 .about_banner {
-    background-image: url(../imgs/image_2020_09_15T16_23_19_171Z1.png);
+    background-image: url(../imgs/about-img1.jpg);
     background-size: cover;
     overflow: hidden;
     background-position: center;
@@ -32,7 +32,8 @@
             font-size: 43px;
             line-height: 49px;
             letter-spacing: -2px;
-            width: 50%;
+            max-width: 510px;
+            width: 100%;
             margin: 0 auto;
             color: #fff;
         }
