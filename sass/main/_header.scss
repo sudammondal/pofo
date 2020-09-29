@@ -1,29 +1,33 @@
 .header {
     padding: 8px 0;
-    position  : fixed;
-    top       : 0;
-    left      : 0;
-    width     : 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     transition: all 0.5s;
-    z-index   : 1080; 
+    z-index: 1080;
+
     .mainContiner {
         .navbar {
             padding: 0;
+
             .logoBrand {
-                .fast{
+                .fast {
                     display: none;
                 }
+
                 .secknd {
                     display: inline-block;
                 }
             }
-            
+
             .collapse_add {
-                padding: 10px 0;
                 .ullist {
-                    margin:  0 auto;
+                    margin: 10px auto;
+
                     .nav-item {
                         margin: 0 20px;
+
                         .nav-link {
                             font-size: 12px;
                             text-decoration: none;
@@ -35,174 +39,214 @@
                             font-weight: 600;
                             cursor: pointer;
                         }
+
                         &.active,
                         &:hover {
-                           .nav-link {
-                            color: rgba(0,0,0,0.6);
-                           }
+                            .nav-link {
+                                color: rgba(0, 0, 0, 0.6);
+                            }
                         }
-                        
-                    }  
+
+                    }
                 }
-                
+
             }
+
+            &.sdfdsfsdf {
+                display: none;
+            }
+
+            &.asdasd {
+                display: block;
+                margin-left: auto;
+            }
+
             .lastC {
-                margin: 0 auto;
-                .iCon{
+                transition: all 0.5s;
+
+                .iCon {
                     margin-left: 10px;
                     text-decoration: none;
-                    .FTGQ{
+
+                    .FTGQ {
                         color: #000;
                         font-size: 16px;
                         margin-left: 5px;
                     }
-                    &:first-child {
-                        margin-left: 0px;
-                    }
-                    
                 }
+
                 .srcbr {
                     border-right: 1px solid #bdb6b6;
                     padding-right: 20px;
                     margin-right: 10px;
                 }
             }
+
             button,
             &.nav_toggler {
                 outline: none;
                 border: 0;
                 position: relative;
-                .navbar_icon {
-                    margin-right: -13px;
-                    .itm_sss {
-                        display: block;
-                    }
-                    .cros_manu { 
-                    .cros_item {
-                            display: block;
-                            height: 34px;
-                        }
-                    }
-                    .itm_sss {
-                        width: 23px;
-                        padding: 1px;
-                        margin: 5px 0;
-                        background-color: #000;
-                        border-radius: 10px;
-                    }
-                    .cros_manu {
-                        .cros_item::before,
-                        ::after {
-                            width: 2px;
-                            background: #000;
-                            content: "";
-                            position: absolute;
-                            top: 20%;
-                            left: 50%;
-                            bottom: 20%;
-                            border-radius: 5px;
-                            
-                        }
-                        .cros_item::before {
-                            transform: rotate(45deg);
-                        }
-                        .cros_item::after  {
-                            transform: rotate(-45deg);
-                        }
-                    }
-                    
-                }
-                &[aria-expanded="true"] {
-                    transition:  all 0.5s;
-                    .navbar_icon {
-                        .itm_sss {display: none;}
-                        .cros_manu {
-                            display: block;
-                        }
-                    }
-                }
-                &[aria-expanded="false"] {
-                    .navbar_icon {
-                        .itm_sss {display: block;}
-                        .cros_manu {
-                            display: none;
-                        }
-                    }
-                }
+                padding: 0;
+                margin-left: 20px;
             }
-            
+
         }
     }
+
     &.fixedMenu {
         background: #1a1822;
-        padding   : 5px 0;
+        padding: 5px 0;
         box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+
         .mainContiner {
             .navbar {
                 .logoBrand {
-                    .fast{
+                    .fast {
                         display: inline-block;
                     }
+
                     .secknd {
                         display: none;
                     }
                 }
+
                 .collapse_add {
-                    padding: 10px 0;
                     .ullist {
-                        margin:  0 auto;
+                        margin: 10px auto;
+
                         .nav-item {
                             .nav-link {
                                 color: #fff;
                             }
+
                             &.active,
                             &:hover {
                                 .nav-link {
                                     color: #bdb6b6;
                                 }
                             }
-                            
-                        }  
+
+                        }
                     }
-                   
+
+                }
+                &.mbShow {
+                    display: none;
                 }
                 .lastC {
-                    top: 10px;
                     .iCon {
                         text-decoration: none;
-                        .FTGQ{
+
+                        .FTGQ {
                             color: #fff;
                         }
                     }
+
                     .srcbr {
                         border-right: 1px solid #bdb6b6;
                         text-decoration: none;
                     }
                 }
+
                 button,
                 &.nav_toggler {
                     position: relative;
+
                     .navbar_icon {
-                    
+
                         .itm_sss {
                             background-color: #fff;
                         }
+
                         .cros_manu {
+
                             .cros_item::before,
                             ::after {
                                 background: #fff;
-                                
+
                             }
-                        
+
                         }
-                        
+
                     }
-                
+
                 }
-                        
+
             }
         }
-        
+
     }
 }
-/*end header*/
+
+/* manu icon */
+
+.header,
+.header.fixedMenu {
+    .navbar-toggler {
+        box-shadow: none;
+        outline: none;
+        border: none;
+        width: 25px;
+        height: 14px;
+        padding: 0;
+        margin: 0;
+        position: relative;
+
+        .itm_bar {
+            width: 100%;
+            display: inline-block;
+            height: 2px;
+            background: red;
+            position: absolute;
+            right: 0;
+            transition: all .5s;
+
+            &:nth-child(1) {
+                top: 0;
+            }
+
+            &:nth-child(3) {
+                top: 100%;
+            }
+        }
+
+        &[aria-expanded="true"] {
+            .itm_bar {
+                &:nth-child(1) {
+                    top: 50%;
+                    transform: rotate(45deg);
+                }
+
+                &:nth-child(3) {
+                    top: 50%;
+                    transform: rotate(-45deg);
+                }
+
+                &:nth-child(2) {
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
+
+/* end header */
+
+
+// .mbShow {
+//     display: none;
+// }
+
+// @media (max-width: 991px) {
+//     .mbHide {
+//         display: none;
+//     }
+
+//     .mbShow {
+//         display: block;
+//     }
+//     .header .mainContiner .navbar .lastC {
+//         margin-left: auto;
+//     }
+// }

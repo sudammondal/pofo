@@ -90,21 +90,35 @@
 }
 
 // media for ipad pro 
-@media (max-width: 991px) {}
+@media (max-width: 991px) {
+    .footerTop {
+        .footPra {
+            .disflx {
+                text-align: center;
+                float: none;
+            }
+        }
+    }
+        
+}
+@media (max-width: 991px) {
+    .mbHide {
+        display: none;
+    }
+
+    .mbShow {
+        display: block;
+    }
+    .header .mainContiner .navbar .lastC {
+        margin-left: auto;
+    }
+}
 
 //  media for ipad
 @media (max-width: 823px) {
     .header {background-color: #fff;
         .mainContiner {
             .navbar {
-                button {
-                    margin-right: -45px;
-                }
-                .lastC {
-                    position: fixed;
-                    top: 13px;
-                    right: 80px;
-                }
                 .collapse_add {
                     .ullist {
                         overflow: scroll;
@@ -116,25 +130,6 @@
         }
     }
     
-    &.fixedMenu {
-        .mainContiner {
-            .navbar {
-                .lastC {
-                    position: fixed;
-                    top: 5px;
-                    right: 65px;
-                }
-                .collapse_add {
-                    .ullist {
-                        overflow: scroll;
-                        width: 100%;
-                        height: 200px;
-                        
-                    }  
-                }
-            }
-        }
-    }
     .banner_worp {
         .banner_inner {
             .banner {
@@ -345,16 +340,26 @@
             }
         }
     }
+    .footerTop .footPra .disflx {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
 }
 @media (max-width: 768px) {
     .header {
         .mainContiner {
             .navbar {
-                button {
-                    margin-right: -22px ;
-                }
                 .lastC {
-                    right: 65px;
+                    .iCon {
+                        display: none;
+                    }
+                    .srcbr {
+                        display: block;
+                        border: 0;
+                        padding: 0;
+                        margin-left: 15px;
+                    }
                 }
             }
         }
@@ -480,7 +485,8 @@
         }
     }
     
-    .iconItems {padding: 40px 0;
+    .iconItems {
+        padding: 40px 0;
         .addcastom {margin: 20px 0;
             .iconprag {
                 font-size: 14px;
@@ -540,12 +546,10 @@
 }
 
 @media (max-width: 736px) { 
-    .header {background-color: #fff;
+    .header {
+        background-color: #fff;
         .mainContiner {
             .navbar {
-                button {
-                   margin-right: -95px;
-                }
                 .lastC {
                     right: 65px;
                 }
@@ -554,6 +558,13 @@
     }
     .Unique {
         text-align: center;
+    }
+    .footerTop {
+        .footPra {
+            p {
+                text-align: center;
+            }
+        }
     }
     .footer { padding: 40px 0 40px 0;
         .footPraLeft {
@@ -564,6 +575,7 @@
             text-align: center;
             .disflx {
                 display: inline-block;
+                text-align: center;
             }
         }
         .footPraRight {
@@ -625,18 +637,12 @@
             }
         }
     }
+    .footerTop .footPra p {
+        text-align: center;
+    }
 }
 @media (max-width: 667px) {
-    .header {
-        .mainContiner {
-            .navbar {
-                button {
-                    margin-right: -63px;
-                }
-                
-            }
-        }
-    }
+ 
 }
 @media (max-width: 640px) {
     .footer {
@@ -655,31 +661,9 @@
         }
     }
     
-    .header {
-        .mainContiner {
-           
-            .navbar {
-                button {
-                    margin-right: -47px;
-                }
-                
-            }
-        }
-    }
 
 }
 @media (max-width: 568px) {
-    .header {
-        .mainContiner {
-            .navbar {
-                button {
-                    margin-right: 0;
-                }
-                
-            }
-        }
-    }
-   
     .footer {
         .aplien_item {
             .icon_items {
@@ -695,7 +679,7 @@
             }
         }
     }
-
+    
 }
 // media for mobile large
 
@@ -703,9 +687,6 @@
     .header {
         .mainContiner {
             .navbar {
-                button {
-                    margin-right: 0; 
-                }
                 .lastC {
                     right: 60px;
                 }
@@ -884,9 +865,6 @@
     .header {
         .mainContiner {
             .navbar {
-                button {
-                    margin-right: 10px;
-                }
                 .logoBrand {
                     width: 100px;
                 }
@@ -1028,9 +1006,6 @@
     .header {
         .mainContiner {
             .navbar {
-                button {
-                    margin-right: 0px;
-                }
                 .lastC {
                     right: 52px;
                     .iCon {
