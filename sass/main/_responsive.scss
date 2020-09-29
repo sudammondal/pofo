@@ -102,15 +102,22 @@
         
 }
 @media (max-width: 991px) {
-    .mbHide {
-        display: none;
-    }
-
-    .mbShow {
-        display: block;
-    }
-    .header .mainContiner .navbar .lastC {
-        margin-left: auto;
+    .header {
+        .mainContiner {
+            .navbar {
+                .mbHide {
+                    display: none;
+                }
+            
+                .mbShow {
+                    display: block;
+                }
+    
+                .lastC {
+                    margin-left: auto;
+                }
+            }
+        }
     }
 }
 

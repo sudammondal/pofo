@@ -1810,9 +1810,9 @@ body {
     float: none; } }
 
 @media (max-width: 991px) {
-  .mbHide {
+  .header .mainContiner .navbar .mbHide {
     display: none; }
-  .mbShow {
+  .header .mainContiner .navbar .mbShow {
     display: block; }
   .header .mainContiner .navbar .lastC {
     margin-left: auto; } }
