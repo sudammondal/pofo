@@ -90,32 +90,44 @@
 }
 
 // media for ipad pro 
+
 @media (max-width: 991px) {
+    .header {
+        .mainContiner {
+            .navbar {
+                
+                .lastC {
+                    margin-left: auto;
+                    .srcbr {
+                        border: transparent;
+                    }
+                    &.mbShow {
+                        display: block;
+                    }
+                    &.mbHide {
+                        display: none;
+                    }
+                }
+            }
+        }
+        &.fixedMenu {
+            .mainContiner {
+                .navbar {
+                    .lastC {
+                        .srcbr {
+                            border: transparent;
+                        }
+                    }
+                }
+            }
+    
+        }
+    }
     .footerTop {
         .footPra {
             .disflx {
                 text-align: center;
                 float: none;
-            }
-        }
-    }
-        
-}
-@media (max-width: 991px) {
-    .header {
-        .mainContiner {
-            .navbar {
-                .mbHide {
-                    display: none;
-                }
-            
-                .mbShow {
-                    display: block;
-                }
-    
-                .lastC {
-                    margin-left: auto;
-                }
             }
         }
     }

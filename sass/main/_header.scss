@@ -52,11 +52,11 @@
 
             }
 
-            &.sdfdsfsdf {
+            .mbShow {
                 display: none;
             }
 
-            &.asdasd {
+            .mbHide {
                 display: block;
                 margin-left: auto;
             }
@@ -131,9 +131,11 @@
                     }
 
                 }
+
                 &.mbShow {
                     display: none;
                 }
+
                 .lastC {
                     .iCon {
                         text-decoration: none;
@@ -197,7 +199,7 @@
             width: 100%;
             display: inline-block;
             height: 2px;
-            background: red;
+            background: #ff214f;
             position: absolute;
             right: 0;
             transition: all .5s;
@@ -226,6 +228,16 @@
                 &:nth-child(2) {
                     opacity: 0;
                 }
+            }
+        }
+    }
+}
+
+.header {
+    &.fixedMenu {
+        .navbar-toggler {
+            .itm_bar {
+                background: #fff;
             }
         }
     }
