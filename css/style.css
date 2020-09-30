@@ -66,6 +66,8 @@ body {
           color: #000;
           font-size: 16px;
           margin-left: 5px; }
+        .header .mainContiner .navbar .lastC .iCon:hover .FTGQ {
+          color: #ddd; }
       .header .mainContiner .navbar .lastC .srcbr {
         border-right: 1px solid #bdb6b6;
         padding-right: 20px;
@@ -1137,11 +1139,8 @@ body {
         -o-transition: all 0.5s;
         transition: all 0.5s; }
 
-.hed_color {
-  background: #fff; }
-
 .about_banner {
-  background-image: url(../imgs/about-img1.jpg);
+  background-image: url(../../imgs/parallax-bg17.jpg);
   background-size: cover;
   overflow: hidden;
   background-position: center;
@@ -2229,3 +2228,160 @@ p {
     font-size: 20px; }
   .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con {
     bottom: -8px; } }
+
+@media (min-width: 767px) and (max-width: 1200px) {
+  .footer .border_top .footer_coprit .up_iconFixd {
+    right: 15px; } }
+
+@media (max-width: 1024px) {
+  .about_banner::before {
+    content: "";
+    background: transparent; }
+  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
+    padding: 0 100px; }
+  .website_worp .website .website_head {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 60px; }
+  .services_worp .services {
+    padding: 45px 30px; }
+  .website_worp .website .website_head {
+    text-align: center; } }
+
+@media (max-width: 991px) {
+  .header .mainContiner .navbar .lastC {
+    margin-left: auto; }
+    .header .mainContiner .navbar .lastC .srcbr {
+      border: transparent; }
+    .header .mainContiner .navbar .lastC.mbShow {
+      display: block; }
+    .header .mainContiner .navbar .lastC.mbHide {
+      display: none; }
+  .header.fixedMenu .mainContiner .navbar .lastC .srcbr {
+    border: transparent; }
+  .footerTop .footPra .disflx {
+    text-align: center;
+    float: none; } }
+
+@media (max-width: 823px) {
+  .fixedMenu .mainContiner .navbar .lastC {
+    top: 2px; }
+  .fixedMenu .mainContiner .navbar .collapse_add .ullist {
+    overflow: scroll;
+    width: 100%;
+    height: 200px; } }
+
+@media (max-width: 736px) {
+  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
+    padding: 0 0px;
+    display: block;
+    text-align: center; }
+    .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme .slidimg {
+      max-width: 130px;
+      border-radius: 50%;
+      margin: 0 auto 15px auto; }
+  .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-prev {
+    left: 60px;
+    top: 300px; }
+  .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-next {
+    right: 60px;
+    top: 300px; }
+  .footerTop .footPra {
+    margin: 15px 0; }
+  .tab_cllsps .tab_content .tab_items .ctm_row .imgwidth {
+    margin-bottom: 30px; } }
+
+@media (max-width: 731px) {
+  .imgwidth {
+    margin-bottom: 30px; }
+  .footer .aplien_item .icon_items .iconss .ct_call .member_col .member_con {
+    bottom: -80px; } }
+
+@media (max-width: 667px) {
+  .brand_worp .brand_iten {
+    text-align: center; }
+  .footerTop .footPra {
+    margin: 15px 0; }
+    .footerTop .footPra .disflx {
+      display: block; }
+  .wow_worp .ovErlay {
+    margin-bottom: 45px; } }
+
+@media (max-width: 568px) {
+  .website_worp .website .website_head {
+    text-align: center; } }
+
+@media (max-width: 420px) {
+  .brand_iten {
+    text-align: center; }
+  .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-prev {
+    left: 60px;
+    top: 300px; }
+  .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-next {
+    right: 60px;
+    top: 300px; }
+  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
+    padding: 0 0px;
+    display: block;
+    text-align: center; }
+    .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme .slidimg {
+      max-width: 130px;
+      border-radius: 50%;
+      margin: 0 auto 15px auto; }
+  .about_banner .dawn_iconFixd {
+    bottom: -170px; }
+  .imGSL {
+    margin: 0 auto; }
+  .tab_cllsps .tab_content .tab_items .ctm_row .imgwidth {
+    margin-bottom: 30px; } }
+
+@media (max-width: 375px) {
+  .about_banner {
+    height: auto; }
+    .about_banner .about {
+      margin: 120px auto; }
+      .about_banner .about .about_header {
+        font-size: 44px;
+        width: 67%; }
+  .about_banner .dawn_iconFixd {
+    bottom: 0px; }
+  .website_worp .website .website_head {
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 60px; }
+  .about_banner .about .about_header {
+    font-size: 34px;
+    width: 80%; }
+  .website_worp .website .website_head {
+    font-size: 26px; }
+  .website_worp .website .framework {
+    display: block;
+    text-align: center; }
+  .services_worp .services .service_hedr {
+    font-size: 24px; }
+  .services_worp .services .countin_main {
+    margin: 50px 10px 0 0; }
+  .services_worp .ext_padding {
+    padding: 45px 30px; }
+  .tab_cllsps .tab_content .tab_items .ctm_row .imgwidth {
+    margin-bottom: 30px; }
+  .imGSL {
+    margin: 0 auto; }
+  .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme {
+    display: block;
+    padding: 0 0px;
+    text-align: center; }
+    .member_slied .testmonials_slied .main_slieda_ttstmonials .test_slid_items .sliditme .slidimg {
+      max-width: 130px;
+      border-radius: 50%;
+      margin: 0 auto 15px auto; }
+  .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-prev {
+    left: 60px;
+    top: 300px; }
+  .member_slied .testmonials_slied .main_slieda_ttstmonials .slick-next {
+    right: 60px;
+    top: 300px; }
+  .brand_worp .brand_iten {
+    text-align: center; }
+  .footerTop .footPra {
+    margin: 15px 0; } }
