@@ -105,7 +105,7 @@ $(document).ready(function () {
     
   $('.sssyour-class').slick({
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     dots: true,
     infinite: true,
     speed: 300,
@@ -142,5 +142,17 @@ $(document).ready(function () {
       }
     ]
   });
+
+  // about manu  js //
+
+  /*var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("about_headerId").style.top = "0";
+    } else {
+      document.getElementById("about_headerId").style.top = "-50px";
+    }
+    prevScrollpos = currentScrollPos;}*/
 
 });
